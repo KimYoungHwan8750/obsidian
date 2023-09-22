@@ -25,14 +25,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "프로젝트 할 일 노트/2023-09-21.md",
+                "file": "데이터 송수신/Object.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2674a9465888f068",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "어노테이션/@Table.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b4efe269b023b153",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "JPA/JPA 구조.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -82,8 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "ef24d012572e04a0",
@@ -99,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "프로젝트 할 일 노트/2023-09-21.md",
+                "file": "JPA/JPA 구조.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "프로젝트 할 일 노트/2023-09-21.md",
+                "file": "JPA/JPA 구조.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "프로젝트 할 일 노트/2023-09-21.md"
+                "file": "JPA/JPA 구조.md"
               }
             }
           }
@@ -160,11 +183,34 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "ee7b5608def987d3",
+  "active": "b4efe269b023b153",
   "lastOpenFiles": [
-    "API.md",
-    "공부한 거 실습 사이트",
+    "어노테이션/@Entity.md",
+    "JPA/JPA 구조.md",
+    "Entity.md",
+    "JPA/인터페이스를 만들고 JpaRepository를 상속.md",
+    "어노테이션/@Table.md",
+    "어노테이션/@RequestBody.md",
+    "정리가 필요한 노트.md",
+    "ResponseEntity.md",
+    "어노테이션/@Column.md",
+    "연습/JSON 송수신 연습.md",
+    "데이터 송수신/Object.md",
+    "데이터 송수신/JSON.md",
+    "jdbcTemplate.md",
+    "react-native.md",
+    "어노테이션/@JsonProperty('값').md",
+    "데이터 송수신/매핑.md",
+    "무제 폴더",
+    "어노테이션",
+    "연습",
+    "스프링으로 프로젝트 생성.md",
+    "공부노트 변수.md",
+    "데이터 송수신",
+    "2023-09-21.md",
+    "JPA",
     "프로젝트 할 일 노트/2023-09-21.md",
+    "공부한 거 실습 사이트",
     "수업 내용 기록할 거",
     "리소스 사이트/색조합.md",
     "할 일.md",
@@ -173,10 +219,6 @@
     "리소스 사이트",
     "리액트 공부",
     "자바 공부",
-    "자바 스크립트 공부",
-    "ㅇㄴㅁㅇ.md",
-    "할 일",
-    "프로젝트 할 일 노트",
-    "공부 노트"
+    "ㅇㄴㅁㅇ.md"
   ]
 }
