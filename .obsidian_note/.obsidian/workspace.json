@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "데이터 송수신/요청받은 데이터 처리/Object.md",
+                "file": "Spring/어노테이션/@RequiredArgsConstructor.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "데이터 송수신/요청받은 데이터 처리/Object.md",
+                "file": "Spring/어노테이션/@RequiredArgsConstructor.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "데이터 송수신/요청받은 데이터 처리/Object.md",
+                "file": "Spring/어노테이션/@RequiredArgsConstructor.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "데이터 송수신/요청받은 데이터 처리/Object.md"
+                "file": "Spring/어노테이션/@RequiredArgsConstructor.md"
               }
             }
           }
@@ -148,10 +148,12 @@
   },
   "active": "54fb5012a75ab64b",
   "lastOpenFiles": [
+    "데이터 송수신/응답/응답 코드.md",
+    "Spring/어노테이션/@RequiredArgsConstructor.md",
+    "데이터 송수신/요청받은 데이터 처리/Object.md",
     "데이터 송수신/응답/Object.md",
     "데이터 송수신/응답/ResponseEntity.md",
     "데이터 송수신/JSON.md",
-    "데이터 송수신/요청받은 데이터 처리/Object.md",
     "Spring/유용한 객체/RedirectAttributes.md",
     "Spring/유용한 객체",
     "Spring/메소드/MVC",
@@ -176,7 +178,6 @@
     "비동기 요청/fetch/fetch.md",
     "Spring/어노테이션/@ResponseBody.md",
     "어노테이션/임시.md",
-    "Object 다루기/Optional.md",
     "Object 다루기",
     "데이터 송수신/요청받은 데이터 처리",
     "데이터 송수신/응답된 데이터 처리",
