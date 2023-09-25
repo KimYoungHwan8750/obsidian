@@ -1,28 +1,42 @@
 
-
-<span style="color:red">JSON.stringify(객체)=></span>
+#### Object to JSON
+```javascript
+{"data":"data1",
+ "data2":"data2"}
+ //이러한 구조를 가진 객체를 JSON.stringify로 JSON으로 변환해준다.
+```
+#### JSON to Object
+```java
 @GetMapping
 public String example(@RequestBody String Example){
 SOUT(Example)
 }
+```
+JSON을 어떤 형태로 받느냐에 따라 활용할 수 있는 방법이 각각 다르다.
 
-이라고 입력하면 
-{
-"데이터1":"값1",
-"데이터2":"값2",
-"데이터3":"값3",
-}
-이라는 문자열을 반환 받는다.
+1. Object
+2. String
 
-이걸 객체로 활용하고 싶으면
+## 1. Object
+#### [[Map]]으로 저장
 
-JSONObject를 활용하면 되는데 예제는 다음과 같다.
+Object를 Map으로 받아서 JSON이 가진 Key와 Value를 Map에 저장한다.
 
+
+## 2. String
+#### JSONObject 객체를 생성해 JSON형태로 저장
+
+```java
 @GetMapping
 public String example(@RequestBody String Example){
-JSONObject <span style="color:green">this_is_example</span> = new JSONObject(<span style="color:green">Example</span>);
-String <span style="color:green">test</span>= this_is_example.getString("<span style="color:green">키값</span>")
+JSONObject this_is_example = new JSONObject(Example);
+String test= this_is_example.getString("키값")
 }
+```
+
+
+
+
 
 # 탐구
 
@@ -36,4 +50,4 @@ Object로는 아직 어떻게 값을 사용할 수 있는지 모르겠다.
 
 # 주의사항
 
-[[매핑]]
+[[매핑]]: JSON의 키와 같은 필드를 가진 객체에 JSON을 매핑하려고 할 때 제대로 되지 않는 경우가 있다. 그것은 Spring의 Mapping 전략이 camelCase라서 발생하는 문제인데, 자세한 건 링크된 메모를 참조하자.
