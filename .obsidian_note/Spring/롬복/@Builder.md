@@ -11,6 +11,7 @@ String data2;
 String data3;
 String data4;
 }
+
 // 위 객체가 존재할 때
 Test test = Test().builder().data1("data1").build();
 

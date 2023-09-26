@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring/어노테이션/DB/@JsonProperty('값').md",
+                "file": "프로젝트 할 일 노트/2023-09-26.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,8 +85,8 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring/어노테이션/DB/@JsonProperty('값').md",
-                "collapseAll": false,
+                "file": "프로젝트 할 일 노트/2023-09-26.md",
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -102,8 +102,8 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring/어노테이션/DB/@JsonProperty('값').md",
-                "linksCollapsed": false,
+                "file": "프로젝트 할 일 노트/2023-09-26.md",
+                "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
             }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring/어노테이션/DB/@JsonProperty('값').md"
+                "file": "프로젝트 할 일 노트/2023-09-26.md"
               }
             }
           }
@@ -143,47 +143,48 @@
       "canvas:새 캔버스 만들기": false,
       "daily-notes:오늘의 데일리 노트 열기": false,
       "templates:템플릿 삽입": false,
-      "command-palette:명령어 팔레트 열기": false
+      "command-palette:명령어 팔레트 열기": false,
+      "random-note:랜덤 노트 열기": false
     }
   },
   "active": "54fb5012a75ab64b",
   "lastOpenFiles": [
-    "Spring/어노테이션/DB/@Entity.md",
+    "프로젝트 할 일 노트/프로젝트 DB구상/USER_SETTING.md",
+    "프로젝트 할 일 노트/2023-09-26.md",
+    "프로젝트 할 일 노트/프로젝트 DB구상",
+    "Spring/어노테이션/DB/@Table.md",
+    "JAVA/클래스/RowMapper.md",
+    "JAVA/클래스/BeanPropertyRowMapper.md",
+    "Spring/어노테이션/@Controller.md",
+    "Spring/어노테이션/@PathVariable.md",
     "Spring/어노테이션/DB/@Column.md",
-    "Spring/롬복/@NonNull.md",
-    "Spring/롬복/@RequiredArgsConstructor.md",
-    "Spring/롬복/@SLF4J.md",
-    "Spring/롬복/@Singular.md",
+    "Spring/어노테이션/JPA/@Query.md",
+    "Spring/어노테이션/DB/@JsonProperty('값').md",
+    "Spring/어노테이션/DB/@Entity.md",
     "Spring/롬복/@Builder.md",
-    "Spring/롬복",
-    "Spring/어노테이션/@RequestMapping.md",
+    "Spring/롬복/@Singular.md",
+    "Spring/어노테이션/@Autowired.md",
+    "Spring/롬복/@SLF4J.md",
+    "Spring/롬복/@RequiredArgsConstructor.md",
+    "Spring/롬복/@NonNull.md",
     "Spring/어노테이션/@RestController.md",
-    "Spring/어노테이션/@ResponseBody.md",
-    "Spring/유용한 클래스/RowMapper.md",
-    "Spring/유용한 클래스/BeanPropertyRowMapper.md",
+    "JPA/JPA 구조.md",
+    "JAVA/클래스/StringBuffer.md",
+    "JAVA/클래스/ㄴ",
+    "JAVA/클래스",
+    "JAVA",
     "Spring/유용한 클래스/RedirectAttributes.md",
-    "Spring/어노테이션/@RequestBody.md",
-    "데이터 송수신/응답/응답 코드.md",
-    "데이터 송수신/요청받은 데이터 처리/Object.md",
-    "데이터 송수신/응답/Object.md",
-    "데이터 송수신/응답/ResponseEntity.md",
+    "JPA/인터페이스를 만들고 JpaRepository를 상속.md",
+    "연습/JSON 송수신 연습.md",
+    "비동기 요청/fetch/fetch.md",
+    "리소스 사이트/색조합.md",
     "데이터 송수신/JSON.md",
+    "Spring/어노테이션/JPA",
+    "Spring/롬복",
     "Spring/유용한 클래스",
     "Spring/메소드/MVC",
     "Spring/메소드",
-    "Spring/무제 파일.md",
     "Spring",
-    "데이터 송수신/응답된 데이터 처리/데이터 처리.md",
-    "데이터 송수신/매핑.md",
-    "데이터 송수신/요청/Object.md",
-    "개인노트/정리가 필요한 노트.md",
-    "JPA/인터페이스를 만들고 JpaRepository를 상속.md",
-    "JPA/JPA 구조.md",
-    "Object 다루기",
-    "데이터 송수신/요청받은 데이터 처리",
-    "데이터 송수신/응답된 데이터 처리",
-    "데이터 송수신/요청/무제 폴더",
-    "데이터 송수신/응답된 데이터 처리",
     "무제 파일.canvas"
   ]
 }
