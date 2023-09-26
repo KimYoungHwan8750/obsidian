@@ -15,7 +15,8 @@ JPA를 상속받으면 JPA Data가 자동으로 ChatDAO 구현체를 작성해�
 public interface RepositoryChatImpl extends RepositoryChat {
 private final JdbcTemplate jdbctemplate;
 @Override
-	Boolean checkEmail(String email){}
+	Boolean checkEmail(String email){
+	}
 
 }
 ```
