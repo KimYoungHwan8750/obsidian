@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "프로젝트 할 일 노트/2023-09-26.md",
+                "file": "JAVA/날짜 및 시간/Time 패키지/LocalDateTime.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "프로젝트 할 일 노트/2023-09-26.md",
+                "file": "JAVA/날짜 및 시간/Time 패키지/LocalDateTime.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "프로젝트 할 일 노트/2023-09-26.md",
+                "file": "JAVA/날짜 및 시간/Time 패키지/LocalDateTime.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "프로젝트 할 일 노트/2023-09-26.md"
+                "file": "JAVA/날짜 및 시간/Time 패키지/LocalDateTime.md"
               }
             }
           }
@@ -149,8 +149,18 @@
   },
   "active": "54fb5012a75ab64b",
   "lastOpenFiles": [
-    "프로젝트 할 일 노트/프로젝트 DB구상/USER_SETTING.md",
+    "JAVA/날짜 및 시간/Time 패키지/LocalDate.md",
+    "JAVA/날짜 및 시간/Time 패키지/LocalDateTime.md",
+    "JAVA/날짜 및 시간/Time 패키지/Period.md",
+    "JAVA/날짜 및 시간/클래스/SimpleDateFormat.md",
+    "JAVA/날짜 및 시간/클래스/DateTimeFormatter.md",
+    "JAVA/날짜 및 시간/클래스/Date.md",
+    "JAVA/날짜 및 시간/클래스",
+    "JAVA/날짜 및 시간/Time 패키지",
+    "JAVA/날짜 및 시간",
+    "JAVA/클래스/날짜 및 시간",
     "프로젝트 할 일 노트/2023-09-26.md",
+    "프로젝트 할 일 노트/프로젝트 DB구상/USER_SETTING.md",
     "프로젝트 할 일 노트/프로젝트 DB구상",
     "Spring/어노테이션/DB/@Table.md",
     "JAVA/클래스/RowMapper.md",
@@ -173,18 +183,8 @@
     "JAVA/클래스/ㄴ",
     "JAVA/클래스",
     "JAVA",
-    "Spring/유용한 클래스/RedirectAttributes.md",
-    "JPA/인터페이스를 만들고 JpaRepository를 상속.md",
-    "연습/JSON 송수신 연습.md",
-    "비동기 요청/fetch/fetch.md",
-    "리소스 사이트/색조합.md",
-    "데이터 송수신/JSON.md",
     "Spring/어노테이션/JPA",
     "Spring/롬복",
-    "Spring/유용한 클래스",
-    "Spring/메소드/MVC",
-    "Spring/메소드",
-    "Spring",
     "무제 파일.canvas"
   ]
 }
