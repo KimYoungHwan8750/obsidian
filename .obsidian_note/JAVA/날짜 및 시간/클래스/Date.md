@@ -5,6 +5,6 @@ Date date = new Date();
 ```
 
 
-[[LocalDateTime]]
-[[LocalTime]]
-[[LocalDate]]
+[[LocalDateTime]] : yyyy MM dd hh:mm:ss.SSS
+[[LocalTime]] : hh:mm:ss
+[[LocalDate]] : yyyy MM dd

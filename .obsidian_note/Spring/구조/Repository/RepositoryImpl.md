@@ -16,6 +16,8 @@ public interface RepositoryChatImpl extends RepositoryChat {
 private final JdbcTemplate jdbctemplate;
 @Override
 	Boolean checkEmail(String email){
+	나중에 다시 작성
+	jdbcTemplate.excute(sql,go)
 	}
 
 }
