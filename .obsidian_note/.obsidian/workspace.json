@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JAVA/Spring/JDBC/JdbcTemplate/JdbcTemplate.md",
+                "file": "JAVA/Spring/JDBC/NamedParameterJdbcTemplate/NamedParameterJdbcTemplate.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JAVA/Spring/JDBC/JdbcTemplate/JdbcTemplate.md",
+                "file": "JAVA/Spring/JDBC/NamedParameterJdbcTemplate/NamedParameterJdbcTemplate.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JAVA/Spring/JDBC/JdbcTemplate/JdbcTemplate.md",
+                "file": "JAVA/Spring/JDBC/NamedParameterJdbcTemplate/NamedParameterJdbcTemplate.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JAVA/Spring/JDBC/JdbcTemplate/JdbcTemplate.md"
+                "file": "JAVA/Spring/JDBC/NamedParameterJdbcTemplate/NamedParameterJdbcTemplate.md"
               }
             }
           },
@@ -169,20 +169,20 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "bb43cbfefe732a2f",
+  "active": "4630ad71367298f5",
   "lastOpenFiles": [
-    "JAVA/클래스/StringBuffer.md",
-    "JAVA/Spring/JDBC/JdbcTemplate/JdbcTemplate.md",
+    "JAVA/Spring/JDBC/JdbcTemplate/★ JdbcTemplate.md",
     "JAVA/클래스/★ RowMapper.md",
+    "JAVA/용어/OverLoading.md",
+    "JAVA/용어/OverRiding.md",
+    "JAVA/클래스/StringBuffer.md",
     "JAVA/용어/Unboxing.md",
     "JAVA/용어/참조타입.md",
     "JAVA/용어/매핑.md",
     "JAVA/Spring/JDBC/NamedParameterJdbcTemplate/NamedParameterJdbcTemplate.md",
     "JAVA/용어/원시타입.md",
     "JAVA/용어/Boxing.md",
-    "JAVA/용어/OverRiding.md",
     "JAVA/용어/Autoboxing.md",
-    "JAVA/용어/OverLoading.md",
     "무제 파일.md",
     "무제 파일 1.md",
     "JAVA/Spring/★ 구조/★ 구조 예제.md",
