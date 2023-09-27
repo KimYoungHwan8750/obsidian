@@ -1,4 +1,4 @@
-[[JSON]]형식으로 변환 후 보낸다.
+[[★ JSON]]형식으로 변환 후 보낸다.
 #### JAVA SCRIPT
 
 ```javascript

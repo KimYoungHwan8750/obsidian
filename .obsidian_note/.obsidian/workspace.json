@@ -8,31 +8,30 @@
         "type": "tabs",
         "children": [
           {
-            "id": "54fb5012a75ab64b",
+            "id": "4630ad71367298f5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring/롬복/@NonNull.md",
+                "file": "JAVA/Spring/JDBC/JdbcTemplate/JdbcTemplate.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "5f10daec83887355",
+            "id": "317849598098b690",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring/구조/Repository/RepositoryImpl.md",
+                "file": "JAVA/클래스/StringBuffer.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -82,7 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 258.5
+    "width": 200
   },
   "right": {
     "id": "ef24d012572e04a0",
@@ -98,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring/구조/Repository/RepositoryImpl.md",
+                "file": "JAVA/Spring/JDBC/JdbcTemplate/JdbcTemplate.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring/구조/Repository/RepositoryImpl.md",
+                "file": "JAVA/Spring/JDBC/JdbcTemplate/JdbcTemplate.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -138,11 +137,20 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring/구조/Repository/RepositoryImpl.md"
+                "file": "JAVA/Spring/JDBC/JdbcTemplate/JdbcTemplate.md"
               }
             }
+          },
+          {
+            "id": "bb43cbfefe732a2f",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -157,47 +165,48 @@
       "daily-notes:오늘의 데일리 노트 열기": false,
       "templates:템플릿 삽입": false,
       "command-palette:명령어 팔레트 열기": false,
-      "random-note:랜덤 노트 열기": false
+      "random-note:랜덤 노트 열기": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "5f10daec83887355",
+  "active": "bb43cbfefe732a2f",
   "lastOpenFiles": [
-    "Spring/구조/Repository/Repository.md",
-    "Spring/구조/DAO/DAO.md",
-    "Spring/구조/DTO/DTO.md",
-    "JDBC/NamedParameterJdbcTemplate.md",
-    "JDBC/JdbcTemplate.md",
-    "JDBC/DataSource.md",
-    "JAVA/날짜 및 시간/클래스/Date.md",
-    "JPA/JPA 구조.md",
-    "JPA/인터페이스를 만들고 JpaRepository를 상속.md",
+    "JAVA/클래스/StringBuffer.md",
+    "JAVA/Spring/JDBC/JdbcTemplate/JdbcTemplate.md",
+    "JAVA/클래스/★ RowMapper.md",
+    "JAVA/용어/Unboxing.md",
+    "JAVA/용어/참조타입.md",
+    "JAVA/용어/매핑.md",
+    "JAVA/Spring/JDBC/NamedParameterJdbcTemplate/NamedParameterJdbcTemplate.md",
+    "JAVA/용어/원시타입.md",
+    "JAVA/용어/Boxing.md",
+    "JAVA/용어/OverRiding.md",
+    "JAVA/용어/Autoboxing.md",
+    "JAVA/용어/OverLoading.md",
+    "무제 파일.md",
+    "무제 파일 1.md",
+    "JAVA/Spring/★ 구조/★ 구조 예제.md",
+    "JAVA/Spring/무제 파일.md",
+    "JAVA/무제 파일.md",
+    "JAVA/용어/무제 폴더",
+    "JAVA/Spring/JDBC/★ DataSource.md",
+    "JAVA/클래스/BeanPropertyRowMapper.md",
+    "JAVA/용어",
     "JAVA/날짜 및 시간/클래스/SimpleDateFormat.md",
     "JAVA/날짜 및 시간/클래스/DateTimeFormatter.md",
-    "JDBC",
-    "Spring/구조/Service/Service.md",
-    "Object 다루기/Optional.md",
-    "Spring/구조/Repository/RepositoryImpl.md",
-    "Spring/구조/Repository",
-    "Spring/구조/Entity",
-    "Spring/구조/Service",
-    "Spring/구조/VO",
-    "Spring/구조/DTO",
-    "Spring/구조/DAO",
-    "Spring/구조/Entity/Entity.md",
-    "Spring/구조/VO/VO.md",
-    "Spring/어노테이션/JPA/@Query.md",
-    "Spring/구조",
-    "Spring/롬복/@NonNull.md",
-    "Spring/어노테이션/DB/@Entity.md",
-    "무제 파일.md",
-    "Spring/롬복/@Builder.md",
-    "Spring/어노테이션/DB/@JsonProperty('값').md",
-    "Spring/어노테이션/DB/@Column.md",
-    "JAVA/클래스/RowMapper.md",
-    "JAVA/클래스/BeanPropertyRowMapper.md",
-    "JAVA/날짜 및 시간/Time 패키지/Duration.md",
-    "JAVA/날짜 및 시간/클래스",
-    "JAVA/날짜 및 시간/Time 패키지",
+    "JAVA/날짜 및 시간/클래스/Date.md",
+    "JAVA/Spring/JDBC/NamedParameterJdbcTemplate",
+    "JAVA/Spring/JDBC/JdbcTemplate",
+    "JAVA/Spring/어노테이션/JPA/@Query.md",
+    "JAVA/Spring/★ 구조/★ Bean.md",
+    "JAVA/Spring/어노테이션/@Autowired.md",
+    "Spring/어노테이션/무제 폴더",
+    "JAVA/Spring/★ 구조/Repository/RepositoryImpl.md",
+    "JAVA/Spring/myBatis",
+    "JAVA/Spring/JDBC",
+    "JAVA/Spring/★ 구조/Repository",
+    "JAVA/Spring/★ 구조/Entity",
+    "JAVA/Spring/★ 구조/Service",
     "무제 파일.canvas"
   ]
 }
