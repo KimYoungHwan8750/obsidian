@@ -106,7 +106,7 @@ CREATE TABLE 같은 동작을 할 때 적합하다.
 
 * 임의의 객체에 매핑할 때:
 
-MyObject의 인스턴스에 MyRowMapper를 이용해 조회된 로우를 매핑한다고 가정
+조회된 로우를 MyObject의 인스턴스에 매핑한다고 가정
 
 #### MyObject
 ```java
@@ -134,16 +134,31 @@ public MyObject mapRows(ResultSet rs, int rowNum) throws SQLException{
 public class ObjectJoinImpl implements ObjectJoinDAO {
 	private final JdbcTemplate jdbcTemplate;
 	ObjectJoinImpl(JdbcTemplate jdbcTemplate){
-	this.jdbcTemplate = jdbcTemplate;
+		this.jdbcTemplate = jdbcTemplate;
 	}
 	@Override
 	public MyObject checkRows(int ID, String PW){
-	sql = "SELECT * USER FROM ID = ? AND PW = ?";
-	Object params = new Object({ID,PW})
-	MyObject test = jdbcTemplate.queryForObject(sql,params,new MyRowMapper());
+		sql = "SELECT * USER FROM ID = ? AND PW = ?";
+		Object params = new Object({ID,PW})
+		MyObject test = jdbcTemplate.queryForObject(sql,params,new MyRowMapper());
 	}
 }
 ```
 
 
 * 원시또는 참조타입 변수에 값을 반환할 때 :
+```java
+public class ObjectJoinImpl implements ObjectJoinDAO {
+	private final JdbcTemplate jdbcTemplate;
+	ObjectJoinImpl(JdbcTemplate jdbcTemplate){
+		this.jdbcTemplate = jdbcTemplate;
+	}
+	@Override
+	public MyObject checkRows(int ID, String PW){
+		sql = "SELECT * USER FROM ID = ? AND PW = ?";
+		Object params = new Object({ID,PW})
+		String test = jdbcTemplate.queryForObject(sql,params,String.class);
+	//  int    test = jdbcTemplate.queryForObject(sql,params,Integer.class);
+	}
+}
+```
