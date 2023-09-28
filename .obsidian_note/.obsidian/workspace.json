@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "비동기 요청/★ fetch/fetch.md",
+                "file": "JAVA/Spring/★ 구조/★ 구조 예제.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "비동기 요청/★ fetch/fetch.md",
+                "file": "JAVA/Spring/★ 구조/★ 구조 예제.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "비동기 요청/★ fetch/fetch.md",
+                "file": "JAVA/Spring/★ 구조/★ 구조 예제.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "비동기 요청/★ fetch/fetch.md"
+                "file": "JAVA/Spring/★ 구조/★ 구조 예제.md"
               }
             }
           },
@@ -157,8 +157,30 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "2ac284b0686f83b4",
+  "active": "ee7b5608def987d3",
   "lastOpenFiles": [
+    "JAVA/Spring/★ 구조/Service/Service.md",
+    "JAVA/Spring/★ 구조/DAO/DAO.md",
+    "JAVA/Spring/★ 구조/Entity/Entity.md",
+    "JAVA/Spring/★ 구조/★ Bean.md",
+    "JAVA/Spring/★ 구조/★ 구조 예제.md",
+    "JAVA/Spring/어노테이션/MVC/@Autowired.md",
+    "데이터 송수신/★ 요청받은 데이터 처리/Object.md",
+    "JAVA/Spring/어노테이션/MVC",
+    "데이터 송수신/응답된 데이터 처리/데이터 처리.md",
+    "데이터 송수신/요청/Object.md",
+    "데이터 송수신/★ 매핑.md",
+    "데이터 송수신/응답/ResponseEntity.md",
+    "JS/비동기 요청/★ fetch/fetch.md",
+    "JS",
+    "JAVA/Spring/JDBC/JdbcTemplate/main에서 실행.md",
+    "JAVA/Spring/JDBC/★ DataSource.md",
+    "JAVA/Spring/JDBC/NamedParameterJdbcTemplate/NamedParameterJdbcTemplate.md",
+    "JAVA/Spring/myBatis/참조.md",
+    "JAVA/날짜 및 시간/Time 패키지/Duration.md",
+    "JAVA/날짜 및 시간/클래스/SimpleDateFormat.md",
+    "JAVA/날짜 및 시간/클래스/DateTimeFormatter.md",
+    "JAVA/날짜 및 시간/클래스/Date.md",
     "프로젝트 할 일 노트/프로젝트 DB구상/USER_SETTING.md",
     "오라클/문법/DML/삽입.md",
     "오라클/문법/DML/수정&삭제.md",
@@ -166,39 +188,17 @@
     "오라클/이미지/Pasted image 20230928152300.png",
     "오라클/문법/DML/수정.md",
     "오라클/문법/DML/삭제.md",
-    "Pasted image 20230928152113.png.md",
     "Pasted image 20230928152113.png",
     "Pasted image 20230928152110.png",
     "Pasted image 20230928152111.png",
     "오라클/이미지",
-    "JAVA/Spring/JDBC/JdbcTemplate/★ JdbcTemplate.md",
-    "오라클/문법/DML/조회.md",
-    "오라클/문법/DDL/DDL 정의.md",
     "오라클/문법/DDL",
     "오라클/문법/DML",
     "오라클/문법",
-    "JAVA/Spring/★ 구조/★ 구조 예제.md",
     "오라클",
-    "JAVA/Spring/JDBC/★ DataSource.md",
-    "JAVA/Spring/어노테이션/DB/@JsonProperty('값').md",
-    "JAVA/Spring/어노테이션/DB/@Entity.md",
-    "JAVA/Spring/어노테이션/DB/@Column.md",
-    "JAVA/Spring/JDBC/JdbcTemplate/main에서 실행.md",
-    "JAVA/Spring/어노테이션/JPA/@Query.md",
-    "JAVA/클래스/★ RowMapper.md",
-    "JAVA/용어/매핑.md",
-    "데이터 송수신/★ 매핑.md",
-    "JAVA/클래스/StringBuffer.md",
-    "JAVA/클래스/BeanPropertyRowMapper.md",
-    "데이터 송수신/★ JSON.md",
-    "연습/JSON 송수신 연습.md",
-    "JAVA/날짜 및 시간/Time 패키지/LocalTime.md",
-    "JAVA/날짜 및 시간/Time 패키지/LocalDateTime.md",
     "JAVA/용어/무제 폴더",
     "JAVA/용어",
     "JAVA/Spring/JDBC/NamedParameterJdbcTemplate",
-    "JAVA/Spring/JDBC/JdbcTemplate",
-    "Spring/어노테이션/무제 폴더",
     "무제 파일.canvas"
   ]
 }
