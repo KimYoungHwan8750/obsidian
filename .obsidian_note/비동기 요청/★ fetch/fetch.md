@@ -1,8 +1,17 @@
 ## fetch()
 
+#### 문법
 ```javascript
-fetch("url",{options}).then().catch();
+fetch("url",{options}).then().catch(); // 기본 구조
+fetch(url,options).then(res=>res.json()).then(res=>console.log(res)).catch();
+//res의 정보를 json으로 가져오기.
+fetch(url,options).then(res=>res.text()).then(res=>console.log(res)).catch();
+//res의 정보를 text로 가져오기.
+
 ```
+res.json() : 
+json() 함수에 JSON.parse가 포함되어 있어서 자바스크립트 객체로 변환해준다.
+
 
 #### options에는
 ```javascript
