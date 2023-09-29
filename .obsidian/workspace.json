@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "오라클/문법/DML/삽입.md",
+                "file": "JAVA/클래스/StringBuffer/메서드/replace.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "오라클/문법/DML/삽입.md",
+                "file": "JAVA/클래스/StringBuffer/메서드/replace.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "오라클/문법/DML/삽입.md",
+                "file": "JAVA/클래스/StringBuffer/메서드/replace.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "오라클/문법/DML/삽입.md"
+                "file": "JAVA/클래스/StringBuffer/메서드/replace.md"
               }
             }
           },
@@ -159,8 +159,31 @@
   },
   "active": "2ac284b0686f83b4",
   "lastOpenFiles": [
+    "JAVA/클래스/StringBuffer/메서드/reverse.md",
+    "앞.md",
+    "JAVA/클래스/StringBuffer/메서드/replace.md",
+    "JAVA/클래스/StringBuffer/StringBuffer.md",
+    "JAVA/클래스/StringBuffer/메서드/insert.md",
+    "JAVA/클래스/StringBuffer/메서드/append.md",
+    "JAVA/클래스/StringBuffer/메서드/delete.md",
+    "JAVA/클래스/StringBuffer/메서드",
+    "JAVA/클래스/BeanPropertyRowMapper/BeanPropertyRowMapper.md",
+    "JAVA/클래스/StringBuffer",
+    "JAVA/클래스/Stream",
+    "JAVA/클래스/Stream/Stream.md",
+    "JAVA/클래스/BeanPropertyRowMapper",
+    "JAVA/클래스/★ RowMapper",
+    "JAVA/클래스/메서드",
+    "JAVA/클래스/★ RowMapper/★ RowMapper.md",
+    "JAVA/용어/Unboxing.md",
+    "JAVA/용어/OverRiding.md",
+    "JAVA/용어/OverLoading.md",
+    "JAVA/용어/Boxing.md",
+    "JAVA/용어/Autoboxing.md",
+    "JAVA/용어/원시타입.md",
+    "오라클/문법/DML/삽입.md",
+    "오라클/문법/DML/수정.md",
     "오라클/문법/DML/조회.md",
-    "JAVA/클래스/★ RowMapper.md",
     "JAVA/용어/매핑.md",
     "JAVA/Spring/웹소켓/웹소켓 구축.md",
     "무제 파일.md",
@@ -170,35 +193,12 @@
     "개인노트/정리가 필요한 노트.md",
     "JAVA/Spring/웹소켓",
     "개인노트/궁금증 모아놓은 노트.md",
-    "JAVA/클래스/StringBuffer.md",
-    "JAVA/용어/OOP.md",
-    "JAVA/Spring/★ 구조/★ 구조 예제.md",
-    "JAVA/Spring/★ 구조/Service/Service.md",
-    "JAVA/Spring/★ 구조/DAO/DAO.md",
-    "JAVA/Spring/★ 구조/Entity/Entity.md",
-    "JAVA/Spring/★ 구조/★ Bean.md",
-    "JAVA/Spring/어노테이션/MVC/@Autowired.md",
-    "데이터 송수신/★ 요청받은 데이터 처리/Object.md",
     "JAVA/Spring/어노테이션/MVC",
-    "데이터 송수신/응답된 데이터 처리/데이터 처리.md",
-    "데이터 송수신/요청/Object.md",
-    "데이터 송수신/★ 매핑.md",
-    "데이터 송수신/응답/ResponseEntity.md",
-    "JS/비동기 요청/★ fetch/fetch.md",
     "JS",
-    "JAVA/Spring/JDBC/JdbcTemplate/main에서 실행.md",
-    "JAVA/Spring/JDBC/★ DataSource.md",
-    "JAVA/Spring/JDBC/NamedParameterJdbcTemplate/NamedParameterJdbcTemplate.md",
     "오라클/이미지/Pasted image 20230928152300.png",
     "Pasted image 20230928152113.png",
     "Pasted image 20230928152110.png",
     "Pasted image 20230928152111.png",
-    "오라클/이미지",
-    "오라클/문법/DDL",
-    "오라클/문법/DML",
-    "오라클/문법",
-    "오라클",
-    "JAVA/용어/무제 폴더",
     "무제 파일.canvas"
   ]
 }
