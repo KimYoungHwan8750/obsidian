@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JAVA/클래스/StringBuffer/메서드/replace.md",
+                "file": "Object 다루기/Optional.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JAVA/클래스/StringBuffer/메서드/replace.md",
+                "file": "Object 다루기/Optional.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JAVA/클래스/StringBuffer/메서드/replace.md",
+                "file": "Object 다루기/Optional.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JAVA/클래스/StringBuffer/메서드/replace.md"
+                "file": "Object 다루기/Optional.md"
               }
             }
           },
@@ -157,11 +157,16 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "2ac284b0686f83b4",
+  "active": "ee7b5608def987d3",
   "lastOpenFiles": [
-    "JAVA/클래스/StringBuffer/메서드/reverse.md",
+    "JAVA/Thymeleaf",
     "앞.md",
+    "Object 다루기/Optional.md",
+    "데이터 송수신/★ 요청받은 데이터 처리/Object.md",
+    "리소스 사이트/색조합.md",
+    "연습/JSON 송수신 연습.md",
     "JAVA/클래스/StringBuffer/메서드/replace.md",
+    "JAVA/클래스/StringBuffer/메서드/reverse.md",
     "JAVA/클래스/StringBuffer/StringBuffer.md",
     "JAVA/클래스/StringBuffer/메서드/insert.md",
     "JAVA/클래스/StringBuffer/메서드/append.md",
@@ -186,13 +191,8 @@
     "오라클/문법/DML/조회.md",
     "JAVA/용어/매핑.md",
     "JAVA/Spring/웹소켓/웹소켓 구축.md",
-    "무제 파일.md",
-    "JAVA/Spring/STOMP/Simple Text Oriented Messaging Protocol.md",
-    "JAVA/Spring/★ 의존성 주입.md",
     "JAVA/Spring/STOMP",
-    "개인노트/정리가 필요한 노트.md",
     "JAVA/Spring/웹소켓",
-    "개인노트/궁금증 모아놓은 노트.md",
     "JAVA/Spring/어노테이션/MVC",
     "JS",
     "오라클/이미지/Pasted image 20230928152300.png",
