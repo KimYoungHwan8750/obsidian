@@ -24,5 +24,17 @@ person.setName(rs.getString("name")) // 컬럼명 name의 값들을 필드변수
 re.getTimestamp("date") // 원하는 타입으로 가져올 수 있다.
 ```
 
+별도의 클래스로 나누지 않고 바로 오버라이딩해서 사용하는 예
+```java
+RowMapper<Person> PersonRowMapper = new RowMapper<>(){
+	@Override 
+	public Person mapRow(ResultSet rs, int rowNum) throws SQLException {
+	Person person = new Person();
+	person.setName(rs.getString("name"));
+	person.setAge(rs.getInt("age"));
+		return person;
+	}
+}
+```
 ## 주의사항
 * RowMapper 인터페이스의 mapRow(ResultSet rs, int rowNum) 메서드를 오버라이딩해야한다.
