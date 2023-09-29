@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JAVA/클래스/★ RowMapper.md",
+                "file": "오라클/문법/DML/삽입.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JAVA/클래스/★ RowMapper.md",
+                "file": "오라클/문법/DML/삽입.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JAVA/클래스/★ RowMapper.md",
+                "file": "오라클/문법/DML/삽입.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JAVA/클래스/★ RowMapper.md"
+                "file": "오라클/문법/DML/삽입.md"
               }
             }
           },
@@ -159,6 +159,8 @@
   },
   "active": "2ac284b0686f83b4",
   "lastOpenFiles": [
+    "오라클/문법/DML/조회.md",
+    "JAVA/클래스/★ RowMapper.md",
     "JAVA/용어/매핑.md",
     "JAVA/Spring/웹소켓/웹소켓 구축.md",
     "무제 파일.md",
@@ -169,7 +171,6 @@
     "JAVA/Spring/웹소켓",
     "개인노트/궁금증 모아놓은 노트.md",
     "JAVA/클래스/StringBuffer.md",
-    "JAVA/클래스/★ RowMapper.md",
     "JAVA/용어/OOP.md",
     "JAVA/Spring/★ 구조/★ 구조 예제.md",
     "JAVA/Spring/★ 구조/Service/Service.md",
@@ -188,7 +189,6 @@
     "JAVA/Spring/JDBC/JdbcTemplate/main에서 실행.md",
     "JAVA/Spring/JDBC/★ DataSource.md",
     "JAVA/Spring/JDBC/NamedParameterJdbcTemplate/NamedParameterJdbcTemplate.md",
-    "JAVA/Spring/myBatis/참조.md",
     "오라클/이미지/Pasted image 20230928152300.png",
     "Pasted image 20230928152113.png",
     "Pasted image 20230928152110.png",
