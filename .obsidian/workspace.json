@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Object 다루기/Optional.md",
+                "file": "AWS/SSH.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Object 다루기/Optional.md",
+                "file": "AWS/SSH.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Object 다루기/Optional.md",
+                "file": "AWS/SSH.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Object 다루기/Optional.md"
+                "file": "AWS/SSH.md"
               }
             }
           },
@@ -157,11 +157,21 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "ee7b5608def987d3",
+  "active": "2ac284b0686f83b4",
   "lastOpenFiles": [
+    "AWS/보안규칙 설정.md",
+    "AWS/SSH.md",
+    "AWS/포트포워딩.md",
+    "AWS/로드밸런서.md",
+    "개인노트/작업 체크 사항.md",
+    "AWS/RDS",
+    "AWS/EC2",
+    "AWS",
+    "개인노트/궁금증 모아놓은 노트.md",
+    "Object 다루기/Optional.md",
+    "개인노트/무제 폴더",
     "JAVA/Thymeleaf",
     "앞.md",
-    "Object 다루기/Optional.md",
     "데이터 송수신/★ 요청받은 데이터 처리/Object.md",
     "리소스 사이트/색조합.md",
     "연습/JSON 송수신 연습.md",
@@ -178,7 +188,6 @@
     "JAVA/클래스/Stream/Stream.md",
     "JAVA/클래스/BeanPropertyRowMapper",
     "JAVA/클래스/★ RowMapper",
-    "JAVA/클래스/메서드",
     "JAVA/클래스/★ RowMapper/★ RowMapper.md",
     "JAVA/용어/Unboxing.md",
     "JAVA/용어/OverRiding.md",
@@ -186,15 +195,6 @@
     "JAVA/용어/Boxing.md",
     "JAVA/용어/Autoboxing.md",
     "JAVA/용어/원시타입.md",
-    "오라클/문법/DML/삽입.md",
-    "오라클/문법/DML/수정.md",
-    "오라클/문법/DML/조회.md",
-    "JAVA/용어/매핑.md",
-    "JAVA/Spring/웹소켓/웹소켓 구축.md",
-    "JAVA/Spring/STOMP",
-    "JAVA/Spring/웹소켓",
-    "JAVA/Spring/어노테이션/MVC",
-    "JS",
     "오라클/이미지/Pasted image 20230928152300.png",
     "Pasted image 20230928152113.png",
     "Pasted image 20230928152110.png",
