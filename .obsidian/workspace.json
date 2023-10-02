@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "데이터 송수신/CDATA.md",
+                "file": "JS/비동기 동작/무제 파일.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "데이터 송수신/CDATA.md",
+                "file": "JS/비동기 동작/무제 파일.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "데이터 송수신/CDATA.md",
+                "file": "JS/비동기 동작/무제 파일.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "데이터 송수신/CDATA.md"
+                "file": "JS/비동기 동작/무제 파일.md"
               }
             }
           },
@@ -159,9 +159,32 @@
   },
   "active": "2ac284b0686f83b4",
   "lastOpenFiles": [
-    "개인노트/옵시디언 플러그인.md",
+    "JS/동기 동작/callback함수.md",
+    "JS/비동기 동작/무제 파일.md",
+    "JS/동기 동작/then.md",
+    "JS/비동기 동작/await.md",
+    "JS/동기 동작",
+    "JS/비동기 동작/then.md",
+    "JS/비동기 동작/async.md",
+    "JAVA/Spring/JDBC/JdbcTemplate/★ JdbcTemplate.md",
+    "JS/비동기 동작/async&await/a.md",
+    "JS/비동기 동작/async&await",
+    "JS/비동기 동작",
+    "JAVA/Spring/JPA/JPA 구조.md",
+    "JAVA/Spring/JPA/인터페이스를 만들고 JpaRepository를 상속.md",
+    "프로젝트 할 일 노트/2023-10-03.md",
+    "JS/비동기 요청/★ fetch/fetch.md",
+    "데이터 송수신/요청/Object.md",
+    "JS/태그/form/DOM/submit.md",
+    "JS/태그/form/DOM",
+    "JS/태그/form/form.md",
+    "JS/태그/button",
+    "JS/태그",
     "데이터 송수신/CDATA.md",
-    "프로젝트 할 일 노트/무제 파일.md",
+    "JS/태그/form",
+    "데이터 송수신/★ JSON.md",
+    "데이터 송수신/응답/응답 코드.md",
+    "개인노트/옵시디언 플러그인.md",
     "프로젝트 할 일 노트/2023-09-26.md",
     "프로젝트 할 일 노트/2023-09-25.md",
     "프로젝트 할 일 노트/2023-09-20.md",
@@ -171,30 +194,7 @@
     "AWS/SSH.md",
     "SQL/오라클/문법/문자열",
     "SQL",
-    "AWS/보안규칙 설정.md",
-    "AWS/포트포워딩.md",
-    "AWS/로드밸런서.md",
-    "개인노트/작업 체크 사항.md",
     "AWS/RDS",
-    "AWS/EC2",
-    "AWS",
-    "개인노트/궁금증 모아놓은 노트.md",
-    "Object 다루기/Optional.md",
-    "개인노트/무제 폴더",
-    "JAVA/Thymeleaf",
-    "앞.md",
-    "데이터 송수신/★ 요청받은 데이터 처리/Object.md",
-    "리소스 사이트/색조합.md",
-    "연습/JSON 송수신 연습.md",
-    "JAVA/클래스/StringBuffer/메서드/replace.md",
-    "JAVA/클래스/StringBuffer/메서드/reverse.md",
-    "JAVA/클래스/StringBuffer/StringBuffer.md",
-    "JAVA/클래스/StringBuffer/메서드/insert.md",
-    "JAVA/클래스/StringBuffer/메서드/append.md",
-    "JAVA/클래스/StringBuffer/메서드/delete.md",
-    "JAVA/클래스/StringBuffer/메서드",
-    "JAVA/클래스/StringBuffer",
-    "JAVA/클래스/Stream",
     "SQL/오라클/이미지/Pasted image 20230928152300.png",
     "Pasted image 20230928152113.png",
     "Pasted image 20230928152110.png",
