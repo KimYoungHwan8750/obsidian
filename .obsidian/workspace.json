@@ -11,8 +11,12 @@
             "id": "2ac284b0686f83b4",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "JS/클래스/Date/함수/getMinutes.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "JS/클래스/Date/함수/getMinutes.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "JS/클래스/Date/함수/getMinutes.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "JS/클래스/Date/함수/getMinutes.md"
+              }
             }
           },
           {
@@ -151,6 +159,9 @@
   },
   "active": "ee7b5608def987d3",
   "lastOpenFiles": [
+    "JS/클래스/Date/Date.md",
+    "JS/클래스/Date/함수/getMinutes.md",
+    "JS/클래스/Date/함수",
     "JS/클래스/DOM",
     "JS/클래스/Date",
     "JS/클래스",
@@ -176,7 +187,6 @@
     "JS/태그/button",
     "JS/태그",
     "데이터 송수신/CDATA.md",
-    "JS/태그/form",
     "데이터 송수신/★ JSON.md",
     "데이터 송수신/응답/응답 코드.md",
     "개인노트/옵시디언 플러그인.md",
@@ -185,8 +195,6 @@
     "프로젝트 할 일 노트/2023-09-20.md",
     "프로젝트 할 일 노트/프로젝트 DB구상/USER_SETTING.md",
     "SQL/오라클/문법/문자열/CONCAT 그리고 이어붙이기.md",
-    "SQL/오라클/문법/DML/삭제.md",
-    "SQL/오라클/문법/문자열",
     "SQL/오라클/이미지/Pasted image 20230928152300.png",
     "Pasted image 20230928152113.png",
     "Pasted image 20230928152110.png",

@@ -1,6 +1,6 @@
 #### LocalDateTime
 [[LocalTime]]과 [[LocalDate]]를 합친 클래스
-[[Date]]보다 최신형의 클래스이다.
+[[JAVA/날짜 및 시간/클래스/Date]]보다 최신형의 클래스이다.
 자바에서는 Date 클래스보다 LocalDateTime 클래스 사용을 권장하고 있다.
 
 ```java
