@@ -11,12 +11,8 @@
             "id": "2ac284b0686f83b4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "JS/비동기 동작/무제 파일.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JS/비동기 동작/무제 파일.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JS/비동기 동작/무제 파일.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "JS/비동기 동작/무제 파일.md"
-              }
+              "state": {}
             }
           },
           {
@@ -157,8 +149,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "2ac284b0686f83b4",
+  "active": "ee7b5608def987d3",
   "lastOpenFiles": [
+    "JS/클래스/DOM",
+    "JS/클래스/Date",
+    "JS/클래스",
     "JS/동기 동작/callback함수.md",
     "JS/비동기 동작/무제 파일.md",
     "JS/동기 동작/then.md",
@@ -191,10 +186,7 @@
     "프로젝트 할 일 노트/프로젝트 DB구상/USER_SETTING.md",
     "SQL/오라클/문법/문자열/CONCAT 그리고 이어붙이기.md",
     "SQL/오라클/문법/DML/삭제.md",
-    "AWS/SSH.md",
     "SQL/오라클/문법/문자열",
-    "SQL",
-    "AWS/RDS",
     "SQL/오라클/이미지/Pasted image 20230928152300.png",
     "Pasted image 20230928152113.png",
     "Pasted image 20230928152110.png",
