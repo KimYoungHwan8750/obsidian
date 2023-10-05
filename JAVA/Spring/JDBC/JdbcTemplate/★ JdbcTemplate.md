@@ -97,6 +97,7 @@ CREATE TABLE 같은 동작을 할 때 적합하다.
 예외 발생
 * EmptyResultDataAccessException : 조회 결과가 없을 때
 * IncorrectResultSizeDataAccessException : 로우가 2개 이상 조회 되었을 때
+* IncorrectResultSetColumnCountException : 조회된 컬럼수와 매핑할 객체의 필드가 일치하지 않을 
 
 단일행 단일열에 대한 값을 반환 받는다.
 매개변수의 마지막에는 매핑할 방식을 정의할 수 있다.
