@@ -52,6 +52,8 @@ public void Test(String id, String pw){
 	1. sql
 	2. 배열
 	3. 매퍼
+	4. query메서드를 이용해 동작을 할 경우 queryForObject랑 1.sql 2.매퍼 3.배열 순이다.
+
 
 ```java
 public void Test(String id, String pw){
