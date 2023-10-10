@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JAVA/날짜 및 시간/클래스/DateTimeFormatter.md",
+                "file": "개인노트/한번 읽어볼 것들/유용한 블로그.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JAVA/날짜 및 시간/클래스/DateTimeFormatter.md",
+                "file": "개인노트/한번 읽어볼 것들/유용한 블로그.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JAVA/날짜 및 시간/클래스/DateTimeFormatter.md",
+                "file": "개인노트/한번 읽어볼 것들/유용한 블로그.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JAVA/날짜 및 시간/클래스/DateTimeFormatter.md"
+                "file": "개인노트/한번 읽어볼 것들/유용한 블로그.md"
               }
             }
           },
@@ -171,8 +171,22 @@
   },
   "active": "0a724113f3400d4f",
   "lastOpenFiles": [
-    "JAVA/날짜 및 시간/클래스/SimpleDateFormat.md",
+    "JAVA/클래스/람다식/메서드 참조.md",
+    "개인노트/한번 읽어볼 것들/유용한 블로그.md",
+    "JAVA/클래스/람다식/나의 인터페이스 만들기.md",
+    "JAVA/클래스/람다식/Function.md",
+    "JAVA/클래스/람다식/Supplier.md",
+    "JAVA/클래스/람다식/Runnable.md",
+    "JAVA/클래스/람다식/Consumer.md",
+    "JAVA/용어/람다식.md",
+    "개인노트/한번 읽어볼 것들/람다식.md",
+    "개인노트/한번 읽어볼 것들/클래스와 인터페이스의 차이.md",
+    "JAVA/용어/함수형 인터페이스.md",
+    "개인노트/한번 읽어볼 것들",
     "JAVA/날짜 및 시간/클래스/DateTimeFormatter.md",
+    "JAVA/클래스/람다식",
+    "JAVA/날짜 및 시간/클래스/SimpleDateFormat.md",
+    "JAVA/날짜 및 시간/Time 패키지/Duration.md",
     "JAVA/클래스/Stream/스트림을 이용한 리스트 매핑.md",
     "JAVA/Spring/타임리프",
     "JAVA/클래스/Stream/Stream.md",
@@ -188,25 +202,11 @@
     "JAVA/클래스/StringBuffer/메서드/insert.md",
     "JAVA/클래스/StringBuffer/메서드/delete.md",
     "JAVA/클래스/StringBuffer/메서드/append.md",
-    "JAVA/클래스/StringBuffer/StringBuffer.md",
-    "JAVA/클래스/Object/Optional.md",
-    "Object 다루기/Optional.md",
-    "JS/클래스/Date/함수/getDate.md",
-    "JS/클래스/Date/함수/getDay.md",
-    "JS/클래스/Date/함수/getHours.md",
-    "JS/클래스/Date/함수/getFullYear.md",
-    "JS/클래스/Date/함수/getMilliseconds.md",
-    "JS/클래스/Date/함수/getMonth.md",
-    "JS/클래스/배열/splice.md",
-    "JS/클래스/배열/slice.md",
-    "JS/클래스/문자열/slice.md",
     "JS/클래스/배열",
     "JS/클래스/문자열",
     "SQL/오라클/문법/시간",
     "JAVA/클래스/Object",
     "SQL/데이터베이스 샘플/채팅",
-    "SQL/데이터베이스 샘플",
-    "JAVA/Spring/JDBC/DriverManagerDataSource",
     "SQL/오라클/이미지/Pasted image 20230928152300.png",
     "Pasted image 20230928152113.png",
     "Pasted image 20230928152110.png",
