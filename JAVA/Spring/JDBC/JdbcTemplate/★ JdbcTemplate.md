@@ -88,11 +88,34 @@ public void Test(String id, String pw){
 jdbcTemplate.query("SELECT * FROM USER WHERE ID = 1",sql)
 ```
 또한 아무런 로우도 조회되지 않았을 때 null이 아니라 빈 리스트를 반환하므로 조회결과가 없는 상황을 `.size() == 0`으로 처리 가능하다.
+
+
+```java
+List<Map<String,Object>> test = jdbcTemplate.query("SELECT * FROM USER_INFO WHERE ID LIKE '%test%'", new RowMapper<Map<String, Object>>() {  
+    @Override  
+    public Map<String, Object> mapRow(ResultSet rs, int rowNum) throws SQLException {  
+        Map<String,Object> testMap = new HashMap<>();  
+        testMap.put("아이디입니다",rs.getString("ID"));  
+        return testMap;  
+    }  
+});  
+System.out.println(test.toString()); // [{아이디입니다=testid},{아이디입니다=testid2}]
+```
 #### update() :
 쿼리로 인해 영향을 받은 row의 수를 반환한다.
 #### execute() :
 void와 같은 동작을 한다.
 CREATE TABLE 같은 동작을 할 때 적합하다.
+
+#### queryForMap :
+
+```java
+Map<String,Object> test = jdbcTemplate.queryForMap("SELECT * FROM USER_INFO WHERE ID ='testid'");
+System.out.println(test.toString()); // {ID=testid,PW=Testid123!...생략}
+```
+
+단일 로우에 대한 값을 맵에 입력한다.
+매퍼를 사용하지 않는다.
 
 #### queryForObject :
 
