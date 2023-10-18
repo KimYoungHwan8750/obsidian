@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JAVA/Spring/어노테이션/롬복/@NoArgsConstructor.md",
+                "file": "JAVA/Spring/어노테이션/JPA/@Query.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "94794db642252f2c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "JAVA/클래스/JSONObject/JSONObject.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -48,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "타임리프",
+                "query": "JSONO",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JAVA/Spring/어노테이션/롬복/@NoArgsConstructor.md",
+                "file": "JAVA/클래스/JSONObject/JSONObject.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JAVA/Spring/어노테이션/롬복/@NoArgsConstructor.md",
+                "file": "JAVA/클래스/JSONObject/JSONObject.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JAVA/Spring/어노테이션/롬복/@NoArgsConstructor.md"
+                "file": "JAVA/클래스/JSONObject/JSONObject.md"
               }
             }
           },
@@ -157,45 +170,44 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a860a7a4e27f9aad",
+  "active": "94794db642252f2c",
   "lastOpenFiles": [
-    "JAVA/Spring/어노테이션/롬복/@RequiredArgsConstructor.md",
-    "JAVA/Spring/어노테이션/롬복/@NoArgsConstructor.md",
-    "JAVA/Spring/JDBC/JdbcTemplate/★ JdbcTemplate.md",
-    "JAVA/Spring/인터셉터/addPathPatterns.md",
-    "JAVA/Spring/인터셉터/excludePathPatterns.md",
-    "JAVA/Spring/클래스/HttpServletRequest/메서드/getServerPort.md",
-    "JAVA/Spring/클래스/HttpServletRequest/메서드/getServerName.md",
-    "JAVA/Spring/클래스/HttpServletRequest/메서드/getRequestURL.md",
+    "데이터 송수신/★ 데이터 타입/★ JSON.md",
+    "JAVA/클래스/JSONParser",
+    "JAVA/클래스/JSONObject/JSONObject.md",
+    "JAVA/클래스/JSONObject/의존성 주입.md",
+    "JAVA/클래스/JSONObject",
+    "JAVA/Spring/어노테이션/매핑/JSON to Object/@JsonProperty('값').md",
+    "JAVA/Spring/어노테이션/MVC/@ModelAttribute.md",
+    "JAVA/Spring/어노테이션/MVC/@PathVariable.md",
+    "JAVA/Spring/어노테이션/MVC/@RequestBody.md",
+    "JAVA/Spring/어노테이션/MVC/@SessionAttribute.md",
+    "JAVA/Spring/어노테이션/MVC/@RestController.md",
+    "JAVA/Spring/어노테이션/MVC/@ResponseBody.md",
+    "JAVA/Spring/어노테이션/MVC/@RequestParam.md",
+    "JAVA/Spring/어노테이션/MVC/@RequestMapping.md",
+    "데이터 송수신/★ 요청받은 데이터 처리/파라미터 사용 총 정리.md",
+    "JS/클래스/FormData/★ FormData.md",
+    "JS/클래스/FormData",
+    "데이터 송수신/★ 데이터 타입",
+    "데이터 송수신/★ 요청받은 데이터 처리/Object.md",
+    "JAVA/Thymeleaf/href.md",
+    "JAVA/Spring/어노테이션/MVC/구조/컨트롤러.md",
+    "JAVA/Spring/어노테이션/MVC/@Controller.md",
     "JAVA/Spring/클래스/HttpServletRequest/메서드/getRequestURI.md",
-    "JAVA/Spring/클래스/HttpServletRequest/메서드/getContextPath.md",
     "JAVA/Spring/클래스/HttpServletRequest/메서드/getQueryString.md",
+    "JAVA/Spring/클래스/HttpServletRequest/메서드/getRequestURL.md",
+    "JAVA/Spring/클래스/HttpServletRequest/메서드/getContextPath.md",
+    "JAVA/Spring/클래스/HttpServletRequest/메서드/getServerName.md",
+    "JAVA/Spring/클래스/HttpServletRequest/메서드/getServerPort.md",
     "JAVA/Spring/클래스/HttpServletRequest/메서드/getServletPath.md",
+    "JAVA/Spring/어노테이션/MVC/구조",
+    "JS/클래스/DOM/무제 폴더",
     "JAVA/Spring/클래스/HttpServletRequest/메서드",
-    "JAVA/클래스/URLEncoder/URLEncoder.md",
     "JAVA/Spring/인터셉터",
     "JAVA/클래스/URLEncoder",
-    "JAVA/용어/인터페이스.md",
     "JAVA/Spring/클래스/HttpServletRequest",
-    "개인노트/프로젝트 하면서 느낀 점/파일생성.md",
-    "JAVA/클래스/Map/entries.md",
-    "개인노트/프로젝트 하면서 느낀 점",
     "무제 파일.canvas",
-    "리눅스/폴더,파일명 대소문자.md",
-    "JAVA/Spring/JDBC/JdbcTemplate/keyHolder.md",
-    "리눅스",
-    "JAVA/클래스/BeanPropertyRowMapper/BeanPropertyRowMapper.md",
-    "JAVA/람다식/Supplier.md",
-    "JAVA/람다식/Runnable.md",
-    "JAVA/람다식/Consumer.md",
-    "JAVA/람다식/Function.md",
-    "JAVA/용어/참조타입.md",
-    "JAVA/용어/함수형 인터페이스.md",
-    "JAVA/용어/Autoboxing.md",
-    "JAVA/Spring/AOP",
-    "JAVA/클래스/Thread",
-    "JAVA/클래스/Map/TreeMap",
-    "JAVA/클래스/Map/HashMap",
     "SQL/오라클/이미지/Pasted image 20230928152300.png",
     "Pasted image 20230928152113.png",
     "Pasted image 20230928152110.png",
