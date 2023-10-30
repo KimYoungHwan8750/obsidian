@@ -30,13 +30,15 @@ function jsonObj(){
 ```java
 @PostMapping("/json_obj")  
 public void JsonObj(@RequestBody String obj) throws JSONException{  
-    JSONObject jsonObject = new JSONObject(obj);  
+    JSONObject jsonObject = new JSONObject(obj);
+    log.info("0"+jsonObject.toString());
     log.info("1"+jsonObject.getString("k1"));  
     log.info("2"+jsonObject.getJSONObject("k2").toString());  
     log.info("3"+jsonObject.getJSONArray("k3").get(2).toString());  
   
   /*
-   1= "v1"
+   0= {"k1":"v1","k2":{"k2.2":"v2.2","k2.1":"v2.1"},"k3":["k3.1","k3.2","k3.3"]}
+   1= v1
    2= {"k2.2":"v2.2","k2.1":"v2.1"}
    3= k3.3
 }
