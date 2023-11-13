@@ -9,4 +9,4 @@ System.out.println(test.apply("true")); // 1
 ```
 
 #### 메서드
-apply(인자) : 실
+apply(인자) : 실행
