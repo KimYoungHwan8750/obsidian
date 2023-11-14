@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JS/문법적으로 주의를 요하는 지식들/폼태그와 이벤트 리스너.md",
+                "file": "JAVA/클래스/File/File.md",
                 "mode": "source",
                 "source": false
               }
@@ -138,8 +138,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -159,7 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JS/문법적으로 주의를 요하는 지식들/폼태그와 이벤트 리스너.md",
+                "file": "JAVA/클래스/File/File.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -176,7 +175,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JS/문법적으로 주의를 요하는 지식들/폼태그와 이벤트 리스너.md",
+                "file": "JAVA/클래스/File/File.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -199,7 +198,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JS/문법적으로 주의를 요하는 지식들/폼태그와 이벤트 리스너.md"
+                "file": "JAVA/클래스/File/File.md"
               }
             }
           },
@@ -231,8 +230,25 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a43bec27b2161a7c",
+  "active": "ee7b5608def987d3",
   "lastOpenFiles": [
+    "JAVA/클래스/File/FileCopyUtils",
+    "JAVA/자료형/File/file_application_properties.md",
+    "JAVA/자료형/byte/클라이언트에게 파일 보내기.md",
+    "JAVA/자료형/byte",
+    "리눅스/리눅스 파일 저장 경로.md",
+    "리눅스/폴더,파일명 대소문자.md",
+    "리눅스/separator.md",
+    "JS/자료형/Blob/Binary Large Object.md",
+    "JS/자료형/Blob/Blob.md",
+    "JS/자료형/base64/btoa().md",
+    "JS/자료형/base64/base64.md",
+    "JS/자료형/base64/atob().md",
+    "JS/함수/인코딩/encodeURIComponent.md",
+    "JS/함수/인코딩/encodeURI.md",
+    "JS/함수/window/URL/rebokeURLObject.md",
+    "개인노트/2023-11-14.md",
+    "JAVA/Spring/어노테이션/JPA/@Query.md",
     "JS/문법적으로 주의를 요하는 지식들/함수이름에 괄호.md",
     "JS/함수/FormData/★ FormData.md",
     "JS/함수/Form/for Each.md",
@@ -243,35 +259,18 @@
     "JS/문법적으로 주의를 요하는 지식들/폼태그와 이벤트 리스너.md",
     "CSS/한글깨짐 현상.md",
     "알고리즘/자료구조/queue/FIFO.md",
-    "알고리즘/자료구조/stack/LIFO.md",
     "알고리즘/자료구조/stack",
     "알고리즘/자료구조/queue",
     "알고리즘/자료구조",
     "알고리즘",
-    "JS/함수/function/콜백 인자.md",
-    "JS/함수/function/arguments.md",
-    "JS/함수/window/URL/rebokeURLObject.md",
-    "JS/함수/window/URL/createURLObject.md",
-    "JS/비동기 동작/Promise/then(), catch(), finally().md",
     "JS/함수/window/URL",
-    "JS/예외/Error.md",
-    "JS/디버깅 문법/console/console.error.md",
-    "JAVA/날짜 및 시간/클래스/SimpleDateFormat.md",
-    "JS/동기 동작/callback함수.md",
     "옵시디언 노트 리소스 폴더/이미지/console.dir 출력창.png",
     "옵시디언 노트 리소스 폴더/이미지/에러 메세지.png",
-    "JS/디버깅 문법/console/console.dir.md",
-    "JS/디버깅 문법/console/console.log.md",
-    "JS/디버깅 문법/console/console.time.md",
     "옵시디언 노트 리소스 폴더/이미지/console.log 출력창.png",
-    "JS/디버깅 문법/console/console.timeEnd.md",
     "JS/디버깅 문법/console",
-    "JAVA/Spring/어노테이션/MVC/@RequestMapping.md",
     "JS/디버깅 문법",
-    "JAVA/Spring/어노테이션/MVC/@Controller.md",
     "JS/함수/Object/object.prototype",
     "옵시디언 노트 리소스 폴더/이미지",
-    "옵시디언 노트 리소스 폴더",
     "Pasted image 20231112061037.png",
     "무제 파일.canvas",
     "SQL/오라클/이미지/Pasted image 20230928152300.png",

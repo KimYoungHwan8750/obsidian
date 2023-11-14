@@ -11,3 +11,38 @@ createURLObject로 만든 url을 삭제하는데 사용한다.
 하지만 상대방이 채팅을 칠 때마다 사진은 계속 쓰일 것이므로, 사진이 더 이상 쓰이지 않는 시점을 예측할 수 없기 때문에 예측 가능한 상황에 대해서 개발자가 rebokeURLObject 메서드를 통해 임의로 URL을 해제하게 하는 것이다.
 
 반대로 더 이상 유저가 사진을 볼 일이 없다고 확정되는 상황에서는 robokeURLObject로 해당 URL참조를 해제해준다.
+
+
+## 주의할 문법
+
+createURLObject와 rebokeURLObject의 실행시간이 있기 때문에 순서를 보장하기 위해선 async await문법을 사용해야한다.
+
+```js
+        document.querySelector(".input_box").addEventListener('change',function(){
+
+            let blobURL = URL.createObjectURL(this.files[0]);
+
+            let newPromise = new Promise((resolve,reject)=>{
+
+                document.querySelector(".output_box").src = blobURL;
+
+                resolve();
+
+            });
+
+            let task2 = async()=>{
+
+            console.log(blobURL);  
+
+            await newPromise;
+
+            await URL.revokeObjectURL(blobURL);
+
+            document.querySelector(".output_box_after").src= blobURL;  
+
+            }
+
+            task2();    
+
+        })
+```
