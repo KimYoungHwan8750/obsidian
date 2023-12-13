@@ -1,0 +1,1 @@
+https://imagecolorpicker.com/ko
