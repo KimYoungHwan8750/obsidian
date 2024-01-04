@@ -1,4 +1,4 @@
-#### 사용법
+#### 사용법 :
 
 Index는 0부터 시작한다.
 
@@ -9,3 +9,7 @@ str.insert(3,"'3.5'") // "1 2 3 '3.5' 4 5"
 str.delete(0,2) // "3 3.5 4 5"
 str.reverse() // "5 4 3.5 3"
 ```
+
+
+#### StringBuffer 특징
+* Thread-Safe하다.

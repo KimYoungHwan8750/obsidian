@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JAVA/람다식/Consumer.md",
+                "file": "JS/함수/Array/every.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JAVA/라이브러리/JSON/JSONObject/JSONObject/JSONObject.md",
+                "file": "JS/태그/custom-tag/Web Component.md",
                 "mode": "source",
                 "source": false
               }
@@ -92,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -121,7 +121,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "Gene",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -142,7 +142,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 263.5
+    "width": 256.5
   },
   "right": {
     "id": "ef24d012572e04a0",
@@ -158,7 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JAVA/라이브러리/JSON/JSONObject/JSONObject/JSONObject.md",
+                "file": "JS/함수/Array/every.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +175,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JAVA/라이브러리/JSON/JSONObject/JSONObject/JSONObject.md",
+                "file": "JS/함수/Array/every.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -198,7 +198,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JAVA/라이브러리/JSON/JSONObject/JSONObject/JSONObject.md"
+                "file": "JS/함수/Array/every.md"
               }
             }
           },
@@ -229,45 +229,45 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "de3c6c2befa73e40",
+  "active": "31c25c30b6daa30e",
   "lastOpenFiles": [
-    "JAVA/라이브러리/JSON/JSONObject/JSONObject/의존성 주입.md",
-    "JAVA/디버그/로깅/Slf4j.md",
-    "리소스 사이트/hex 색상.md",
-    "개인블로그 제작/테이블/유저 테이블.md",
-    "개인블로그 제작/테이블/방문자 정보.md",
-    "개인블로그 제작/필요기술/기술.md",
-    "개인블로그 제작/필요기술",
-    "JAVA/Spring/클래스/HttpServletRequest/메서드/getRemoteAddr.md",
-    "개인블로그 제작/환경마다 다른 링크/정리.md",
-    "개인블로그 제작/색깔/Base색깔.md",
-    "개인블로그 제작/구상/관리자 페이지.md",
-    "개인블로그 제작/구상/Info.md",
-    "JAVA/Spring/JDBC/★ DataSource.md",
-    "리소스 사이트/Minify 코드 경량화.md",
-    "JS/함수/Object/getOwnPropertyDescriptor.md",
+    "JS/함수/crypto/randomUUID().md",
+    "JAVA/클래스/Class/getClass().md",
+    "JS/함수/crypto",
+    "JAVA/instanceof.md",
+    "JAVA/클래스/Class/Class.md",
+    "리소스 사이트/개발자.md",
+    "ㅎㅇ.md",
+    "JAVA/Spring/STOMP/Event/Event.md",
+    "리소스 사이트/무제 폴더",
+    "JAVA/Spring/어노테이션/Event/@EventListener.md",
+    "JAVA/Spring/STOMP/Event",
+    "암호화/jwt.md",
+    "JAVA/Spring/STOMP/관련 문서.md",
+    "암호화",
+    "JAVA/보안",
+    "JAVA/Spring/STOMP/Simple Text Oriented Messaging Protocol.md",
+    "JAVA/Spring/어노테이션/BEAN/@Repository.md",
+    "JAVA/Spring/어노테이션/BEAN/@Order.md",
+    "JAVA/Spring/웹소켓/Dependencies.md",
+    "JAVA/Spring/어노테이션/Event",
+    "JAVA/Spring/웹소켓/웹소켓 구축.md",
+    "JAVA/Spring/무제 폴더",
+    "JAVA/Spring/웹소켓/SockJS.md",
+    "개인노트/면접 전 공부.md",
+    "개인노트/옵시디언 플러그인.md",
+    "개인노트/궁금증 모아놓은 노트.md",
+    "개인노트/구상.md",
+    "개인노트/2023-11-14.md",
+    "JAVA/어노테이션/@PostConstruct.md",
+    "JAVA/Spring/어노테이션/BEAN/@Configuration.md",
+    "JAVA/Spring/어노테이션/BEAN/@Bean.md",
+    "JAVA/Spring/어노테이션/BEAN/@Component.md",
+    "JAVA/Spring/어노테이션/BEAN/@Controller.md",
+    "JAVA/클래스/StringBuilder/메서드",
+    "JAVA/클래스/StringBuilder",
+    "JAVA/Spring/DB",
     "옵시디언 노트 리소스 폴더/이미지/getOwnPropertyDescriptor.png",
-    "JS/함수/Object/hasOwn().md",
-    "JS/비동기 동작/async await/async & await.md",
-    "JS/함수/function/IIFE.md",
-    "JS/함수/function/function()().md",
-    "JS/함수/function/무제 폴더",
-    "JS/함수/function/콜백 인자.md",
-    "JS/함수/function/arguments.md",
-    "JS/비동기 동작/async await/주의 사항.md",
-    "JS/리소스 코드/물리엔진/matter",
-    "JS/리소스 코드/물리엔진/physics",
-    "JS/리소스 코드/물리엔진/melon",
-    "JS/리소스 코드/물리엔진",
-    "JS/비동기 동작/async await/예외처리.md",
-    "JS/비동기 동작/Promise/Promise.md",
-    "CSS/선택자/css이벤트 전파.md",
-    "리소스 사이트/눈누(상업 가능 무료폰트).md",
-    "리소스 사이트/색조합.md",
-    "HTML/태그",
-    "JAVA/디버그/쿼리파라미터",
-    "JAVA/디버그/로깅",
-    "JAVA/디버그",
     "무제 파일.canvas",
     "옵시디언 노트 리소스 폴더/이미지/console.dir 출력창.png",
     "옵시디언 노트 리소스 폴더/이미지/에러 메세지.png",
