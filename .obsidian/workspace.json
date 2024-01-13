@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JAVA/이미지 다루기/무제 파일.md",
+                "file": "JAVA/이미지 다루기/ImageIO.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "override",
+                "query": "match",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -114,7 +114,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -134,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JAVA/이미지 다루기/무제 파일.md",
+                "file": "JAVA/이미지 다루기/ImageIO.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JAVA/이미지 다루기/무제 파일.md",
+                "file": "JAVA/이미지 다루기/ImageIO.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JAVA/이미지 다루기/무제 파일.md"
+                "file": "JAVA/이미지 다루기/ImageIO.md"
               }
             }
           },
@@ -207,17 +208,25 @@
       "publish:변경사항 출판": false
     }
   },
-  "active": "cb83c23f517af66a",
+  "active": "a43bec27b2161a7c",
   "lastOpenFiles": [
-    "JAVA/클래스/File/mkdir(), mkdirs().md",
     "JAVA/이미지 다루기/무제 파일.md",
+    "JAVA/이미지 다루기/ImageIO.md",
+    "JAVA/이미지 다루기/rgba.md",
+    "JAVA/예외/try - with - resources.md",
+    "JAVA/예외/throw.md",
+    "개인블로그 제작/이미지파일.md",
+    "개인노트/이미지 비트 연산.md",
+    "JAVA/파일 다루기/FileInputStream.md",
+    "JAVA/클래스/File/File.md",
+    "JAVA/파일 다루기",
+    "JAVA/클래스/File/mkdir(), mkdirs().md",
     "JAVA/이미지 다루기",
     "JS/함수/Array/sort.md",
     "JS/함수/Array/join.md",
     "JS/함수/Array/Array의 Stack과 Queue.md",
     "JS/Http 표준/Http.md",
     "JS/Http 표준",
-    "JAVA/클래스/File/File.md",
     "JAVA/클래스/Files/Files.md",
     "JAVA/클래스/File/file_application_properties.md",
     "개인블로그 제작/이슈와 트러블슈팅.md",
@@ -231,20 +240,12 @@
     "JS/함수/Event/화면/screen,page,offset,client.md",
     "개인블로그 제작/api.md",
     "JAVA/라이브러리/JSON/ObjectMapper/★ ObjectMapper.md",
-    "개인블로그 제작/유저 친화적 기능/홈버튼.md",
-    "JS/함수/window/matchMedia/미디어쿼리 조회.md",
     "개인블로그 제작/유저 친화적 기능",
-    "리소스 사이트/브라우저와 호환되는 함수 체크.md",
     "JS/함수/window/matchMedia",
-    "JS/비동기 동작/async await/async & await.md",
-    "JS/함수/Event/이벤트 명.md",
-    "JS/용어/옵셔널 체이닝.md",
-    "JS/연산자/논리연산자/비트 연산자.md",
     "JS/함수/crypto",
     "리소스 사이트/무제 폴더",
     "JAVA/Spring/STOMP/Event",
     "암호화",
-    "JAVA/보안",
     "옵시디언 노트 리소스 폴더/이미지/getOwnPropertyDescriptor.png",
     "무제 파일.canvas",
     "옵시디언 노트 리소스 폴더/이미지/console.dir 출력창.png",
