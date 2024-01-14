@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTML/meta/스플래쉬 페이지.md",
+                "file": "JS/함수/Event/화면/화면 focus/focus 및 hidden 이벤트.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "refre",
+                "query": "formdata",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -114,8 +114,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -135,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HTML/meta/스플래쉬 페이지.md",
+                "file": "JS/함수/Event/화면/화면 focus/focus 및 hidden 이벤트.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HTML/meta/스플래쉬 페이지.md",
+                "file": "JS/함수/Event/화면/화면 focus/focus 및 hidden 이벤트.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -175,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HTML/meta/스플래쉬 페이지.md"
+                "file": "JS/함수/Event/화면/화면 focus/focus 및 hidden 이벤트.md"
               }
             }
           },
@@ -210,39 +209,39 @@
   },
   "active": "cb83c23f517af66a",
   "lastOpenFiles": [
-    "JS/웹소켓/웹소켓.md",
-    "JAVA/Spring/웹소켓/웹소켓 구축.md",
-    "JAVA/클래스/Object/Optional.md",
-    "개인노트/2023-10-23.md",
-    "JAVA/Spring/Cookie,Session/Cookie.md",
+    "JS/함수/Event/화면/screen,page,offset,client.md",
+    "JS/함수/Event/화면/화면 focus/focus 및 hidden 이벤트.md",
+    "JS/함수/Event/화면/화면 focus",
+    "JS/함수/Event/화면/scrollTop,scrollHeight,clientHeight.md",
+    "JAVA/날짜 및 시간/Time 패키지/LocalDateTime.md",
+    "JAVA/날짜 및 시간/Time 패키지/TimeZone 설정.md",
     "JAVA/Spring/HTTP/Redirect/redirect.md",
-    "JAVA/Spring/Cookie,Session",
     "JAVA/Spring/HTTP/무제 파일.md",
     "JAVA/Spring/HTTP/Redirect",
-    "JS/리소스 코드/쓰로틀링.md",
     "JAVA/Spring/HTTP",
-    "JAVA/이미지 다루기/ImageIO.md",
-    "JAVA/이미지 다루기/무제 파일.md",
-    "JAVA/이미지 다루기/rgba.md",
-    "JAVA/예외/try - with - resources.md",
-    "JAVA/예외/throw.md",
-    "개인블로그 제작/이미지파일.md",
-    "개인노트/이미지 비트 연산.md",
-    "JAVA/파일 다루기/FileInputStream.md",
-    "JAVA/클래스/File/File.md",
-    "JAVA/파일 다루기",
+    "JAVA/Spring/Cookie,Session/Cookie.md",
+    "JAVA/Spring/Cookie,Session",
+    "JAVA/날짜 및 시간/Time 패키지/LocalDate.md",
+    "리눅스/ubuntu/JVM Option 설정.md",
     "JAVA/클래스/File/mkdir(), mkdirs().md",
-    "JAVA/이미지 다루기",
+    "리눅스/ubuntu",
     "JS/함수/Array/sort.md",
     "JS/함수/Array/join.md",
     "JS/함수/Array/Array의 Stack과 Queue.md",
     "JS/Http 표준/Http.md",
     "JS/Http 표준",
+    "JAVA/클래스/File/File.md",
     "JAVA/클래스/Files/Files.md",
     "JAVA/클래스/File/file_application_properties.md",
     "개인블로그 제작/이슈와 트러블슈팅.md",
     "옵시디언 마크다운 문법.md",
+    "JS/태그/custom-tag/Web Component.md",
+    "HTML/meta/공유 디버거 활용하기.md",
+    "개인노트/면접 전 공부.md",
+    "리소스 사이트/문자열 인코딩.md",
+    "JAVA/Spring/application.properties/spring.profiles.active.md",
     "JAVA/Spring/application.properties",
+    "개인블로그 제작/api.md",
     "개인블로그 제작/유저 친화적 기능",
     "JS/함수/window/matchMedia",
     "JS/함수/crypto",

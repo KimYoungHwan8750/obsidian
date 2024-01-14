@@ -15,6 +15,7 @@ LocalDateTime time = LocalDateTime.now();
 * LocalDateTime.of(년,월,일,시간,분,초,밀리세컨드) : 원하는 단위까지의 날짜를 생성한다. 단, 분까지는 필수 입력사항이다. 분까지만 입력하면 00초로 표시된다.
 
 #### 생성된 인스턴스에서 사용 가능한 Method
+
 * .getDayOfWeek() : 일요일이면 SUNDAY 반환
 * .getDayOfYear() : 12월 30일이면 364 반환
 * .getDayOfMonth() : 날짜 정보가 12월 30일이면 30 반환
