@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTML/meta/스플래쉬 페이지.md",
+                "file": "개인블로그 제작/이슈와 트러블슈팅.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "equiv",
+                "query": "시간",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -114,12 +114,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 348.5
   },
   "right": {
     "id": "ef24d012572e04a0",
@@ -135,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HTML/meta/스플래쉬 페이지.md",
+                "file": "개인블로그 제작/이슈와 트러블슈팅.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HTML/meta/스플래쉬 페이지.md",
+                "file": "개인블로그 제작/이슈와 트러블슈팅.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -175,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HTML/meta/스플래쉬 페이지.md"
+                "file": "개인블로그 제작/이슈와 트러블슈팅.md"
               }
             }
           },
@@ -208,8 +207,21 @@
       "publish:변경사항 출판": false
     }
   },
-  "active": "cb83c23f517af66a",
+  "active": "ee7b5608def987d3",
   "lastOpenFiles": [
+    "개인블로그 제작/이미지파일.md",
+    "JAVA/날짜 및 시간/Time 패키지/TimeZone 설정.md",
+    "JAVA/날짜 및 시간/Time 패키지/Period.md",
+    "JAVA/날짜 및 시간/클래스/SimpleDateFormat.md",
+    "JAVA/날짜 및 시간/클래스/DateTimeFormatter.md",
+    "JAVA/날짜 및 시간/클래스/Date.md",
+    "옵시디언 노트 리소스 폴더/이미지/에러 메세지.png",
+    "JAVA/Spring/클래스/HttpServletRequest/메서드/getRequestURI.md",
+    "JAVA/Spring/클래스/HttpServletRequest/메서드/getRequestURL.md",
+    "JAVA/Spring/클래스/HttpServletRequest/메서드/getContextPath.md",
+    "리소스 사이트/문자열 인코딩.md",
+    "리소스 사이트/개발자.md",
+    "HTML/meta/스플래쉬 페이지.md",
     "JS/함수/Event/화면/화면 focus/focus 및 hidden 이벤트.md",
     "JS/함수/Event/화면/화면 focus",
     "리눅스/ubuntu/폴더,파일명 대소문자.md",
@@ -229,27 +241,14 @@
     "JS/리소스 코드/쓰로틀링.md",
     "JAVA/Spring/HTTP",
     "JAVA/이미지 다루기/ImageIO.md",
-    "JAVA/이미지 다루기/무제 파일.md",
-    "JAVA/이미지 다루기/rgba.md",
-    "JAVA/예외/try - with - resources.md",
-    "JAVA/예외/throw.md",
-    "개인블로그 제작/이미지파일.md",
-    "개인노트/이미지 비트 연산.md",
-    "JAVA/파일 다루기/FileInputStream.md",
-    "JAVA/클래스/File/File.md",
     "JAVA/파일 다루기",
-    "JAVA/클래스/File/mkdir(), mkdirs().md",
     "JAVA/이미지 다루기",
-    "JS/함수/Array/sort.md",
-    "JS/함수/Array/join.md",
-    "JS/함수/Array/Array의 Stack과 Queue.md",
     "JS/Http 표준",
     "JAVA/Spring/application.properties",
     "개인블로그 제작/유저 친화적 기능",
     "옵시디언 노트 리소스 폴더/이미지/getOwnPropertyDescriptor.png",
     "무제 파일.canvas",
     "옵시디언 노트 리소스 폴더/이미지/console.dir 출력창.png",
-    "옵시디언 노트 리소스 폴더/이미지/에러 메세지.png",
     "옵시디언 노트 리소스 폴더/이미지/console.log 출력창.png",
     "Pasted image 20231112061037.png",
     "SQL/오라클/이미지/Pasted image 20230928152300.png",
