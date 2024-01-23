@@ -37,19 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JS/태그/custom-tag/Web Component.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cb83c23f517af66a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "개인블로그 제작/이슈와 트러블슈팅.md",
+                "file": "JS/비동기 요청/★ fetch/fetch.md",
                 "mode": "source",
                 "source": false
               }
@@ -68,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -97,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "시간",
+                "query": "mouse",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -118,7 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 348.5
+    "width": 200
   },
   "right": {
     "id": "ef24d012572e04a0",
@@ -134,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "개인블로그 제작/이슈와 트러블슈팅.md",
+                "file": "JS/비동기 요청/★ fetch/fetch.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "개인블로그 제작/이슈와 트러블슈팅.md",
+                "file": "JS/비동기 요청/★ fetch/fetch.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "개인블로그 제작/이슈와 트러블슈팅.md"
+                "file": "JS/비동기 요청/★ fetch/fetch.md"
               }
             }
           },
@@ -207,45 +195,46 @@
       "publish:변경사항 출판": false
     }
   },
-  "active": "ee7b5608def987d3",
+  "active": "de3c6c2befa73e40",
   "lastOpenFiles": [
-    "개인블로그 제작/이미지파일.md",
-    "JAVA/날짜 및 시간/Time 패키지/TimeZone 설정.md",
-    "JAVA/날짜 및 시간/Time 패키지/Period.md",
-    "JAVA/날짜 및 시간/클래스/SimpleDateFormat.md",
-    "JAVA/날짜 및 시간/클래스/DateTimeFormatter.md",
-    "JAVA/날짜 및 시간/클래스/Date.md",
-    "옵시디언 노트 리소스 폴더/이미지/에러 메세지.png",
-    "JAVA/Spring/클래스/HttpServletRequest/메서드/getRequestURI.md",
-    "JAVA/Spring/클래스/HttpServletRequest/메서드/getRequestURL.md",
-    "JAVA/Spring/클래스/HttpServletRequest/메서드/getContextPath.md",
-    "리소스 사이트/문자열 인코딩.md",
-    "리소스 사이트/개발자.md",
-    "HTML/meta/스플래쉬 페이지.md",
-    "JS/함수/Event/화면/화면 focus/focus 및 hidden 이벤트.md",
-    "JS/함수/Event/화면/화면 focus",
-    "리눅스/ubuntu/폴더,파일명 대소문자.md",
-    "리눅스/ubuntu/리눅스 파일 저장 경로.md",
-    "리눅스/ubuntu/separator.md",
     "리눅스/ubuntu/JVM Option 설정.md",
+    "리눅스/ubuntu/separator.md",
+    "JS/함수/window/getSelection/Selection과 Range.md",
+    "JS/비동기 요청/★ fetch/fetch.md",
+    "JS/함수/window/getSelection",
+    "JS/비동기 동작/async await/예외처리.md",
+    "CSS/리소스 코드/카드.md",
+    "리눅스/ubuntu/리눅스 파일 저장 경로.md",
+    "리눅스/ubuntu/폴더,파일명 대소문자.md",
+    "개인블로그 제작/테이블/댓글.md",
+    "개인블로그 제작/테이블/게시글.md",
+    "개인노트/면접 전 공부.md",
+    "옵시디언 마크다운 문법.md",
+    "AWS/SSH.md",
+    "AWS/포트포워딩.md",
+    "AWS/보안규칙 설정.md",
+    "AWS/로드밸런서.md",
+    "JS/함수/Event/이벤트 명.md",
+    "개인블로그 제작/테이블/유저 테이블.md",
+    "JAVA/클래스/Stream/Stream.md",
+    "JAVA/클래스/Stream/map.md",
+    "JAVA/클래스/Stream/filter.md",
+    "JAVA/클래스/Stream/collect.md",
+    "JAVA/클래스/Stream/무제 파일.md",
+    "JAVA/클래스/Stream/스트림을 이용한 리스트 매핑.md",
+    "리소스 사이트/Sprite Image.md",
+    "리소스 사이트/개발자.md",
+    "JS/함수/Pasted image 20240121113622.png",
+    "개인블로그 제작/깃허브 연동",
+    "옵시디언 노트 리소스 폴더/이미지/에러 메세지.png",
+    "JS/함수/Event/화면/화면 focus",
     "리눅스/ubuntu",
-    "JS/웹소켓/웹소켓.md",
-    "JAVA/Spring/웹소켓/웹소켓 구축.md",
-    "JAVA/클래스/Object/Optional.md",
-    "개인노트/2023-10-23.md",
-    "JAVA/Spring/Cookie,Session/Cookie.md",
-    "JAVA/Spring/HTTP/Redirect/redirect.md",
     "JAVA/Spring/Cookie,Session",
-    "JAVA/Spring/HTTP/무제 파일.md",
     "JAVA/Spring/HTTP/Redirect",
-    "JS/리소스 코드/쓰로틀링.md",
     "JAVA/Spring/HTTP",
-    "JAVA/이미지 다루기/ImageIO.md",
     "JAVA/파일 다루기",
     "JAVA/이미지 다루기",
     "JS/Http 표준",
-    "JAVA/Spring/application.properties",
-    "개인블로그 제작/유저 친화적 기능",
     "옵시디언 노트 리소스 폴더/이미지/getOwnPropertyDescriptor.png",
     "무제 파일.canvas",
     "옵시디언 노트 리소스 폴더/이미지/console.dir 출력창.png",
