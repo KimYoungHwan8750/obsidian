@@ -7,4 +7,4 @@
 </div>
 ```
 
-![[console.dir 출력창.png]]
+![console.dir 출력창](옵시디언%20노트%20리소스%20폴더/이미지/console.dir%20출력창.png)
