@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "개인노트/면접 전 공부.md",
+                "file": "개인노트/이미지 비트 연산.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "servletRequest",
+                "query": "비트",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -102,7 +102,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -122,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "개인노트/면접 전 공부.md",
+                "file": "개인노트/이미지 비트 연산.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "개인노트/면접 전 공부.md",
+                "file": "개인노트/이미지 비트 연산.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "개인노트/면접 전 공부.md"
+                "file": "개인노트/이미지 비트 연산.md"
               }
             }
           },
@@ -197,9 +198,16 @@
   },
   "active": "de3c6c2befa73e40",
   "lastOpenFiles": [
+    "JAVA/바이너리 데이터 다루기/이미지 다루기/rgba.md",
+    "개인노트/이미지 비트 연산.md",
+    "JS/연산자/논리연산자/비트 연산자.md",
+    "JAVA/자료형/BigDecimal/BigDecimal.md",
+    "리소스 사이트/언어 공부.md",
+    "리소스 사이트/에어비엔비 자바스크립트 스타일 가이드.md",
+    "리소스 사이트/스프링부트 프로젝트 생성.md",
+    "개인노트/면접 전 공부.md",
     "개인노트/궁금증 모아놓은 노트.md",
     "개인노트/옵시디언 플러그인.md",
-    "개인노트/면접 전 공부.md",
     "JAVA/Spring/HTTP/헤더/HttpHeaders.md",
     "JAVA/Spring/HTTP/클래스/Redirect/redirect.md",
     "JAVA/Spring/HTTP/StatusCode",
@@ -220,13 +228,6 @@
     "JS/비동기 동작/async await/예외처리.md",
     "CSS/리소스 코드/카드.md",
     "리눅스/ubuntu/리눅스 파일 저장 경로.md",
-    "리눅스/ubuntu/폴더,파일명 대소문자.md",
-    "개인블로그 제작/테이블/댓글.md",
-    "개인블로그 제작/테이블/게시글.md",
-    "옵시디언 마크다운 문법.md",
-    "AWS/SSH.md",
-    "AWS/포트포워딩.md",
-    "AWS/보안규칙 설정.md",
     "JS/함수/Pasted image 20240121113622.png",
     "개인블로그 제작/깃허브 연동",
     "옵시디언 노트 리소스 폴더/이미지/에러 메세지.png",
