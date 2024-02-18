@@ -55,4 +55,4 @@ startTask();
 
 IIFE(즉시 실행 함수 표현식)과 조합해서 쓰면 편리하다.
 
-![[IIFE]]
+![IIFE](JS/함수/function/IIFE.md#IIFE)

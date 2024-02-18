@@ -1,3 +1,4 @@
+### IIFE
 immediately-invoked-function-expression
 즉시 실행 함수 표현
 전역 변수의 네임 스페이스 오염등을 방지하기 위해서 사용한다.
