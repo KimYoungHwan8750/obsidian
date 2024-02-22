@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "포트폴리오.md",
+                "file": "계층구조 테스트.md",
                 "mode": "source",
                 "source": false
               }
@@ -206,7 +206,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "포트폴리오.md",
+                "file": "계층구조 테스트.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -223,7 +223,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "포트폴리오.md",
+                "file": "계층구조 테스트.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -246,7 +246,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "포트폴리오.md"
+                "file": "계층구조 테스트.md"
               }
             }
           },
@@ -280,6 +280,15 @@
   },
   "active": "c76c451ce59faeff",
   "lastOpenFiles": [
+    "개인노트/면접 전 공부.md",
+    "345.md",
+    "5564",
+    "123",
+    "개인노트/image/KakaoTalk_20240218_190038070.mp4",
+    "개인노트/image",
+    "개인노트/궁금증 모아놓은 노트.md",
+    "포트폴리오.md",
+    "image/water_KakaoTalk_20240218_215750100.png",
     "image/KakaoTalk_20240218_215750100.png",
     "image/KakaoTalk_20240218_215750100.jpg",
     "image/water_Pasted image 20240218213041.png",
@@ -288,10 +297,7 @@
     "image/water_wordPress 엔드포인트 취약점.png",
     "image/Pasted image 20240218213041.png",
     "image/water_thumb_85673599-b025-460e-acd5-072c0b814754_SPA 뒤로가기 이슈 해결 전 (1) 1.gif",
-    "포트폴리오.md",
     "image/water_Rec_2024-02-18-20-49-01.gif",
-    "image/thumb_85673599-b025-460e-acd5-072c0b814754_SPA 뒤로가기 이슈 해결 전 (1) 1.gif",
-    "image/thumb_85673599-b025-460e-acd5-072c0b814754_SPA 뒤로가기 이슈 해결 전 (1).gif",
     "to. 김영환님.md",
     "JS/디버깅 문법/console/console.dir.md",
     "JAVA/Spring/웹소켓/웹소켓 구축.md",
@@ -299,7 +305,6 @@
     "JS/웹소켓/SockJS.md",
     "샘플 포스트.md",
     "옵시디언 마크다운 문법.md",
-    "개인노트/면접 전 공부.md",
     "Z잠시만 빌려쓰는 서연이 노트/불대수.md",
     "Z잠시만 빌려쓰는 서연이 노트.zip",
     "계층구조 테스트.md",
@@ -321,11 +326,6 @@
     "JS/JS 동작 순서/async.md",
     "JS/JS 동작 순서/image",
     "JS/동기 동작/then.md",
-    "JS/비동기 요청/Content-Type/JSON.md",
-    "개인블로그 제작/개인 블로그하면서 배운 점",
-    "개인블로그 제작/무제 폴더 1",
-    "개인블로그 제작/개인 블로그하면서 느낀 점",
-    "JAVA/Thymeleaf/bean",
     "무제 파일.canvas"
   ]
 }
