@@ -81,7 +81,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 279.5
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "ef24d012572e04a0",
@@ -172,6 +173,7 @@
   },
   "active": "be9035ac78a47916",
   "lastOpenFiles": [
+    "image/INTP_Dev.mp4",
     "image/포스팅.mp4",
     "무제 파일.md",
     "포트폴리오.md",
@@ -217,7 +219,6 @@
     "JS/웹소켓/SockJS.md",
     "Z잠시만 빌려쓰는 서연이 노트.zip",
     "Z잠시만 빌려쓰는 서연이 노트",
-    "image/Untitled-1.py",
     "무제 파일.canvas"
   ]
 }
