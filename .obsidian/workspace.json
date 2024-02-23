@@ -81,8 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "ef24d012572e04a0",
@@ -173,10 +172,14 @@
   },
   "active": "be9035ac78a47916",
   "lastOpenFiles": [
+    "image/취약점.png",
+    "image/water_Pasted image 20240223114623.png",
+    "image/water_제목 없음-1.png",
     "image/INTP_Dev.mp4",
+    "image/KakaoTalk_20240218_215750100.jpg",
+    "포트폴리오.md",
     "image/포스팅.mp4",
     "무제 파일.md",
-    "포트폴리오.md",
     "image/Pasted image 20240223114623.png",
     "image/제목 없음-1.png",
     "image/water_제목 없는 동영상 - Clipchamp로 제작.gif",
@@ -194,9 +197,6 @@
     "JS/자료형/Blob/Binary Large Object.md",
     "image/water_Pasted image 20240218195320.png",
     "image/water_Pasted image 20240223051331.png",
-    "image/water_Pasted image 20240223051457.png",
-    "image/water_Pasted image 20240223050357.png",
-    "image/water_Pasted image 20240223045734.png",
     "image/Pasted image 20240218195047.png.md",
     "image/wearVillage.mp4",
     "image/c12328a2-ddbd-4384-b51c-beb08920512f.mp4",
@@ -217,8 +217,6 @@
     "JAVA/Spring/웹소켓/웹소켓 구축.md",
     "JS/웹소켓/웹소켓.md",
     "JS/웹소켓/SockJS.md",
-    "Z잠시만 빌려쓰는 서연이 노트.zip",
-    "Z잠시만 빌려쓰는 서연이 노트",
     "무제 파일.canvas"
   ]
 }
