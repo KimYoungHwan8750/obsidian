@@ -4,83 +4,34 @@
     "type": "split",
     "children": [
       {
-        "id": "b74b8babad0796f9",
+        "id": "538456de76fb936c",
         "type": "tabs",
         "children": [
           {
-            "id": "1e114b8993a0e374",
+            "id": "be9035ac78a47916",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "개인노트/면접 전 공부.md",
+                "file": "포트폴리오.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "8a3d5eb852b447b7",
+            "id": "664540f5ac531bcb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSS/애니메이션/애니메이션 여러개 동시 적용.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c76c451ce59faeff",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "옵시디언 마크다운 문법.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "de3c6c2befa73e40",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "JS/동기 동작/then.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "dc78b465f1587e67",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "JS/함수/function/IIFE.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "82f84719b53b4891",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "JAVA/람다식/Supplier.md",
+                "file": "무제 파일.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -130,7 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 311.5
+    "width": 279.5
   },
   "right": {
     "id": "ef24d012572e04a0",
@@ -146,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "옵시디언 마크다운 문법.md",
+                "file": "포트폴리오.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "옵시디언 마크다운 문법.md",
+                "file": "포트폴리오.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "옵시디언 마크다운 문법.md"
+                "file": "포트폴리오.md"
               }
             }
           },
@@ -203,7 +154,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -218,53 +170,54 @@
       "publish:변경사항 출판": false
     }
   },
-  "active": "c76c451ce59faeff",
+  "active": "be9035ac78a47916",
   "lastOpenFiles": [
+    "image/포스팅.mp4",
+    "무제 파일.md",
     "포트폴리오.md",
+    "image/Pasted image 20240223114623.png",
+    "image/제목 없음-1.png",
+    "image/water_제목 없는 동영상 - Clipchamp로 제작.gif",
+    "image/제목 없는 동영상 - Clipchamp로 제작.gif",
+    "개인블로그 제작/테이블/유저 테이블.md",
+    "image/Pasted image 20240218194841.png",
+    "개인블로그 제작/테이블/방문자 정보.md",
+    "개인블로그 제작/테이블/댓글.md",
+    "개인블로그 제작/테이블/게시글.md",
+    "개인블로그 제작/깃허브 연동/정보.md",
+    "개인블로그 제작/깃허브 연동/개요.md",
+    "개인블로그 제작/구상/댓글.md",
+    "개인블로그 제작/구상/관리자 페이지.md",
+    "개인블로그 제작/구상/관리자.md",
+    "JS/자료형/Blob/Binary Large Object.md",
+    "image/water_Pasted image 20240218195320.png",
+    "image/water_Pasted image 20240223051331.png",
+    "image/water_Pasted image 20240223051457.png",
+    "image/water_Pasted image 20240223050357.png",
+    "image/water_Pasted image 20240223045734.png",
+    "image/Pasted image 20240218195047.png.md",
+    "image/wearVillage.mp4",
+    "image/c12328a2-ddbd-4384-b51c-beb08920512f.mp4",
+    "image/KakaoTalk_20240218_190038070.mp4",
+    "옵시디언 마크다운 문법.md",
+    "개인노트/면접 전 공부.md",
+    "CSS/애니메이션/애니메이션 여러개 동시 적용.md",
     "계층구조 테스트.md",
     "샘플 포스트.md",
     "to. 김영환님.md",
-    "옵시디언 마크다운 문법.md",
-    "image/KakaoTalk_20240218_190038070.mp4",
-    "개인노트/면접 전 공부.md",
     "345.md",
     "5564",
     "123",
     "개인노트/image/KakaoTalk_20240218_190038070.mp4",
     "개인노트/image",
     "개인노트/궁금증 모아놓은 노트.md",
-    "image/water_KakaoTalk_20240218_215750100.png",
-    "image/KakaoTalk_20240218_215750100.png",
-    "image/KakaoTalk_20240218_215750100.jpg",
-    "image/water_Pasted image 20240218213041.png",
-    "image/water_water_thumb_85673599-b025-460e-acd5-072c0b814754_SPA 뒤로가기 이슈 해결 전 (1) 1.gif",
-    "image/water_Pasted image 20240218205956.png",
-    "image/water_wordPress 엔드포인트 취약점.png",
-    "image/Pasted image 20240218213041.png",
-    "image/water_thumb_85673599-b025-460e-acd5-072c0b814754_SPA 뒤로가기 이슈 해결 전 (1) 1.gif",
-    "image/water_Rec_2024-02-18-20-49-01.gif",
     "JS/디버깅 문법/console/console.dir.md",
     "JAVA/Spring/웹소켓/웹소켓 구축.md",
     "JS/웹소켓/웹소켓.md",
     "JS/웹소켓/SockJS.md",
-    "Z잠시만 빌려쓰는 서연이 노트/불대수.md",
     "Z잠시만 빌려쓰는 서연이 노트.zip",
-    "Z잠시만 빌려쓰는 서연이 노트/format.md",
-    "Z잠시만 빌려쓰는 서연이 노트/type.md",
-    "Z잠시만 빌려쓰는 서연이 노트/옵시디언 사용설명서.md",
-    "Z잠시만 빌려쓰는 서연이 노트/to. 김영환님 1.md",
-    "리소스 사이트/hex 색상.md",
-    "리소스 사이트/웹훅 테스트.md",
-    "리소스 사이트/색조합.md",
-    "리소스 사이트/뱃지.md",
     "Z잠시만 빌려쓰는 서연이 노트",
-    "CSS/애니메이션/애니메이션 여러개 동시 적용.md",
     "image/Untitled-1.py",
-    "image",
-    "JAVA/클래스/Object/Optional.md",
-    "CSS/애니메이션",
-    "개인노트/2023-10-23.md",
-    "JS/JS 동작 순서/async.md",
     "무제 파일.canvas"
   ]
 }
