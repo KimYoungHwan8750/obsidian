@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "리소스 사이트/언어 공부.md",
+                "file": "JAVA/Spring/HTTP/헤더/Content Type.md",
                 "mode": "source",
                 "source": false
               }
@@ -81,7 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 445.5
   },
   "right": {
     "id": "ef24d012572e04a0",
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "리소스 사이트/언어 공부.md",
+                "file": "JAVA/Spring/HTTP/헤더/Content Type.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "리소스 사이트/언어 공부.md",
+                "file": "JAVA/Spring/HTTP/헤더/Content Type.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "리소스 사이트/언어 공부.md"
+                "file": "JAVA/Spring/HTTP/헤더/Content Type.md"
               }
             }
           },
@@ -154,8 +154,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -170,17 +169,38 @@
       "publish:변경사항 출판": false
     }
   },
-  "active": "be9035ac78a47916",
+  "active": "ee7b5608def987d3",
   "lastOpenFiles": [
-    "리소스 사이트/심플 아이콘.md",
+    "JAVA/Spring/HTTP/헤더/HttpHeaders.md",
+    "JAVA/Spring/HTTP/헤더/Content Type.md",
+    "JAVA/Spring/HTTP/헤더/image/Pasted image 20240226041619.png",
+    "JAVA/Spring/HTTP/헤더/image/Pasted image 20240226040757.png",
+    "JAVA/Spring/HTTP/헤더/image/Pasted image 20240226035120.png",
+    "라이브러리 뜯어보기/Spring boot/Spring boot web/image/Pasted image 20240226040418.png",
+    "JAVA/Spring/HTTP/헤더/image/Pasted image 20240226040703.png",
+    "JAVA/Spring/HTTP/헤더/image",
     "리소스 사이트/스프링부트 프로젝트 생성.md",
+    "라이브러리 뜯어보기/Spring boot/Spring boot web",
+    "JAVA/어노테이션/@PostConstruct.md",
+    "라이브러리 뜯어보기/Spring boot",
+    "라이브러리 뜯어보기",
+    "JAVA/Spring/HTTP/클래스/RedirectAttributes.md",
+    "JAVA/Spring/HTTP/클래스/HttpServletRequest/메서드/getServerName.md",
+    "JAVA/Spring/HTTP/클래스/HttpServletRequest/메서드/getQueryString.md",
+    "JAVA/람다식/Runnable.md",
+    "JAVA/람다식/Comparator.md",
+    "JAVA/람다식/Bi람다식.md",
+    "JAVA/람다식/메서드 참조.md",
+    "JAVA/람다식/원시타입 람다식.md",
+    "JAVA/람다식/나의 인터페이스 만들기.md",
+    "리소스 사이트/언어 공부.md",
+    "리소스 사이트/심플 아이콘.md",
     "리소스 사이트/색조합.md",
     "리소스 사이트/브라우저와 호환되는 함수 체크.md",
     "리소스 사이트/Minify 코드 경량화.md",
     "리소스 사이트/javadoc.md",
     "리소스 사이트/DateTime 표현식.md",
     "리소스 사이트/hex 색상.md",
-    "리소스 사이트/언어 공부.md",
     "리소스 사이트/웹훅 테스트.md",
     "리소스 사이트/에어비엔비 자바스크립트 스타일 가이드.md",
     "포트폴리오.md",
@@ -192,31 +212,10 @@
     "image/KakaoTalk_20240218_215750100.jpg",
     "image/포스팅.mp4",
     "무제 파일.md",
-    "image/Pasted image 20240223114623.png",
-    "image/제목 없음-1.png",
-    "image/water_제목 없는 동영상 - Clipchamp로 제작.gif",
-    "image/제목 없는 동영상 - Clipchamp로 제작.gif",
-    "개인블로그 제작/테이블/유저 테이블.md",
-    "image/Pasted image 20240218194841.png",
-    "개인블로그 제작/테이블/방문자 정보.md",
-    "개인블로그 제작/테이블/댓글.md",
-    "개인블로그 제작/테이블/게시글.md",
-    "개인블로그 제작/깃허브 연동/정보.md",
-    "개인블로그 제작/깃허브 연동/개요.md",
-    "개인블로그 제작/구상/댓글.md",
-    "개인블로그 제작/구상/관리자 페이지.md",
-    "개인블로그 제작/구상/관리자.md",
-    "JS/자료형/Blob/Binary Large Object.md",
-    "image/Pasted image 20240218195047.png.md",
     "image/wearVillage.mp4",
     "image/c12328a2-ddbd-4384-b51c-beb08920512f.mp4",
     "image/KakaoTalk_20240218_190038070.mp4",
-    "옵시디언 마크다운 문법.md",
-    "개인노트/면접 전 공부.md",
     "5564",
-    "123",
-    "개인노트/image/KakaoTalk_20240218_190038070.mp4",
-    "개인노트/image",
     "무제 파일.canvas"
   ]
 }
