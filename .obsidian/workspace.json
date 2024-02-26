@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JAVA/Spring/JPA/Pageable/Pageable.md",
+                "file": "JS/비동기 요청/★ fetch/Fetch.md",
                 "mode": "source",
                 "source": false
               }
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JAVA/Spring/JPA/Pageable/Pageable.md",
+                "file": "JS/비동기 요청/★ fetch/Fetch.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JAVA/Spring/JPA/Pageable/Pageable.md",
+                "file": "JS/비동기 요청/★ fetch/Fetch.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JAVA/Spring/JPA/Pageable/Pageable.md"
+                "file": "JS/비동기 요청/★ fetch/Fetch.md"
               }
             }
           },
@@ -169,22 +169,27 @@
   },
   "active": "000e4a9ed316fc81",
   "lastOpenFiles": [
+    "JS/비동기 요청/★ fetch/image/Pasted image 20240227014910.png",
+    "JS/비동기 요청/★ fetch/image/제목 없음-2.png",
+    "JS/비동기 요청/★ fetch/image/Pasted image 20240227013731.png",
+    "JS/비동기 요청/★ fetch/image/Pasted image 20240226235827.png",
+    "JS/비동기 요청/★ fetch/image/Pasted image 20240226234518.png",
+    "JS/비동기 요청/★ fetch/image/Pasted image 20240226234147.png",
+    "JS/비동기 요청/★ fetch/image/Pasted image 20240226233655.png",
+    "JS/비동기 요청/★ fetch/image/Pasted image 20240226233626.png",
+    "JS/비동기 요청/★ fetch/image/Pasted image 20240226233446.png",
+    "JS/비동기 요청/★ fetch/image/Pasted image 20240226232419.png",
+    "JS/비동기 요청/★ fetch/image/Pasted image 20240226225152.png",
+    "JS/비동기 요청/★ fetch/image",
+    "리소스 사이트/스프링부트 프로젝트 생성.md",
+    "JS/비동기 요청/★ fetch/Fetch.md",
+    "JAVA/Spring/JPA/Pageable/Pageable.md",
     "JAVA/Spring/HTTP/헤더/Content Type.md",
-    "JAVA/Spring/HTTP/헤더/image/Pasted image 20240226040757.png",
-    "JAVA/Spring/HTTP/헤더/image/water_Pasted image 20240226040703.png",
-    "JAVA/Spring/HTTP/헤더/image/water_Pasted image 20240226035120.png",
-    "JAVA/Spring/HTTP/헤더/image/Pasted image 20240226041619.png",
     "JAVA/Spring/HTTP/헤더/HttpHeaders.md",
-    "JAVA/Spring/HTTP/헤더/image/Pasted image 20240226040703.png",
-    "JAVA/Spring/HTTP/헤더/image/Pasted image 20240226035120.png",
     "JAVA/Spring/JDBC/JdbcTemplate/main에서 실행.md",
     "JAVA/Spring/JDBC/★ DataSource.md",
     "JAVA/Spring/JDBC/DriverManagerDataSource/DriverManagerDataSource.md",
     "포트폴리오.md",
-    "image/water_Pasted image 20240226143618.png",
-    "image/water_Pasted image 20240226143545.png",
-    "image/water_Pasted image 20240226143500.png",
-    "image/water_Pasted image 20240226143259.png",
     "옵시디언 마크다운 문법.md",
     "샘플 포스트.md",
     "무제 파일.md",
@@ -199,7 +204,6 @@
     "JAVA/클래스/StringBuilder/메서드/insert.md",
     "JAVA/클래스/StringBuilder/StringBuilder.md",
     "JAVA/Spring/HTTP/헤더/image",
-    "리소스 사이트/스프링부트 프로젝트 생성.md",
     "라이브러리 뜯어보기/Spring boot/Spring boot web",
     "JAVA/어노테이션/@PostConstruct.md",
     "라이브러리 뜯어보기/Spring boot",
@@ -207,13 +211,10 @@
     "JAVA/Spring/HTTP/클래스/RedirectAttributes.md",
     "JAVA/Spring/HTTP/클래스/HttpServletRequest/메서드/getServerName.md",
     "JAVA/Spring/HTTP/클래스/HttpServletRequest/메서드/getQueryString.md",
-    "JAVA/람다식/Runnable.md",
-    "JAVA/람다식/Comparator.md",
     "image/INTP_Dev.mp4",
     "image/포스팅.mp4",
     "image/c12328a2-ddbd-4384-b51c-beb08920512f.mp4",
     "image/KakaoTalk_20240218_190038070.mp4",
-    "5564",
     "무제 파일.canvas"
   ]
 }
