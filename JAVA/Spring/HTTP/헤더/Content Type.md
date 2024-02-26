@@ -14,15 +14,15 @@ MIME은 종류가 너무 많기 때문에 그때그때 필요한 내용을 구�
 
 자주 쓰이는 MIME 몇 가지를 소개해드리겠습니다.
 
-| x-www-form-urlencoded | 단순 텍스트로 이루어진 웹 요청 |     |
-| --------------------- | ----------------- | --- |
-| multipart/form-data   | 파일이나 이진 데이터       |     |
-| application/json      | JSON 파일           |     |
-| image/확장자             | image             |     |
-| video/확장자             | video             |     |
-| audio/확장자             | audio             |     |
-| text/plain            | 단순 텍스트            |     |
-| text/html             | html              |     |
+| x-www-form-urlencoded | 단순 텍스트로 이루어진 웹 요청 |
+| --------------------- | ------------------------------ |
+| multipart/form-data   | 파일이나 이진 데이터           |
+| application/json      | JSON 파일                      |
+| image/확장자          | image                          |
+| video/확장자          | video                          |
+| audio/확장자          | audio                          |
+| text/plain            | 단순 텍스트                    |
+| text/html             | html                           |
 
 그 외에도 본인의 개발 환경에 따라 자주 쓰이는 MIME 타입은 언제든지 바뀝니다.
 

@@ -8,24 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "be9035ac78a47916",
+            "id": "000e4a9ed316fc81",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JAVA/Spring/HTTP/헤더/Content Type.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "664540f5ac531bcb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "무제 파일.md",
+                "file": "포트폴리오.md",
                 "mode": "source",
                 "source": false
               }
@@ -60,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "웹소켓",
+                "query": "stringbuil",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -81,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 445.5
+    "width": 200
   },
   "right": {
     "id": "ef24d012572e04a0",
@@ -97,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JAVA/Spring/HTTP/헤더/Content Type.md",
+                "file": "포트폴리오.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JAVA/Spring/HTTP/헤더/Content Type.md",
+                "file": "포트폴리오.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JAVA/Spring/HTTP/헤더/Content Type.md"
+                "file": "포트폴리오.md"
               }
             }
           },
@@ -154,7 +142,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -169,15 +158,34 @@
       "publish:변경사항 출판": false
     }
   },
-  "active": "ee7b5608def987d3",
+  "active": "000e4a9ed316fc81",
   "lastOpenFiles": [
-    "JAVA/Spring/HTTP/헤더/HttpHeaders.md",
+    "image/Pasted image 20240226142912.png",
+    "image/Pasted image 20240226142708.png",
+    "image/Pasted image 20240223050357.png",
+    "포트폴리오.md",
+    "샘플 포스트.md",
+    "image/Pasted image 20240226140850.png",
+    "image/Pasted image 20240223051331.png",
+    "image/Pasted image 20240223051457.png",
+    "image/Pasted image 20240223114623.png",
+    "image/Pasted image 20240226124830.png",
+    "image/Pasted image 20240226130736.png",
+    "옵시디언 마크다운 문법.md",
+    "image/Pasted image 20240223045734.png",
+    "image/Pasted image 20240223042440.png",
+    "image/Pasted image 20240226140639.png.md",
+    "개인노트/궁금증 모아놓은 노트.md",
+    "개인노트/면접 전 공부.md",
+    "리소스 사이트/개발자.md",
+    "image/wearVillage.mp4",
+    "JAVA/클래스/StringBuffer/메서드/insert.md",
+    "JAVA/클래스/StringBuilder/메서드/append.md",
+    "JAVA/클래스/StringBuilder/메서드/delete.md",
+    "JAVA/클래스/StringBuilder/메서드/insert.md",
+    "JAVA/클래스/StringBuilder/StringBuilder.md",
     "JAVA/Spring/HTTP/헤더/Content Type.md",
-    "JAVA/Spring/HTTP/헤더/image/Pasted image 20240226041619.png",
-    "JAVA/Spring/HTTP/헤더/image/Pasted image 20240226040757.png",
-    "JAVA/Spring/HTTP/헤더/image/Pasted image 20240226035120.png",
-    "라이브러리 뜯어보기/Spring boot/Spring boot web/image/Pasted image 20240226040418.png",
-    "JAVA/Spring/HTTP/헤더/image/Pasted image 20240226040703.png",
+    "JAVA/Spring/HTTP/헤더/HttpHeaders.md",
     "JAVA/Spring/HTTP/헤더/image",
     "리소스 사이트/스프링부트 프로젝트 생성.md",
     "라이브러리 뜯어보기/Spring boot/Spring boot web",
@@ -193,26 +201,8 @@
     "JAVA/람다식/메서드 참조.md",
     "JAVA/람다식/원시타입 람다식.md",
     "JAVA/람다식/나의 인터페이스 만들기.md",
-    "리소스 사이트/언어 공부.md",
-    "리소스 사이트/심플 아이콘.md",
-    "리소스 사이트/색조합.md",
-    "리소스 사이트/브라우저와 호환되는 함수 체크.md",
-    "리소스 사이트/Minify 코드 경량화.md",
-    "리소스 사이트/javadoc.md",
-    "리소스 사이트/DateTime 표현식.md",
-    "리소스 사이트/hex 색상.md",
-    "리소스 사이트/웹훅 테스트.md",
-    "리소스 사이트/에어비엔비 자바스크립트 스타일 가이드.md",
-    "포트폴리오.md",
-    "image/water_취약점.png",
-    "image/취약점.png",
-    "image/water_Pasted image 20240223114623.png",
-    "image/water_제목 없음-1.png",
     "image/INTP_Dev.mp4",
-    "image/KakaoTalk_20240218_215750100.jpg",
     "image/포스팅.mp4",
-    "무제 파일.md",
-    "image/wearVillage.mp4",
     "image/c12328a2-ddbd-4384-b51c-beb08920512f.mp4",
     "image/KakaoTalk_20240218_190038070.mp4",
     "5564",
