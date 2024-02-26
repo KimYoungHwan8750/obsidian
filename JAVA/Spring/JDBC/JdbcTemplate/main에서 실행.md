@@ -16,7 +16,7 @@ public class test1 {
         dataSource.setDriverClassName("oracle.jdbc.OracleDriver"); // 오라클을 사용할 때
         dataSource.setUrl("jdbc:oracle:thin:@wearvillage.c38c15agkmuv.ap-northeast-2.rds.amazonaws.com:1521:VILLAGE"); // 데이터베이스 주소  
         dataSource.setUsername("admin"); // 사용자 이름
-        dataSource.setPassword("admin12345"); // 사용자 비밀번호  
+        dataSource.setPassword("admin"); // 사용자 비밀번호  
   
         jdbcTemplate = new JdbcTemplate(dataSource);  
   

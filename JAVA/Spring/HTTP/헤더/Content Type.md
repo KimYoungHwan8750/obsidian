@@ -16,7 +16,6 @@ Content Type에 왜 x-www-form-urlencoded나 application/json 같은 타입을 �
 발음은 마임입니다.
 MIME은 종류가 너무 많기 때문에 그때그때 필요한 내용을 구글링을 통해 찾아서 쓰시면 됩니다.
 팁을 하나 드리자면 `Spring boot` 프레임워크를 사용하시는 분은 `spring-web` 라이브러리에서 `org.springframework.http`경로에 들어가 `mime.types` 파일을 통해 1855줄 분량에 해당하는 MIME 타입을 확인할  수 있습니다.
-
 자주 쓰이는 MIME 몇 가지를 소개해드리겠습니다.
 
 | MIME                  | 용도                |
@@ -38,7 +37,7 @@ MIME은 종류가 너무 많기 때문에 그때그때 필요한 내용을 구�
 
 #### 파일 구조
 
-![](JAVA/Spring/HTTP/헤더/image/Pasted%20image%2020240226035120.png)
+![파일 구조](JAVA/Spring/HTTP/헤더/image/Pasted%20image%2020240226035120.png)
 
 #### 개요
 
@@ -63,6 +62,12 @@ public class RestController {
     }  
 }
 ```
+
+##### 응답
+
+![image 주소에 요청](JAVA/Spring/HTTP/헤더/image/Pasted%20image%2020240226040757.png)
+
+
 #### RestController (수정)
 
 ```java
@@ -90,7 +95,10 @@ public class RestController {
 
 Content Type 헤더를 `image/png`로 설정한 것만 빼면 똑같은 코드입니다.
 
-![](JAVA/Spring/HTTP/헤더/image/Pasted%20image%2020240226040703.png)
+##### 응답
+
+
+![image 주소에 요청](JAVA/Spring/HTTP/헤더/image/Pasted%20image%2020240226040703.png)
 
 위와 같은 주소로 요청을 보냈는데 이번엔 이미지가 표시됩니다.
 Header의 `Content-Type`를 읽고 올바른 해석을 했기 때문에 사진이 정상적으로 표시됩니다.
@@ -118,7 +126,10 @@ Header의 `Content-Type`를 읽고 올바른 해석을 했기 때문에 사진�
 
 메인 화면을 위와 같이 구성한뒤 웹을 실행해보겠습니다.
 
-![](JAVA/Spring/HTTP/헤더/image/Pasted%20image%2020240226041619.png)
+![이미지가 응답된 메인화면](JAVA/Spring/HTTP/헤더/image/Pasted%20image%2020240226041619.png)
 
 이미지 태그에서 정상적으로 이미지가 출력됩니다.
+
 이상으로 `Content Type`을 왜 설정해야하며 해당 헤더가 어떻게 활용되는지 알아보았습니다.
+
+[깃허브 주소](https://github.com/KimYoungHwan8750/mime-type-example)

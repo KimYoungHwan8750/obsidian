@@ -18,6 +18,16 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "bfb2712bf6b93d63",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "JAVA/Spring/HTTP/헤더/image/Pasted image 20240226040757.png"
+              }
+            }
           }
         ]
       }
@@ -48,7 +58,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "stringbuil",
+                "query": "admin",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -159,19 +169,23 @@
   },
   "active": "000e4a9ed316fc81",
   "lastOpenFiles": [
+    "JAVA/Spring/HTTP/헤더/image/Pasted image 20240226040757.png",
+    "JAVA/Spring/HTTP/헤더/image/water_Pasted image 20240226040703.png",
+    "JAVA/Spring/HTTP/헤더/image/water_Pasted image 20240226035120.png",
+    "JAVA/Spring/HTTP/헤더/image/Pasted image 20240226041619.png",
+    "JAVA/Spring/HTTP/헤더/Content Type.md",
     "JAVA/Spring/HTTP/헤더/HttpHeaders.md",
+    "JAVA/Spring/HTTP/헤더/image/Pasted image 20240226040703.png",
+    "JAVA/Spring/HTTP/헤더/image/Pasted image 20240226035120.png",
+    "JAVA/Spring/JDBC/JdbcTemplate/main에서 실행.md",
+    "JAVA/Spring/JDBC/★ DataSource.md",
+    "JAVA/Spring/JDBC/DriverManagerDataSource/DriverManagerDataSource.md",
     "포트폴리오.md",
     "image/water_Pasted image 20240226143618.png",
     "image/water_Pasted image 20240226143545.png",
     "image/water_Pasted image 20240226143500.png",
     "image/water_Pasted image 20240226143259.png",
     "image/water_Pasted image 20240226143409.png",
-    "image/water_Pasted image 20240226143216.png",
-    "image/water_Pasted image 20240226143047.png",
-    "image/water_Pasted image 20240226130736.png",
-    "image/water_Pasted image 20240226124830.png",
-    "JAVA/Spring/HTTP/헤더/Content Type.md",
-    "image/water_Pasted image 20240226142912.png",
     "옵시디언 마크다운 문법.md",
     "샘플 포스트.md",
     "무제 파일.md",
@@ -196,9 +210,6 @@
     "JAVA/Spring/HTTP/클래스/HttpServletRequest/메서드/getQueryString.md",
     "JAVA/람다식/Runnable.md",
     "JAVA/람다식/Comparator.md",
-    "JAVA/람다식/Bi람다식.md",
-    "JAVA/람다식/메서드 참조.md",
-    "JAVA/람다식/원시타입 람다식.md",
     "image/INTP_Dev.mp4",
     "image/포스팅.mp4",
     "image/c12328a2-ddbd-4384-b51c-beb08920512f.mp4",
