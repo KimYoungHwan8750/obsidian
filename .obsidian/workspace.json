@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JAVA/Spring/HTTP/헤더/Content Type.md",
+                "file": "포트폴리오.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JAVA/Spring/HTTP/헤더/Content Type.md",
+                "file": "포트폴리오.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JAVA/Spring/HTTP/헤더/Content Type.md",
+                "file": "포트폴리오.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JAVA/Spring/HTTP/헤더/Content Type.md"
+                "file": "포트폴리오.md"
               }
             }
           },
@@ -161,6 +161,10 @@
   "active": "000e4a9ed316fc81",
   "lastOpenFiles": [
     "JAVA/Spring/HTTP/헤더/HttpHeaders.md",
+    "JAVA/Spring/HTTP/헤더/Content Type.md",
+    "image/water_Pasted image 20240226142912.png",
+    "image/water_Pasted image 20240226142708.png",
+    "image/water_Pasted image 20240226140850.png",
     "포트폴리오.md",
     "옵시디언 마크다운 문법.md",
     "샘플 포스트.md",
@@ -172,9 +176,6 @@
     "image/Pasted image 20240223050357.png",
     "image/Pasted image 20240223051331.png",
     "image/Pasted image 20240223051457.png",
-    "image/Pasted image 20240223114623.png",
-    "image/Pasted image 20240226143904.png",
-    "image/Pasted image 20240218195650.png",
     "image/Pasted image 20240226140639.png.md",
     "개인노트/궁금증 모아놓은 노트.md",
     "개인노트/면접 전 공부.md",
@@ -185,7 +186,6 @@
     "JAVA/클래스/StringBuilder/메서드/delete.md",
     "JAVA/클래스/StringBuilder/메서드/insert.md",
     "JAVA/클래스/StringBuilder/StringBuilder.md",
-    "JAVA/Spring/HTTP/헤더/Content Type.md",
     "JAVA/Spring/HTTP/헤더/image",
     "리소스 사이트/스프링부트 프로젝트 생성.md",
     "라이브러리 뜯어보기/Spring boot/Spring boot web",
@@ -200,7 +200,6 @@
     "JAVA/람다식/Bi람다식.md",
     "JAVA/람다식/메서드 참조.md",
     "JAVA/람다식/원시타입 람다식.md",
-    "JAVA/람다식/나의 인터페이스 만들기.md",
     "image/INTP_Dev.mp4",
     "image/포스팅.mp4",
     "image/c12328a2-ddbd-4384-b51c-beb08920512f.mp4",
