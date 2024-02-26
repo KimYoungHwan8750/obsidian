@@ -132,4 +132,4 @@ Header의 `Content-Type`를 읽고 올바른 해석을 했기 때문에 사진�
 
 이상으로 `Content Type`을 왜 설정해야하며 해당 헤더가 어떻게 활용되는지 알아보았습니다.
 
-[깃허브 주소](https://github.com/KimYoungHwan8750/mime-type-example)
+[깃허브 예](https://github.com/KimYoungHwan8750/mime-type-example)
