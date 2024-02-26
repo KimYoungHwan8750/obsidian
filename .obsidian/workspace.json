@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "포트폴리오.md",
+                "file": "JAVA/Spring/HTTP/헤더/Content Type.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "포트폴리오.md",
+                "file": "JAVA/Spring/HTTP/헤더/Content Type.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "포트폴리오.md",
+                "file": "JAVA/Spring/HTTP/헤더/Content Type.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "포트폴리오.md"
+                "file": "JAVA/Spring/HTTP/헤더/Content Type.md"
               }
             }
           },
@@ -142,8 +142,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -161,21 +160,21 @@
   "active": "000e4a9ed316fc81",
   "lastOpenFiles": [
     "JAVA/Spring/HTTP/헤더/HttpHeaders.md",
+    "포트폴리오.md",
+    "image/water_Pasted image 20240226143618.png",
+    "image/water_Pasted image 20240226143545.png",
+    "image/water_Pasted image 20240226143500.png",
+    "image/water_Pasted image 20240226143259.png",
+    "image/water_Pasted image 20240226143409.png",
+    "image/water_Pasted image 20240226143216.png",
+    "image/water_Pasted image 20240226143047.png",
+    "image/water_Pasted image 20240226130736.png",
+    "image/water_Pasted image 20240226124830.png",
     "JAVA/Spring/HTTP/헤더/Content Type.md",
     "image/water_Pasted image 20240226142912.png",
-    "image/water_Pasted image 20240226142708.png",
-    "image/water_Pasted image 20240226140850.png",
-    "포트폴리오.md",
     "옵시디언 마크다운 문법.md",
     "샘플 포스트.md",
     "무제 파일.md",
-    "image/Pasted image 20240226124830.png",
-    "image/Pasted image 20240226130736.png",
-    "image/Pasted image 20240226140850.png",
-    "image/Pasted image 20240226142912.png",
-    "image/Pasted image 20240223050357.png",
-    "image/Pasted image 20240223051331.png",
-    "image/Pasted image 20240223051457.png",
     "image/Pasted image 20240226140639.png.md",
     "개인노트/궁금증 모아놓은 노트.md",
     "개인노트/면접 전 공부.md",

@@ -2,22 +2,22 @@
 ## Content Type?
 스프링 부트를 통해 웹 개발을 하다보면 의문이 하나 떠오릅니다.
 Content Type에 왜 x-www-form-urlencoded나 application/json 같은 타입을 설정해야할까?
-개발을 조금이라도 해보신 분이라면 코웃음칠 내용이지만 제가 갓 코딩을 시작했을 무렵엔 `Content-Type`을 적어야하는 이유가 크게 와닿지 않았습니다.
-`Content-Type`를 통해 데이터를 수신하는 측에서 올바른 처리를 할 수 있다는 정도의 이론을 알고 있었지만, '그거 설정하면 좋아' 같은 모호한 말로 들렸습니다.
+개발을 조금이라도 해봤다면 숨쉬듯이 자연스러운 거지만, 제가 갓 코딩을 시작했을 무렵엔 `Content-Type`를 적절하게 설정해야하는 이유가 크게 와닿지 않았습니다.
+데이터를 수신하는 측에서 헤더를 참조해 올바른 처리를 할 수 있다는 얘기가 뭘 의미하는 걸까요?
 
-초보 개발자에게 도움이 되기 위한 블로그라는 제 블로그 슬로건에 이보다 적합한 주제가 있을까요?
 바로 알아보겠습니다.
 
 ## MIME (Multipurpose Internet Mail Extensions)
 
 발음은 마임입니다.
 MIME은 종류가 너무 많기 때문에 그때그때 필요한 내용을 구글링을 통해 찾아서 쓰시면 됩니다.
-팁을 하나 드리자면 `Spring boot` 프레임워크를 사용하시는 분은 `spring-web` 라이브러리에서 `org.springframework.http`경로에서 `mime.types`라는 파일을 통해 1855줄 분량에 해당하는 MIME 타입이 적혀있는 파일을 참조하시면 되겠습니다.
+팁을 하나 드리자면 `Spring boot` 프레임워크를 사용하시는 분은 `spring-web` 라이브러리에서 `org.springframework.http`경로에 들어가 `mime.types` 파일을 통해 1855줄 분량에 해당하는 MIME 타입을 확인할  수 있습니다.
 
 자주 쓰이는 MIME 몇 가지를 소개해드리겠습니다.
 
-| x-www-form-urlencoded | 단순 텍스트로 이루어진 웹 요청 |
+| MIME                  | 용도                |
 | --------------------- | ----------------- |
+| x-www-form-urlencoded | 단순 텍스트로 이루어진 웹 요청 |
 | multipart/form-data   | 파일이나 이진 데이터       |
 | application/json      | JSON 파일           |
 | image/확장자             | image             |
