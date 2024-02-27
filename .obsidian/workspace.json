@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JS/비동기 요청/★ fetch/Fetch.md",
+                "file": "계층구조.md",
                 "mode": "source",
                 "source": false
               }
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JS/비동기 요청/★ fetch/Fetch.md",
+                "file": "계층구조.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JS/비동기 요청/★ fetch/Fetch.md",
+                "file": "계층구조.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JS/비동기 요청/★ fetch/Fetch.md"
+                "file": "계층구조.md"
               }
             }
           },
@@ -169,6 +169,10 @@
   },
   "active": "000e4a9ed316fc81",
   "lastOpenFiles": [
+    "개인블로그 제작/목차 만들기.md",
+    "JS/문법적으로 주의를 요하는 지식들/원시타입과 참조타입이 인자로 쓰일 때.md",
+    "JAVA/Spring/HTTP/헤더/image/water_Pasted image 20240226040757.png",
+    "JS/비동기 요청/★ fetch/Fetch.md",
     "JS/비동기 요청/★ fetch/image/Pasted image 20240227014910.png",
     "JS/비동기 요청/★ fetch/image/제목 없음-2.png",
     "JS/비동기 요청/★ fetch/image/Pasted image 20240227013731.png",
@@ -178,11 +182,8 @@
     "JS/비동기 요청/★ fetch/image/Pasted image 20240226233655.png",
     "JS/비동기 요청/★ fetch/image/Pasted image 20240226233626.png",
     "JS/비동기 요청/★ fetch/image/Pasted image 20240226233446.png",
-    "JS/비동기 요청/★ fetch/image/Pasted image 20240226232419.png",
-    "JS/비동기 요청/★ fetch/image/Pasted image 20240226225152.png",
     "JS/비동기 요청/★ fetch/image",
     "리소스 사이트/스프링부트 프로젝트 생성.md",
-    "JS/비동기 요청/★ fetch/Fetch.md",
     "JAVA/Spring/JPA/Pageable/Pageable.md",
     "JAVA/Spring/HTTP/헤더/Content Type.md",
     "JAVA/Spring/HTTP/헤더/HttpHeaders.md",
@@ -192,7 +193,7 @@
     "포트폴리오.md",
     "옵시디언 마크다운 문법.md",
     "샘플 포스트.md",
-    "무제 파일.md",
+    "계층구조.md",
     "image/Pasted image 20240226140639.png.md",
     "개인노트/궁금증 모아놓은 노트.md",
     "개인노트/면접 전 공부.md",
@@ -210,7 +211,6 @@
     "라이브러리 뜯어보기",
     "JAVA/Spring/HTTP/클래스/RedirectAttributes.md",
     "JAVA/Spring/HTTP/클래스/HttpServletRequest/메서드/getServerName.md",
-    "JAVA/Spring/HTTP/클래스/HttpServletRequest/메서드/getQueryString.md",
     "image/INTP_Dev.mp4",
     "image/포스팅.mp4",
     "image/c12328a2-ddbd-4384-b51c-beb08920512f.mp4",
