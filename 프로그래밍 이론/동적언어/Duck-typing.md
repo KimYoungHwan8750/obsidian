@@ -18,7 +18,7 @@
 #### Java
 ```java
 interface Animal{  
-    public String cry();  
+	public String cry();  
 }  
   
 class Duck implements Animal{  
