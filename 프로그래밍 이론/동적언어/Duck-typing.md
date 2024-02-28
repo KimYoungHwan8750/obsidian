@@ -51,6 +51,8 @@ class DuckTyping {
 
 ##### 실행 결과
 
+---
+
 ```
 Duck은 quack-quack
 Chick은 wing-chicken
@@ -82,6 +84,8 @@ howDoesACry(Chick())
 Duck은 quack-quack
 Chick은 wing-chicken
 ```
+
+---
 
 #### JavaScript
 
