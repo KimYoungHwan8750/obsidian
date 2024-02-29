@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "000e4a9ed316fc81",
+            "id": "3dca796cc0736a1a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "프로그래밍 이론/동적언어/Duck-typing.md",
+                "file": "JS/비동기 요청/★ fetch/Fetch.md",
                 "mode": "source",
                 "source": true
               }
@@ -95,7 +95,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "프로그래밍 이론/동적언어/Duck-typing.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +111,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "프로그래밍 이론/동적언어/Duck-typing.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "프로그래밍 이론/동적언어/Duck-typing.md"
+                "file": "테스트.md"
               }
             }
           },
@@ -146,9 +144,17 @@
               "type": "advanced-tables-toolbar",
               "state": {}
             }
+          },
+          {
+            "id": "1df6a1043f18597b",
+            "type": "leaf",
+            "state": {
+              "type": "example-view",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -156,6 +162,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "VSCode-WhiteSpace-Proccessor:VSCode replace white space": false,
       "switcher:퀵 스위처 열기": false,
       "graph:그래프 뷰 열기": false,
       "canvas:새 캔버스 만들기": false,
@@ -163,17 +170,28 @@
       "templates:템플릿 삽입": false,
       "command-palette:명령어 팔레트 열기": false,
       "random-note:랜덤 노트 열기": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "publish:변경사항 출판": false
+      "publish:변경사항 출판": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "000e4a9ed316fc81",
+  "active": "ee7b5608def987d3",
   "lastOpenFiles": [
+    "옵시디언 마크다운 문법.md",
+    "샘플 포스트.md",
+    "개인노트/한번 읽어볼 것들/유용한 블로그.md",
+    "프로젝트/프로젝트 할 일 노트/2023-09-25.md",
+    "테스트.md",
+    "포트폴리오.md",
+    "JS/비동기 요청/★ fetch/Fetch.md",
+    "리소스 사이트/문자열 인코딩.md",
+    "JS/문법/Scope.md",
+    "리소스 사이트/저작권 없는 사진.md",
+    "JS/문법",
+    "프로그래밍 이론/동적언어/Duck-typing.md",
     "프로그래밍 이론/동적언어/image/water_DuckTyping.png",
     "프로그래밍 이론/동적언어/image/DuckTyping.png",
     "프로그래밍 이론/동적언어/image",
     "계층구조.md",
-    "프로그래밍 이론/동적언어/Duck-typing.md",
     "프로그래밍 이론/공통",
     "프로그래밍 이론/동적언어",
     "프로그래밍 이론/정적언어",
@@ -186,10 +204,8 @@
     "JS/비동기 요청/★ fetch/image/water_Pasted image 20240226233655.png",
     "JS/비동기 요청/★ fetch/image/water_Pasted image 20240226232419.png",
     "JS/비동기 요청/★ fetch/image/water_제목 없음-2.png",
-    "JS/비동기 요청/★ fetch/image/water_Pasted image 20240227013731.png",
     "개인블로그 제작/목차 만들기.md",
     "JS/문법적으로 주의를 요하는 지식들/원시타입과 참조타입이 인자로 쓰일 때.md",
-    "JS/비동기 요청/★ fetch/Fetch.md",
     "JS/비동기 요청/★ fetch/image",
     "리소스 사이트/스프링부트 프로젝트 생성.md",
     "JAVA/Spring/JPA/Pageable/Pageable.md",
@@ -198,23 +214,14 @@
     "JAVA/Spring/JDBC/JdbcTemplate/main에서 실행.md",
     "JAVA/Spring/JDBC/★ DataSource.md",
     "JAVA/Spring/JDBC/DriverManagerDataSource/DriverManagerDataSource.md",
-    "포트폴리오.md",
-    "옵시디언 마크다운 문법.md",
-    "샘플 포스트.md",
     "image/Pasted image 20240226140639.png.md",
     "개인노트/궁금증 모아놓은 노트.md",
     "개인노트/면접 전 공부.md",
     "리소스 사이트/개발자.md",
     "image/wearVillage.mp4",
     "JAVA/클래스/StringBuffer/메서드/insert.md",
-    "JAVA/클래스/StringBuilder/메서드/append.md",
-    "JAVA/클래스/StringBuilder/메서드/delete.md",
-    "JAVA/클래스/StringBuilder/메서드/insert.md",
-    "JAVA/클래스/StringBuilder/StringBuilder.md",
     "JAVA/Spring/HTTP/헤더/image",
     "라이브러리 뜯어보기/Spring boot/Spring boot web",
-    "JAVA/어노테이션/@PostConstruct.md",
-    "라이브러리 뜯어보기/Spring boot",
     "무제 파일.canvas"
   ]
 }

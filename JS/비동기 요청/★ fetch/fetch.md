@@ -21,8 +21,8 @@ public ResponseEntity<String> getString(){
 ```js
 let result;
 fetch('/text')
-	.then(res=>res.text())
-	.then(res=>{result = res})
+    .then(res=>res.text())
+    .then(res=>{result = res})
 console.log(result) // 기댓값 : 텍스트 응답!
 ```
 
