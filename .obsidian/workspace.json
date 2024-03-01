@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JS/비동기 요청/★ fetch/Fetch.md",
+                "file": "JAVA/바이너리 데이터 다루기/이미지 다루기/ImageIO.md",
                 "mode": "source",
                 "source": true
               }
@@ -58,7 +58,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "admin",
+                "query": "Optional",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -79,7 +79,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "ef24d012572e04a0",
@@ -95,6 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "JAVA/바이너리 데이터 다루기/이미지 다루기/ImageIO.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,6 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "JAVA/바이너리 데이터 다루기/이미지 다루기/ImageIO.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "테스트.md"
+                "file": "JAVA/바이너리 데이터 다루기/이미지 다루기/ImageIO.md"
               }
             }
           },
@@ -158,11 +161,11 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "VSCode-WhiteSpace-Proccessor:VSCode replace white space": false,
       "switcher:퀵 스위처 열기": false,
       "graph:그래프 뷰 열기": false,
       "canvas:새 캔버스 만들기": false,
@@ -174,54 +177,54 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "ee7b5608def987d3",
+  "active": "3dca796cc0736a1a",
   "lastOpenFiles": [
-    "옵시디언 마크다운 문법.md",
+    "JAVA/바이너리 데이터 다루기/이미지 다루기/image/Result 3.png",
+    "JAVA/바이너리 데이터 다루기/이미지 다루기/image/Result 2.png",
+    "JAVA/바이너리 데이터 다루기/이미지 다루기/image/Result 1.png",
+    "JAVA/바이너리 데이터 다루기/이미지 다루기/image/Result.png",
+    "JAVA/바이너리 데이터 다루기/이미지 다루기/image/Pasted image 20240302015534.png",
+    "JAVA/바이너리 데이터 다루기/이미지 다루기/ImageIO.md",
+    "JAVA/바이너리 데이터 다루기/이미지 다루기/image/Pasted image 20240302015510.png",
+    "JAVA/바이너리 데이터 다루기/이미지 다루기/image/Pasted image 20240302015236.png",
+    "JAVA/Spring/HTTP/헤더/image/Pasted image 20240226040757.png",
+    "JAVA/바이너리 데이터 다루기/이미지 다루기/image/Pasted image 20240302014945.png",
+    "JAVA/바이너리 데이터 다루기/이미지 다루기/image/Check.png",
+    "JAVA/바이너리 데이터 다루기/이미지 다루기/image/Moon.png",
+    "JAVA/바이너리 데이터 다루기/이미지 다루기/image",
     "샘플 포스트.md",
+    "포트폴리오.md",
+    "옵시디언 마크다운 문법.md",
+    "계층구조.md",
+    "리소스 사이트/스프링부트 프로젝트 생성.md",
+    "리소스 사이트/문자열 인코딩.md",
+    "JAVA/바이너리 데이터 다루기/이미지 다루기/rgba.md",
+    "JAVA/바이너리 데이터 다루기/이미지 다루기/무제 파일.md",
+    "JAVA/바이너리 데이터 다루기/이미지 다루기/무제 파일 1.md",
+    "JAVA/클래스/Object/Optional.md",
+    "개인노트/2023-10-23.md",
+    "테스트.md",
     "개인노트/한번 읽어볼 것들/유용한 블로그.md",
     "프로젝트/프로젝트 할 일 노트/2023-09-25.md",
-    "테스트.md",
-    "포트폴리오.md",
     "JS/비동기 요청/★ fetch/Fetch.md",
-    "리소스 사이트/문자열 인코딩.md",
     "JS/문법/Scope.md",
     "리소스 사이트/저작권 없는 사진.md",
     "JS/문법",
     "프로그래밍 이론/동적언어/Duck-typing.md",
-    "프로그래밍 이론/동적언어/image/water_DuckTyping.png",
-    "프로그래밍 이론/동적언어/image/DuckTyping.png",
     "프로그래밍 이론/동적언어/image",
-    "계층구조.md",
     "프로그래밍 이론/공통",
     "프로그래밍 이론/동적언어",
     "프로그래밍 이론/정적언어",
     "프로그래밍 이론",
-    "JS/비동기 요청/★ fetch/image/water_Pasted image 20240226234147.png",
-    "JS/비동기 요청/★ fetch/image/water_Pasted image 20240226235827.png",
-    "JS/비동기 요청/★ fetch/image/water_Pasted image 20240226233446.png",
-    "JS/비동기 요청/★ fetch/image/water_Pasted image 20240226234518.png",
-    "JS/비동기 요청/★ fetch/image/water_Pasted image 20240226225152.png",
-    "JS/비동기 요청/★ fetch/image/water_Pasted image 20240226233655.png",
-    "JS/비동기 요청/★ fetch/image/water_Pasted image 20240226232419.png",
-    "JS/비동기 요청/★ fetch/image/water_제목 없음-2.png",
     "개인블로그 제작/목차 만들기.md",
     "JS/문법적으로 주의를 요하는 지식들/원시타입과 참조타입이 인자로 쓰일 때.md",
     "JS/비동기 요청/★ fetch/image",
-    "리소스 사이트/스프링부트 프로젝트 생성.md",
     "JAVA/Spring/JPA/Pageable/Pageable.md",
     "JAVA/Spring/HTTP/헤더/Content Type.md",
     "JAVA/Spring/HTTP/헤더/HttpHeaders.md",
     "JAVA/Spring/JDBC/JdbcTemplate/main에서 실행.md",
-    "JAVA/Spring/JDBC/★ DataSource.md",
-    "JAVA/Spring/JDBC/DriverManagerDataSource/DriverManagerDataSource.md",
-    "image/Pasted image 20240226140639.png.md",
-    "개인노트/궁금증 모아놓은 노트.md",
-    "개인노트/면접 전 공부.md",
-    "리소스 사이트/개발자.md",
     "image/wearVillage.mp4",
-    "JAVA/클래스/StringBuffer/메서드/insert.md",
     "JAVA/Spring/HTTP/헤더/image",
-    "라이브러리 뜯어보기/Spring boot/Spring boot web",
     "무제 파일.canvas"
   ]
 }
