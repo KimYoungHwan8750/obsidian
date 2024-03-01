@@ -163,3 +163,4 @@ x, y는 이미지를 x좌표와 y좌표만큼 이동해서 그릴 수 있게 해
 
 모든 작업이 종료되었으면 `dispose()` 메서드를 호출해 시스템에 리소스를 반납한다.
 
+링크 : [깃허브 예제](https://github.com/KimYoungHwan8750/draw-watermark-example-java)
