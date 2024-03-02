@@ -7,7 +7,7 @@
   "newFileLocation": "root",
   "attachmentFolderPath": "./image",
   "showUnsupportedFiles": false,
-  "livePreview": false,
+  "livePreview": true,
   "useTab": true,
   "showLineNumber": false,
   "smartIndentList": false,
