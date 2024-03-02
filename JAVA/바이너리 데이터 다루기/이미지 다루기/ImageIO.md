@@ -126,7 +126,7 @@ BufferedImage processImage = new BufferedImage(image.getWidth(null),image.getHei
 hints
 * BufferedImage.TYPE_INT_RGB : 투명한 영역을 Black으로 처리
 * BufferedImage.TYPE_INT_ARGB : 투명한 영역을 보존
-* BufferedImage.TYPE_BYTE_GRAY : 투명한 영억을 Black으로 처리하고, 흑백 이미지를 생성한다
+* BufferedImage.TYPE_BYTE_GRAY : 투명한 영을 Black으로 처리하고, 흑백 이미지를 생성한다
 * etc...
 
 ###### BufferedImage.TYPE_INT_RGB

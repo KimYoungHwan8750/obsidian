@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JAVA/바이너리 데이터 다루기/이미지 다루기/ImageIO.md",
+                "file": "JS/태그/시맨틱 태그/블로거가 Tag를 반드시 준수해야하는 이유.md",
                 "mode": "source",
                 "source": true
               }
@@ -79,8 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "ef24d012572e04a0",
@@ -96,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JAVA/바이너리 데이터 다루기/이미지 다루기/ImageIO.md",
+                "file": "JS/태그/시맨틱 태그/블로거가 Tag를 반드시 준수해야하는 이유.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JAVA/바이너리 데이터 다루기/이미지 다루기/ImageIO.md",
+                "file": "JS/태그/시맨틱 태그/블로거가 Tag를 반드시 준수해야하는 이유.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JAVA/바이너리 데이터 다루기/이미지 다루기/ImageIO.md"
+                "file": "JS/태그/시맨틱 태그/블로거가 Tag를 반드시 준수해야하는 이유.md"
               }
             }
           },
@@ -157,12 +156,11 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -179,18 +177,23 @@
   },
   "active": "3dca796cc0736a1a",
   "lastOpenFiles": [
-    "JAVA/바이너리 데이터 다루기/이미지 다루기/image/Result 3.png",
-    "JAVA/바이너리 데이터 다루기/이미지 다루기/image/Result 2.png",
-    "JAVA/바이너리 데이터 다루기/이미지 다루기/image/Result 1.png",
-    "JAVA/바이너리 데이터 다루기/이미지 다루기/image/Result.png",
-    "JAVA/바이너리 데이터 다루기/이미지 다루기/image/Pasted image 20240302015534.png",
+    "JS/태그/시맨틱 태그/image/Pasted image 20240302163050.png",
+    "JS/태그/시맨틱 태그/image/Pasted image 20240302162955.png",
+    "JS/태그/시맨틱 태그/image/Pasted image 20240302160858.png",
+    "JS/태그/시맨틱 태그/image",
+    "프로그래밍 이론/공통/Thread.md",
+    "JS/태그/시맨틱 태그/블로거가 Tag를 반드시 준수해야하는 이유.md",
+    "JS/태그/시맨틱 태그",
+    "개인블로그 제작/버전관리.md",
     "JAVA/바이너리 데이터 다루기/이미지 다루기/ImageIO.md",
-    "JAVA/바이너리 데이터 다루기/이미지 다루기/image/Pasted image 20240302015510.png",
-    "JAVA/바이너리 데이터 다루기/이미지 다루기/image/Pasted image 20240302015236.png",
-    "JAVA/Spring/HTTP/헤더/image/Pasted image 20240226040757.png",
-    "JAVA/바이너리 데이터 다루기/이미지 다루기/image/Pasted image 20240302014945.png",
-    "JAVA/바이너리 데이터 다루기/이미지 다루기/image/Check.png",
-    "JAVA/바이너리 데이터 다루기/이미지 다루기/image/Moon.png",
+    "JAVA/바이너리 데이터 다루기/이미지 다루기/image/water_Result 3.png",
+    "JAVA/바이너리 데이터 다루기/이미지 다루기/image/water_Result 2.png",
+    "JAVA/바이너리 데이터 다루기/이미지 다루기/image/water_Result.png",
+    "JAVA/바이너리 데이터 다루기/이미지 다루기/image/water_Result 1.png",
+    "JAVA/바이너리 데이터 다루기/이미지 다루기/image/water_Check.png",
+    "JAVA/바이너리 데이터 다루기/이미지 다루기/image/water_Moon.png",
+    "JAVA/바이너리 데이터 다루기/이미지 다루기/image/water_Pasted image 20240302015534.png",
+    "JAVA/바이너리 데이터 다루기/이미지 다루기/image/Result 3.png",
     "JAVA/바이너리 데이터 다루기/이미지 다루기/image",
     "샘플 포스트.md",
     "포트폴리오.md",
@@ -220,11 +223,6 @@
     "JS/문법적으로 주의를 요하는 지식들/원시타입과 참조타입이 인자로 쓰일 때.md",
     "JS/비동기 요청/★ fetch/image",
     "JAVA/Spring/JPA/Pageable/Pageable.md",
-    "JAVA/Spring/HTTP/헤더/Content Type.md",
-    "JAVA/Spring/HTTP/헤더/HttpHeaders.md",
-    "JAVA/Spring/JDBC/JdbcTemplate/main에서 실행.md",
-    "image/wearVillage.mp4",
-    "JAVA/Spring/HTTP/헤더/image",
     "무제 파일.canvas"
   ]
 }
