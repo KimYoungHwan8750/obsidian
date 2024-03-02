@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JS/태그/시맨틱 태그/블로거가 Tag를 반드시 준수해야하는 이유.md",
+                "file": "HTML/태그/시맨틱 태그/블로거가 Tag를 반드시 준수해야하는 이유.md",
                 "mode": "source",
                 "source": true
               }
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JS/태그/시맨틱 태그/블로거가 Tag를 반드시 준수해야하는 이유.md",
+                "file": "HTML/태그/시맨틱 태그/블로거가 Tag를 반드시 준수해야하는 이유.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JS/태그/시맨틱 태그/블로거가 Tag를 반드시 준수해야하는 이유.md",
+                "file": "HTML/태그/시맨틱 태그/블로거가 Tag를 반드시 준수해야하는 이유.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JS/태그/시맨틱 태그/블로거가 Tag를 반드시 준수해야하는 이유.md"
+                "file": "HTML/태그/시맨틱 태그/블로거가 Tag를 반드시 준수해야하는 이유.md"
               }
             }
           },
@@ -175,15 +175,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "3dca796cc0736a1a",
+  "active": "ee7b5608def987d3",
   "lastOpenFiles": [
-    "JS/태그/시맨틱 태그/image/Pasted image 20240302163050.png",
-    "JS/태그/시맨틱 태그/image/Pasted image 20240302162955.png",
-    "JS/태그/시맨틱 태그/image/Pasted image 20240302160858.png",
-    "JS/태그/시맨틱 태그/image",
+    "HTML/태그/시맨틱 태그/image/Pasted image 20240302163050.png",
+    "HTML/태그/시맨틱 태그/image/Pasted image 20240302162955.png",
+    "HTML/태그/시맨틱 태그/image/Pasted image 20240302160858.png",
+    "HTML/태그/시맨틱 태그/image",
     "프로그래밍 이론/공통/Thread.md",
-    "JS/태그/시맨틱 태그/블로거가 Tag를 반드시 준수해야하는 이유.md",
-    "JS/태그/시맨틱 태그",
+    "HTML/태그/시맨틱 태그/블로거가 Tag를 반드시 준수해야하는 이유.md",
+    "HTML/태그/시맨틱 태그",
     "개인블로그 제작/버전관리.md",
     "JAVA/바이너리 데이터 다루기/이미지 다루기/ImageIO.md",
     "JAVA/바이너리 데이터 다루기/이미지 다루기/image/water_Result 3.png",
