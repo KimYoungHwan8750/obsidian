@@ -75,7 +75,9 @@ implementation 'org.springframework.boot:spring-boot-starter-webflux' // web cli
 이제 모든 준비가 끝났다.
 
 위 정보들을 카카오 로그인 명세에서 확인했던 요청에 대입하면 아래와 같은 주소가 완성된다.
+
 client_id = 앱키
+
 redirect_uri = 리다이렉트 주소
 
 `https://kauth.kakao.com/oauth/authorize?client_id=앱키&redirect_uri=리다이렉트 주소&response_type=code`
