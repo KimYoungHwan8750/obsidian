@@ -2,7 +2,7 @@
 
 Java에는 SpringBoot, Python에는 Django가 있다.
 
-스프링부트로 INTP Dev를 개발하면서 Python의 문법도 참 매력적이라고 느꼈고 자연스럽게 Django에도 눈길이 갔다. 이번 장에선 Python Django 프로젝트를 시작하는 방법과 간단하게 스프링 부트와 차이점을 소개하려고 한다.
+INTP Dev는 스프링부트로 개발되었지만 Python도 시간내서 공부하며 문법이 매력적이라고 생각했고 자연스럽게 Django에도 눈길이 갔다. 이번 장에선 Python Django 프로젝트를 시작하는 방법과 간단하게 스프링 부트와 차이점을 소개하려고 한다. 
 
 ### 테스트 환경
 
