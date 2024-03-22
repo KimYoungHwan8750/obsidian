@@ -3,7 +3,7 @@
 
 깊이를 우선해 탐색하는 기법이다.
 
-![DFS and BFS](https://i.namu.wiki/i  /L2DKiTe_iqWOyGGk2A_3GgBsuTGeY3OuR7FxEk1sQ6tA3xhrVBVZRFgrGfDExbrQzG7bPNE-RL23R5elJiNgSg.gif)
+![DFS and BFS](Python/알고리즘/image/DFS_BFS.gif)
 
 출처 - [나무위키](https://namu.wiki/w/%EB%84%88%EB%B9%84%20%EC%9A%B0%EC%84%A0%20%ED%83%90%EC%83%89)
 
