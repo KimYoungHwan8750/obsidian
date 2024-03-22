@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/CodingTest/백준 4158 (CD).md",
+                "file": "Python/알고리즘/DFS & BFS.md",
                 "mode": "source",
                 "source": true
               }
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/CodingTest/백준 4158 (CD).md",
+                "file": "Python/알고리즘/DFS & BFS.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/CodingTest/백준 4158 (CD).md",
+                "file": "Python/알고리즘/DFS & BFS.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/CodingTest/백준 4158 (CD).md"
+                "file": "Python/알고리즘/DFS & BFS.md"
               }
             }
           },
@@ -177,10 +177,12 @@
   },
   "active": "4d38bc0774e27247",
   "lastOpenFiles": [
+    "포트폴리오.md",
+    "Python/알고리즘/DFS & BFS.md",
+    "Python/CodingTest/백준 4158 (CD).md",
     "Python/CodingTest/image/Pasted image 20240320032453.png",
     "Python/CodingTest/image",
     "Python/자료구조/LinkedList.md",
-    "Python/CodingTest/백준 4158 (CD).md",
     "Python/CodingTest",
     "Python/알고리즘/Bubble Sort.md",
     "Python/자료구조",
@@ -195,7 +197,6 @@
     "Docker/image/Pasted image 20240316155651.png",
     "Docker/image/Pasted image 20240316155516.png",
     "Docker/image",
-    "포트폴리오.md",
     "Docker",
     "계층구조.md",
     "프로젝트/자주 사용할 코드.md",
@@ -211,7 +212,6 @@
     "개인블로그 제작/api.md",
     "Python/Django/Django.md",
     "Python/Django/image/Pasted image 20240311034205.png",
-    "Python/Django/image/Pasted image 20240311033335.png",
     "Python/Django/image",
     "면접/획기획.md",
     "Python/Django",
