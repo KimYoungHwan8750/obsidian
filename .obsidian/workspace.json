@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/알고리즘/DFS & BFS.md",
+                "file": "Docker/Docker.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "ffdae67de1c7a1b5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Python/CodingTest/백준 1149(RGB거리).md",
                 "mode": "source",
                 "source": true
               }
@@ -29,7 +41,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -79,7 +92,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "ef24d012572e04a0",
@@ -95,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/알고리즘/DFS & BFS.md",
+                "file": "Python/CodingTest/백준 1149(RGB거리).md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/알고리즘/DFS & BFS.md",
+                "file": "Python/CodingTest/백준 1149(RGB거리).md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/알고리즘/DFS & BFS.md"
+                "file": "Python/CodingTest/백준 1149(RGB거리).md"
               }
             }
           },
@@ -160,7 +174,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 201.5
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -175,54 +190,54 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "4d38bc0774e27247",
+  "active": "ffdae67de1c7a1b5",
   "lastOpenFiles": [
-    "Python/알고리즘/image/DFS_BFS.gif",
-    "Python/알고리즘/image/Pasted image 20240322110037.png",
-    "Python/알고리즘/image",
-    "포트폴리오.md",
-    "Python/알고리즘/DFS & BFS.md",
+    "Python/CodingTest/image/Pasted image 20240327231957.png",
     "Python/CodingTest/백준 4158 (CD).md",
+    "Python/CodingTest/백준 1149(RGB거리).md",
+    "Python/Django/Django.md",
+    "샘플 포스트.md",
+    "Python/자료구조/LinkedList.md",
+    "Python/자료구조",
+    "Python/알고리즘/image/Pasted image 20240322110037.png",
+    "Python/알고리즘/image/DFS_BFS.gif",
+    "Python/알고리즘/image",
+    "Python/알고리즘/Bubble Sort.md",
+    "Python/알고리즘/DFS & BFS.md",
+    "Python/알고리즘",
     "Python/CodingTest/image/Pasted image 20240320032453.png",
     "Python/CodingTest/image",
-    "Python/자료구조/LinkedList.md",
     "Python/CodingTest",
-    "Python/알고리즘/Bubble Sort.md",
-    "Python/자료구조",
-    "Docker/Docker.md",
-    "Python/알고리즘",
-    "Docker/image/Pasted image 20240316162302.png",
-    "Docker/image/Pasted image 20240316161450.png",
-    "Docker/image/Pasted image 20240316161340.png",
-    "Docker/image/Pasted image 20240316161254.png",
-    "Docker/image/Pasted image 20240316161132.png",
-    "Docker/image/Pasted image 20240316160020.png",
-    "Docker/image/Pasted image 20240316155651.png",
-    "Docker/image/Pasted image 20240316155516.png",
-    "Docker/image",
-    "Docker",
+    "Docker/image/water_Pasted image 20240316162302.png",
+    "Docker/image/water_Pasted image 20240316161254.png",
+    "Docker/image/water_Pasted image 20240316161132.png",
+    "Docker/image/water_Pasted image 20240316160020.png",
+    "Docker/image/water_Pasted image 20240316155651.png",
+    "Docker/image/water_Pasted image 20240316155516.png",
     "계층구조.md",
-    "프로젝트/자주 사용할 코드.md",
-    "프로젝트/프로젝트 할 일 노트/프로젝트 DB구상/USER_SETTING.md",
-    "개인노트/면접 전 공부.md",
     "개인노트/한번 읽어볼 것들/클래스와 인터페이스의 차이.md",
     "개인노트/한번 읽어볼 것들/유용한 블로그.md",
     "개인노트/한번 읽어볼 것들/람다식.md",
     "개인노트/프로젝트 하면서 느낀 점/파일생성.md",
     "개인노트/프로젝트 하면서 느낀 점/채팅방 만들기.md",
-    "개인블로그 제작/필요기술/기술.md",
-    "개인블로그 제작/구현 목록.md",
-    "개인블로그 제작/api.md",
-    "Python/Django/Django.md",
+    "데이터 송수신/★ 데이터 타입/CDATA.md",
+    "데이터 송수신/★ 데이터 타입/★ JSON.md",
+    "리소스 사이트/문자열 인코딩.md",
+    "리소스 사이트/개발자.md",
+    "JAVA/Spring/★ 구조/DAO/DAO.md",
+    "JAVA/Spring/JDBC/★ DataSource.md",
+    "포트폴리오.md",
+    "위.md",
+    "Docker/Docker.md",
+    "Docker/image/Pasted image 20240316162302.png",
+    "Docker/image",
+    "Docker",
+    "프로젝트/자주 사용할 코드.md",
+    "프로젝트/프로젝트 할 일 노트/프로젝트 DB구상/USER_SETTING.md",
+    "개인노트/면접 전 공부.md",
     "Python/Django/image",
-    "면접/획기획.md",
     "Python/Django",
     "Python",
-    "면접/공통.md",
-    "면접/위시켓.md",
-    "면접/하이텍알씨디코리아.md",
-    "프로그래밍 이론/공통/객체지향 프로그래밍(Object Oriented Programming).md",
-    "프로그래밍 이론/공통/Thread.md",
     "무제 파일.canvas"
   ]
 }
