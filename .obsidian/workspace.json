@@ -32,6 +32,16 @@
             }
           },
           {
+            "id": "fdbe28b9993dbef0",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.12"
+              }
+            }
+          },
+          {
             "id": "bfb2712bf6b93d63",
             "type": "leaf",
             "state": {
@@ -42,7 +52,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -188,7 +198,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "843183f4c09278fc",
+  "active": "fdbe28b9993dbef0",
   "lastOpenFiles": [
     "블로그 포스팅/취업 회고.md",
     "블로그 포스팅",
