@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/Flask/Flask.md",
+                "file": "개발 도구/SCSS/SASS 설치.md",
                 "mode": "source",
                 "source": true
               }
@@ -120,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/Flask/Flask.md",
+                "file": "개발 도구/SCSS/SASS 설치.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/Flask/Flask.md",
+                "file": "개발 도구/SCSS/SASS 설치.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/Flask/Flask.md"
+                "file": "개발 도구/SCSS/SASS 설치.md"
               }
             }
           },
@@ -202,6 +202,15 @@
   },
   "active": "fdbe28b9993dbef0",
   "lastOpenFiles": [
+    "개발 도구/Webpack/webpack.config.js.md",
+    "개발 도구/SCSS/SASS 설치.md",
+    "개발 도구/Webpack/webpack 설치.md",
+    "용어/내림차순(Descending).md",
+    "개발 도구/Node",
+    "개발 도구/SCSS",
+    "개발 도구/Webpack",
+    "개발 도구",
+    "Python/Flask/Flask.md",
     "Python/Flask/image/Pasted image 20240602004255.png",
     "Python/Flask/image/Pasted image 20240602004022.png",
     "Python/Flask/image/Pasted image 20240602003911.png",
@@ -210,7 +219,6 @@
     "Python/Flask/image/Pasted image 20240602001957.png",
     "Python/Flask/image",
     "리소스 사이트/CodePen.md",
-    "Python/Flask/Flask.md",
     "Python/무제 폴더",
     "Python/SQLAlchemy",
     "Python/Flask",
@@ -227,11 +235,7 @@
     "Cpp/자료형.md",
     "Cpp/전처리기",
     "아두이노/esp8266 공부.md",
-    "Cpp",
-    "아두이노",
     "블로그 포스팅/취업 회고.md",
-    "블로그 포스팅",
-    "ps4DE7.tmp",
     "baekjoon_logo.png",
     "Python/CodingTest/image/Pasted image 20240320032453.png",
     "Python/자료구조/LinkedList.md",
@@ -239,15 +243,11 @@
     "Docker/Docker.md",
     "Docker/image/Pasted image 20240316162302.png",
     "Docker/image/Pasted image 20240316161450.png",
-    "Docker/image/Pasted image 20240316161340.png",
     "포트폴리오.md",
     "계층구조.md",
     "프로젝트/자주 사용할 코드.md",
     "프로젝트/프로젝트 할 일 노트/프로젝트 DB구상/USER_SETTING.md",
     "개인노트/면접 전 공부.md",
-    "개인노트/한번 읽어볼 것들/클래스와 인터페이스의 차이.md",
-    "개인노트/한번 읽어볼 것들/유용한 블로그.md",
-    "개인노트/한번 읽어볼 것들/람다식.md",
     "무제 파일.canvas"
   ]
 }
