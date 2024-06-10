@@ -37,19 +37,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "개발 도구/SCSS/SASS 설치.md",
+                "file": "프로그래밍 이론/공통/디자인 패턴/옵저버 패턴.md",
                 "mode": "source",
                 "source": true
-              }
-            }
-          },
-          {
-            "id": "bfb2712bf6b93d63",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "JAVA/Spring/HTTP/헤더/image/Pasted image 20240226040757.png"
               }
             }
           }
@@ -120,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "개발 도구/SCSS/SASS 설치.md",
+                "file": "프로그래밍 이론/공통/디자인 패턴/옵저버 패턴.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "개발 도구/SCSS/SASS 설치.md",
+                "file": "프로그래밍 이론/공통/디자인 패턴/옵저버 패턴.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "개발 도구/SCSS/SASS 설치.md"
+                "file": "프로그래밍 이론/공통/디자인 패턴/옵저버 패턴.md"
               }
             }
           },
@@ -202,9 +192,16 @@
   },
   "active": "fdbe28b9993dbef0",
   "lastOpenFiles": [
-    "개발 도구/Webpack/webpack.config.js.md",
+    "프로그래밍 이론/공통/디자인 패턴/image/제목 없음-2.png",
+    "프로그래밍 이론/공통/디자인 패턴/image",
+    "프로그래밍 이론/공통/Thread.md",
+    "프로그래밍 이론/공통/디자인 패턴/옵저버 패턴.md",
+    "프로그래밍 이론/공통/디자인 패턴",
+    "프로그래밍 이론/공통/객체지향 프로그래밍(Object Oriented Programming).md",
     "개발 도구/SCSS/SASS 설치.md",
+    "개발 도구/Webpack/webpack.config.js.md",
     "개발 도구/Webpack/webpack 설치.md",
+    "아두이노/esp8266 공부.md",
     "용어/내림차순(Descending).md",
     "개발 도구/Node",
     "개발 도구/SCSS",
@@ -224,7 +221,6 @@
     "Python/Flask",
     "JS/함수/Event/Touch 관련/무제 파일.md",
     "JS/함수/Event/Attribute/속성으로 이벤트 부여하기.md",
-    "JS/함수/Event/Touch 관련",
     "JS/함수/Event/addEventListener/options event listener.md",
     "JS/함수/Event/addEventListener/addEventListener.md",
     "JS/함수/Event/이벤트 명.md",
@@ -233,8 +229,6 @@
     "Python/Django/Django.md",
     "Cpp/전처리기/define.md",
     "Cpp/자료형.md",
-    "Cpp/전처리기",
-    "아두이노/esp8266 공부.md",
     "블로그 포스팅/취업 회고.md",
     "baekjoon_logo.png",
     "Python/CodingTest/image/Pasted image 20240320032453.png",
@@ -244,10 +238,6 @@
     "Docker/image/Pasted image 20240316162302.png",
     "Docker/image/Pasted image 20240316161450.png",
     "포트폴리오.md",
-    "계층구조.md",
-    "프로젝트/자주 사용할 코드.md",
-    "프로젝트/프로젝트 할 일 노트/프로젝트 DB구상/USER_SETTING.md",
-    "개인노트/면접 전 공부.md",
     "무제 파일.canvas"
   ]
 }
