@@ -54,9 +54,21 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "4e613e5deb1a223c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Android Studio/화면 이동, Intent.md",
+                "mode": "source",
+                "source": true
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -122,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "블로그 포스팅/RDS를 떠나 Oracle Cloud Database로.md",
+                "file": "Android Studio/화면 이동, Intent.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "블로그 포스팅/RDS를 떠나 Oracle Cloud Database로.md",
+                "file": "Android Studio/화면 이동, Intent.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "블로그 포스팅/RDS를 떠나 Oracle Cloud Database로.md"
+                "file": "Android Studio/화면 이동, Intent.md"
               }
             }
           },
@@ -202,10 +214,16 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "c0775130a4005652",
+  "active": "4e613e5deb1a223c",
   "lastOpenFiles": [
-    "블로그 포스팅/취업 회고.md",
+    "Android Studio/무제 폴더",
+    "리소스 사이트/웹디자인 참고 사이트.md",
+    "Android Studio/화면 이동, Intent.md",
+    "Android Studio",
+    "리소스 사이트/아이콘.md",
+    "리소스 사이트/개발자.md",
     "블로그 포스팅/RDS를 떠나 Oracle Cloud Database로.md",
+    "블로그 포스팅/취업 회고.md",
     "포트폴리오.md",
     "Kotlin",
     "baekjoon_logo.png",
@@ -234,7 +252,6 @@
     "Python/Flask/image",
     "리소스 사이트/CodePen.md",
     "Python/무제 폴더",
-    "Python/SQLAlchemy",
     "JS/함수/Event/Touch 관련/무제 파일.md",
     "JS/함수/Event/Attribute/속성으로 이벤트 부여하기.md",
     "JS/함수/Event/addEventListener/options event listener.md",
@@ -243,12 +260,7 @@
     "JAVA/Spring/JDBC/★ DataSource.md",
     "Python/CodingTest/백준 4158 (CD).md",
     "Python/Django/Django.md",
-    "Cpp/전처리기/define.md",
-    "Cpp/자료형.md",
     "Python/CodingTest/image/Pasted image 20240320032453.png",
-    "Python/자료구조/LinkedList.md",
-    "Python/알고리즘/Bubble Sort.md",
-    "Docker/Docker.md",
     "Docker/image/Pasted image 20240316162302.png",
     "무제 파일.canvas"
   ]
