@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Android Studio/화면 이동, Intent.md",
+                "file": "일일회고/2024-07-03.md",
                 "mode": "source",
                 "source": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Android Studio/화면 이동, Intent.md",
+                "file": "일일회고/2024-07-03.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Android Studio/화면 이동, Intent.md",
+                "file": "일일회고/2024-07-03.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Android Studio/화면 이동, Intent.md"
+                "file": "일일회고/2024-07-03.md"
               }
             }
           },
@@ -216,9 +216,14 @@
   },
   "active": "4e613e5deb1a223c",
   "lastOpenFiles": [
+    "ChatGPT/OpenAI/GPT API Docs.md",
+    "일일회고/2024-07-03.md",
+    "일일회고",
+    "Android Studio/화면 이동, Intent.md",
+    "ChatGPT/OpenAI",
+    "ChatGPT",
     "Android Studio/무제 폴더",
     "리소스 사이트/웹디자인 참고 사이트.md",
-    "Android Studio/화면 이동, Intent.md",
     "Android Studio",
     "리소스 사이트/아이콘.md",
     "리소스 사이트/개발자.md",
@@ -240,8 +245,6 @@
     "용어/내림차순(Descending).md",
     "개발 도구/Node",
     "개발 도구/SCSS",
-    "개발 도구/Webpack",
-    "개발 도구",
     "Python/Flask/Flask.md",
     "Python/Flask/image/Pasted image 20240602004255.png",
     "Python/Flask/image/Pasted image 20240602004022.png",
@@ -249,9 +252,7 @@
     "Python/Flask/image/Pasted image 20240602002635.png",
     "Python/Flask/image/Pasted image 20240602002614.png",
     "Python/Flask/image/Pasted image 20240602001957.png",
-    "Python/Flask/image",
     "리소스 사이트/CodePen.md",
-    "Python/무제 폴더",
     "JS/함수/Event/Touch 관련/무제 파일.md",
     "JS/함수/Event/Attribute/속성으로 이벤트 부여하기.md",
     "JS/함수/Event/addEventListener/options event listener.md",
@@ -259,7 +260,6 @@
     "JS/함수/Event/이벤트 명.md",
     "JAVA/Spring/JDBC/★ DataSource.md",
     "Python/CodingTest/백준 4158 (CD).md",
-    "Python/Django/Django.md",
     "Python/CodingTest/image/Pasted image 20240320032453.png",
     "Docker/image/Pasted image 20240316162302.png",
     "무제 파일.canvas"
