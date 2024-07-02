@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "일일회고/2024-07-03.md",
+                "file": "Flutter/Button.md",
                 "mode": "source",
                 "source": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "일일회고/2024-07-03.md",
+                "file": "Flutter/Button.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "일일회고/2024-07-03.md",
+                "file": "Flutter/Button.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "일일회고/2024-07-03.md"
+                "file": "Flutter/Button.md"
               }
             }
           },
@@ -216,8 +216,14 @@
   },
   "active": "4e613e5deb1a223c",
   "lastOpenFiles": [
-    "ChatGPT/OpenAI/GPT API Docs.md",
+    "Flutter/Widget/Center.md",
+    "Flutter/Button.md",
+    "Flutter/Widget/Text.md",
+    "Flutter/Widget/위젯.md",
+    "Flutter/Widget",
     "일일회고/2024-07-03.md",
+    "Flutter",
+    "ChatGPT/OpenAI/GPT API Docs.md",
     "일일회고",
     "Android Studio/화면 이동, Intent.md",
     "ChatGPT/OpenAI",
@@ -243,8 +249,6 @@
     "개발 도구/Webpack/webpack 설치.md",
     "아두이노/esp8266 공부.md",
     "용어/내림차순(Descending).md",
-    "개발 도구/Node",
-    "개발 도구/SCSS",
     "Python/Flask/Flask.md",
     "Python/Flask/image/Pasted image 20240602004255.png",
     "Python/Flask/image/Pasted image 20240602004022.png",
@@ -256,10 +260,6 @@
     "JS/함수/Event/Touch 관련/무제 파일.md",
     "JS/함수/Event/Attribute/속성으로 이벤트 부여하기.md",
     "JS/함수/Event/addEventListener/options event listener.md",
-    "JS/함수/Event/addEventListener/addEventListener.md",
-    "JS/함수/Event/이벤트 명.md",
-    "JAVA/Spring/JDBC/★ DataSource.md",
-    "Python/CodingTest/백준 4158 (CD).md",
     "Python/CodingTest/image/Pasted image 20240320032453.png",
     "Docker/image/Pasted image 20240316162302.png",
     "무제 파일.canvas"
