@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Flutter/Button.md",
+                "file": "일일회고/2024-07-05.md",
                 "mode": "source",
                 "source": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Flutter/Button.md",
+                "file": "일일회고/2024-07-05.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Flutter/Button.md",
+                "file": "일일회고/2024-07-05.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Flutter/Button.md"
+                "file": "일일회고/2024-07-05.md"
               }
             }
           },
@@ -216,12 +216,21 @@
   },
   "active": "4e613e5deb1a223c",
   "lastOpenFiles": [
-    "Flutter/Widget/Center.md",
+    "일일회고/2024-07-03.md",
+    "일일회고/2024-07-05.md",
+    "Arduino/esp8266 공부.md",
+    "Arduino/SD Card Module/싸이피아 C71 SD카드 모듈 SD 메모리 젠더 TF 아답터.md",
+    "Arduino/MicroSD Card Module/SZH-EKBZ-005.md",
+    "Arduino/SD Card Module",
+    "Arduino/MicroSD Card Module",
+    "HTML/emmet.md",
+    "Arduino/SPI 통신.md",
+    "Arduino",
     "Flutter/Button.md",
+    "Flutter/Widget/Center.md",
     "Flutter/Widget/Text.md",
     "Flutter/Widget/위젯.md",
     "Flutter/Widget",
-    "일일회고/2024-07-03.md",
     "Flutter",
     "ChatGPT/OpenAI/GPT API Docs.md",
     "일일회고",
@@ -236,30 +245,21 @@
     "블로그 포스팅/RDS를 떠나 Oracle Cloud Database로.md",
     "블로그 포스팅/취업 회고.md",
     "포트폴리오.md",
-    "Kotlin",
     "baekjoon_logo.png",
     "프로그래밍 이론/공통/디자인 패턴/image/제목 없음-2.png",
-    "프로그래밍 이론/공통/디자인 패턴/image",
     "프로그래밍 이론/공통/Thread.md",
     "프로그래밍 이론/공통/디자인 패턴/옵저버 패턴.md",
-    "프로그래밍 이론/공통/디자인 패턴",
     "프로그래밍 이론/공통/객체지향 프로그래밍(Object Oriented Programming).md",
     "개발 도구/SCSS/SASS 설치.md",
     "개발 도구/Webpack/webpack.config.js.md",
     "개발 도구/Webpack/webpack 설치.md",
-    "아두이노/esp8266 공부.md",
     "용어/내림차순(Descending).md",
-    "Python/Flask/Flask.md",
     "Python/Flask/image/Pasted image 20240602004255.png",
     "Python/Flask/image/Pasted image 20240602004022.png",
     "Python/Flask/image/Pasted image 20240602003911.png",
     "Python/Flask/image/Pasted image 20240602002635.png",
     "Python/Flask/image/Pasted image 20240602002614.png",
     "Python/Flask/image/Pasted image 20240602001957.png",
-    "리소스 사이트/CodePen.md",
-    "JS/함수/Event/Touch 관련/무제 파일.md",
-    "JS/함수/Event/Attribute/속성으로 이벤트 부여하기.md",
-    "JS/함수/Event/addEventListener/options event listener.md",
     "Python/CodingTest/image/Pasted image 20240320032453.png",
     "Docker/image/Pasted image 20240316162302.png",
     "무제 파일.canvas"
