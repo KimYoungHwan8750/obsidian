@@ -37,32 +37,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "프로그래밍 이론/공통/디자인 패턴/옵저버 패턴.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "c0775130a4005652",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "블로그 포스팅/RDS를 떠나 Oracle Cloud Database로.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "4e613e5deb1a223c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Flutter/Route/Slide Animation.md",
-                "mode": "source",
+                "file": "React Native/React Native 로드맵.md",
+                "mode": "preview",
                 "source": true
               }
             }
@@ -80,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -146,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Flutter/Route/Slide Animation.md",
+                "file": "React Native/React Native 로드맵.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Flutter/Route/Slide Animation.md",
+                "file": "React Native/React Native 로드맵.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Flutter/Route/Slide Animation.md"
+                "file": "React Native/React Native 로드맵.md"
               }
             }
           },
@@ -226,19 +202,26 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "4e613e5deb1a223c",
+  "active": "fdbe28b9993dbef0",
   "lastOpenFiles": [
-    "서연.md",
-    "Flutter/Route/Slide Animation.md",
-    "Flutter/Route",
-    "Flutter/Icon.md",
+    "프로그래밍 이론/공통/디자인 패턴/옵저버 패턴.md",
+    "React Native/React Native 로드맵.md",
+    "블로그 포스팅/RDS를 떠나 Oracle Cloud Database로.md",
+    "React Native/프로젝트 생성.md",
+    "Flutter/Widget/GridView.md",
+    "React Native",
     "Flutter/Button.md",
+    "Flutter/Widget/위젯.md",
+    "Flutter/Route/Slide Animation.md",
     "Flutter/image/Pasted image 20240707144138.png",
     "Flutter/image/Pasted image 20240707144021.png",
-    "Flutter/image",
+    "Flutter/Icon.md",
+    "Flutter/List.md",
     "Flutter/Widget/Text.md",
     "Flutter/Widget/Center.md",
-    "Flutter/Widget/위젯.md",
+    "서연.md",
+    "Flutter/Route",
+    "Flutter/image",
     "리소스 사이트/Background Gradient.md",
     "Flutter/Button",
     "image/bandicam-2024-07-06-13-32-55-222.mp4",
@@ -257,17 +240,10 @@
     "Arduino/MicroSD Card Module",
     "HTML/emmet.md",
     "Arduino/SPI 통신.md",
-    "Arduino",
     "ChatGPT/OpenAI/GPT API Docs.md",
     "Android Studio/화면 이동, Intent.md",
-    "리소스 사이트/웹디자인 참고 사이트.md",
-    "리소스 사이트/아이콘.md",
-    "리소스 사이트/개발자.md",
-    "블로그 포스팅/RDS를 떠나 Oracle Cloud Database로.md",
-    "블로그 포스팅/취업 회고.md",
     "baekjoon_logo.png",
     "프로그래밍 이론/공통/디자인 패턴/image/제목 없음-2.png",
-    "프로그래밍 이론/공통/Thread.md",
     "Python/Flask/image/Pasted image 20240602004255.png",
     "Python/Flask/image/Pasted image 20240602004022.png",
     "Python/Flask/image/Pasted image 20240602003911.png",
