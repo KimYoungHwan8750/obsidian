@@ -37,8 +37,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "React Native/React Native 로드맵.md",
-                "mode": "preview",
+                "file": "React Native/프로젝트 생성.md",
+                "mode": "source",
                 "source": true
               }
             }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "React Native/React Native 로드맵.md",
+                "file": "React Native/프로젝트 생성.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "React Native/React Native 로드맵.md",
+                "file": "React Native/프로젝트 생성.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "React Native/React Native 로드맵.md"
+                "file": "React Native/프로젝트 생성.md"
               }
             }
           },
@@ -204,8 +204,10 @@
   },
   "active": "fdbe28b9993dbef0",
   "lastOpenFiles": [
-    "프로그래밍 이론/공통/디자인 패턴/옵저버 패턴.md",
+    "React Native/Component/Button.md",
     "React Native/React Native 로드맵.md",
+    "React Native/Component",
+    "프로그래밍 이론/공통/디자인 패턴/옵저버 패턴.md",
     "블로그 포스팅/RDS를 떠나 Oracle Cloud Database로.md",
     "React Native/프로젝트 생성.md",
     "Flutter/Widget/GridView.md",
@@ -237,11 +239,9 @@
     "Arduino/SD Card Module/싸이피아 C71 SD카드 모듈 SD 메모리 젠더 TF 아답터.md",
     "Arduino/MicroSD Card Module/SZH-EKBZ-005.md",
     "Arduino/SD Card Module",
-    "Arduino/MicroSD Card Module",
     "HTML/emmet.md",
     "Arduino/SPI 통신.md",
     "ChatGPT/OpenAI/GPT API Docs.md",
-    "Android Studio/화면 이동, Intent.md",
     "baekjoon_logo.png",
     "프로그래밍 이론/공통/디자인 패턴/image/제목 없음-2.png",
     "Python/Flask/image/Pasted image 20240602004255.png",
