@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "React Native/프로젝트 생성.md",
+                "file": "React Native/Library/마스크 뷰.md",
                 "mode": "source",
                 "source": true
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "React Native/프로젝트 생성.md",
+                "file": "React Native/Library/마스크 뷰.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "React Native/프로젝트 생성.md",
+                "file": "React Native/Library/마스크 뷰.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "React Native/프로젝트 생성.md"
+                "file": "React Native/Library/마스크 뷰.md"
               }
             }
           },
@@ -204,12 +204,18 @@
   },
   "active": "fdbe28b9993dbef0",
   "lastOpenFiles": [
-    "React Native/Component/Button.md",
+    "React Native/Library/애니메이션.md",
+    "React Native/Library/마스크 뷰.md",
+    "React Native/Library/제스쳐 구현.md",
+    "React Native/Navigator/Navigator.md",
+    "React Native/Library",
     "React Native/React Native 로드맵.md",
+    "React Native/Component/Button.md",
+    "React Native/프로젝트 생성.md",
+    "React Native/Navigator",
     "React Native/Component",
     "프로그래밍 이론/공통/디자인 패턴/옵저버 패턴.md",
     "블로그 포스팅/RDS를 떠나 Oracle Cloud Database로.md",
-    "React Native/프로젝트 생성.md",
     "Flutter/Widget/GridView.md",
     "React Native",
     "Flutter/Button.md",
@@ -232,16 +238,10 @@
     "bandicam.md",
     "옵시디언 마크다운 문법.md",
     "포트폴리오.md",
-    "image/bandicam 2024-07-06 13-32-55-222.avi",
     "일일회고/2024-07-05.md",
     "일일회고/2024-07-03.md",
     "Arduino/esp8266 공부.md",
     "Arduino/SD Card Module/싸이피아 C71 SD카드 모듈 SD 메모리 젠더 TF 아답터.md",
-    "Arduino/MicroSD Card Module/SZH-EKBZ-005.md",
-    "Arduino/SD Card Module",
-    "HTML/emmet.md",
-    "Arduino/SPI 통신.md",
-    "ChatGPT/OpenAI/GPT API Docs.md",
     "baekjoon_logo.png",
     "프로그래밍 이론/공통/디자인 패턴/image/제목 없음-2.png",
     "Python/Flask/image/Pasted image 20240602004255.png",
