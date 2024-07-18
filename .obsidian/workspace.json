@@ -37,9 +37,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "리소스 사이트/플로우 차트 그리는 사이트.md",
+                "file": "React Native/Firebase/Firestore.md",
                 "mode": "source",
                 "source": true
+              }
+            }
+          },
+          {
+            "id": "8b050bd632d8e0cc",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.7"
               }
             }
           },
@@ -56,7 +66,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -122,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "리소스 사이트/플로우 차트 그리는 사이트.md",
+                "file": "React Native/Firebase/Firestore.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +149,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "리소스 사이트/플로우 차트 그리는 사이트.md",
+                "file": "React Native/Firebase/Firestore.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +172,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "리소스 사이트/플로우 차트 그리는 사이트.md"
+                "file": "React Native/Firebase/Firestore.md"
               }
             }
           },
@@ -202,12 +212,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "fdbe28b9993dbef0",
+  "active": "8b050bd632d8e0cc",
   "lastOpenFiles": [
-    "리소스 사이트/안드로이드 에셋 관리.md",
-    "리소스 사이트/플로우 차트 그리는 사이트.md",
-    "React Native/Firebase/Firestore.md",
     "React Native/Firebase/설치.md",
+    "React Native/Firebase/Firestore.md",
+    "리소스 사이트/플로우 차트 그리는 사이트.md",
+    "리소스 사이트/안드로이드 에셋 관리.md",
     "React Native/Firebase/gradle 설정.md",
     "React Native/Library/마스크 뷰.md",
     "React Native/Firebase",
