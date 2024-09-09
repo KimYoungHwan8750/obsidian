@@ -47,9 +47,11 @@
             "id": "8b050bd632d8e0cc",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.6.7"
+                "file": "Python/Selenium/크롤링.md",
+                "mode": "source",
+                "source": true
               }
             }
           },
@@ -95,7 +97,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "bandi",
+                "query": "크롤링",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -132,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "React Native/Firebase/Firestore.md",
+                "file": "Python/Selenium/크롤링.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "React Native/Firebase/Firestore.md",
+                "file": "Python/Selenium/크롤링.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -172,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "React Native/Firebase/Firestore.md"
+                "file": "Python/Selenium/크롤링.md"
               }
             }
           },
@@ -214,6 +216,13 @@
   },
   "active": "8b050bd632d8e0cc",
   "lastOpenFiles": [
+    "Python/Selenium/Start Selenium.md",
+    "Python/Selenium/크롤링.md",
+    "React Native/Navigator/Navigator.md",
+    "Python/Selenium",
+    "무제 파일.md",
+    "React Native/React Native 로드맵.md",
+    "React Native/프로젝트 생성.md",
     "React Native/Firebase/설치.md",
     "React Native/Firebase/Firestore.md",
     "리소스 사이트/플로우 차트 그리는 사이트.md",
@@ -223,11 +232,8 @@
     "React Native/Firebase",
     "React Native/Library/애니메이션.md",
     "React Native/Library/제스쳐 구현.md",
-    "React Native/Navigator/Navigator.md",
     "React Native/Library",
-    "React Native/React Native 로드맵.md",
     "React Native/Component/Button.md",
-    "React Native/프로젝트 생성.md",
     "React Native/Navigator",
     "React Native/Component",
     "프로그래밍 이론/공통/디자인 패턴/옵저버 패턴.md",
@@ -246,12 +252,8 @@
     "서연.md",
     "Flutter/Route",
     "Flutter/image",
-    "리소스 사이트/Background Gradient.md",
     "Flutter/Button",
     "image/bandicam-2024-07-06-13-32-55-222.mp4",
-    "image/bandicam 2024-07-06 13-32-55-222.mp4",
-    "bandicam.md",
-    "옵시디언 마크다운 문법.md",
     "baekjoon_logo.png",
     "프로그래밍 이론/공통/디자인 패턴/image/제목 없음-2.png",
     "Python/Flask/image/Pasted image 20240602004255.png",
