@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "React/프로젝트 시작하기.md",
+                "file": "Electron/프로젝트 시작하기.md",
                 "mode": "source",
                 "source": true
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "크롤링",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -114,7 +114,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -134,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "React/프로젝트 시작하기.md",
+                "file": "Electron/프로젝트 시작하기.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "React/프로젝트 시작하기.md",
+                "file": "Electron/프로젝트 시작하기.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "React/프로젝트 시작하기.md"
+                "file": "Electron/프로젝트 시작하기.md"
               }
             }
           },
@@ -216,9 +217,15 @@
   },
   "active": "8b050bd632d8e0cc",
   "lastOpenFiles": [
-    "React/React를 SSR에 사용하기.md",
+    "ChatGPT/OpenAI/GPT API Docs.md",
+    "Electron/프로젝트 시작하기.md",
+    "Electron",
     "React/프로젝트 시작하기.md",
     "React/React와 Spring Boot.md",
+    "React/React를 SSR에 사용하기.md",
+    "Typescript/무제 파일.md",
+    "Typescript",
+    "JS/Typescript",
     "JAVA/Spring/React와 Spring Boot.md",
     "알고리즘/자료구조/stack/LIFO.md",
     "React",
@@ -246,12 +253,6 @@
     "React Native/Firebase/설치.md",
     "React Native/Firebase/Firestore.md",
     "리소스 사이트/플로우 차트 그리는 사이트.md",
-    "리소스 사이트/안드로이드 에셋 관리.md",
-    "React Native/Firebase/gradle 설정.md",
-    "React Native/Library/마스크 뷰.md",
-    "React Native/Firebase",
-    "React Native/Library",
-    "React Native/Navigator",
     "Flutter/image/Pasted image 20240707144138.png",
     "Flutter/image/Pasted image 20240707144021.png",
     "baekjoon_logo.png",
