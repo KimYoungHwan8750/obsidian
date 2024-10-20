@@ -16,9 +16,7 @@
                 "file": "Python/CodingTest/백준 4158 (CD).md",
                 "mode": "source",
                 "source": true
-              },
-              "icon": "lucide-file",
-              "title": "백준 4158 (CD)"
+              }
             }
           },
           {
@@ -30,9 +28,7 @@
                 "file": "블로그 포스팅/취업 회고.md",
                 "mode": "source",
                 "source": true
-              },
-              "icon": "lucide-file",
-              "title": "취업 회고"
+              }
             }
           },
           {
@@ -44,9 +40,7 @@
                 "file": "React Native/Firebase/Firestore.md",
                 "mode": "source",
                 "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Firestore"
+              }
             }
           },
           {
@@ -55,26 +49,10 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Node/puppeteer/puppeteer.md",
+                "file": "Node/playwright/locator.md",
                 "mode": "source",
                 "source": true
-              },
-              "icon": "lucide-file",
-              "title": "puppeteer"
-            }
-          },
-          {
-            "id": "d202ecd75e3abb3b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Node/playwright/route.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "route"
+              }
             }
           },
           {
@@ -86,13 +64,11 @@
                 "file": "옵시디언 마크다운 문법.md",
                 "mode": "preview",
                 "source": true
-              },
-              "icon": "lucide-file",
-              "title": "옵시디언 마크다운 문법"
+              }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -112,9 +88,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              },
-              "icon": "lucide-folder-closed",
-              "title": "파일 탐색기"
+              }
             }
           },
           {
@@ -129,9 +103,7 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              },
-              "icon": "lucide-search",
-              "title": "검색"
+              }
             }
           },
           {
@@ -139,9 +111,7 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {},
-              "icon": "lucide-bookmark",
-              "title": "Bookmarks"
+              "state": {}
             }
           }
         ]
@@ -164,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Node/playwright/route.md",
+                "file": "Node/playwright/locator.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -172,9 +142,7 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": false
-              },
-              "icon": "links-coming-in",
-              "title": "route의 백링크"
+              }
             }
           },
           {
@@ -183,12 +151,10 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Node/playwright/route.md",
+                "file": "Node/playwright/locator.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "route의 나가는 링크"
+              }
             }
           },
           {
@@ -199,9 +165,7 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              },
-              "icon": "lucide-tags",
-              "title": "Tags"
+              }
             }
           },
           {
@@ -210,10 +174,8 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Node/playwright/route.md"
-              },
-              "icon": "lucide-list",
-              "title": "route 개요"
+                "file": "Node/playwright/locator.md"
+              }
             }
           },
           {
@@ -221,9 +183,7 @@
             "type": "leaf",
             "state": {
               "type": "advanced-tables-toolbar",
-              "state": {},
-              "icon": "spreadsheet",
-              "title": "Advanced Tables"
+              "state": {}
             }
           },
           {
@@ -231,9 +191,7 @@
             "type": "leaf",
             "state": {
               "type": "example-view",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "플러그인이 더 이상 활성화되지 않음"
+              "state": {}
             }
           }
         ],
@@ -256,21 +214,19 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "d202ecd75e3abb3b",
+  "active": "8b050bd632d8e0cc",
   "lastOpenFiles": [
-    "Node/playwright/playwright.md",
     "Node/playwright/route.md",
-    "Node/puppeteer/route.md",
-    "Node/playwright",
-    "무제 파일.md",
-    "Node/puppeteer/puppeteer.md",
-    "JS/module.md",
-    "JS/import",
-    "Electron/IPC.md",
+    "Node/playwright/locator.md",
+    "Node/playwright/playwright.md",
     "Electron/프로젝트 시작하기.md",
+    "Node/puppeteer/route.md",
+    "Node/puppeteer/puppeteer.md",
     "Node/puppeteer",
+    "Node/playwright",
     "Node",
-    "Python/CodingTest/백준 4158 (CD).md",
+    "JS/module.md",
+    "Electron/IPC.md",
     "ChatGPT/OpenAI/GPT API Docs.md",
     "Electron",
     "React/프로젝트 시작하기.md",
@@ -292,8 +248,10 @@
     "Python/PySide6/QtGui/QPainter.md",
     "Python/PySide6/QtWidgets",
     "Python/PySide6/리소스 파일 다루기.md",
+    "무제 파일.md",
+    "Python/CodingTest/백준 4158 (CD).md",
+    "Python/PySide6",
     "Python/Selenium/Start Selenium.md",
-    "Python/Selenium/크롤링.md",
     "Flutter/image/Pasted image 20240707144138.png",
     "Flutter/image/Pasted image 20240707144021.png",
     "baekjoon_logo.png",
