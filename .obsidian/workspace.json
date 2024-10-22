@@ -8,58 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "4d38bc0774e27247",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Python/CodingTest/백준 4158 (CD).md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "843183f4c09278fc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "블로그 포스팅/취업 회고.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "fdbe28b9993dbef0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "React Native/Firebase/Firestore.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
             "id": "8b050bd632d8e0cc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Node/playwright/locator.md",
-                "mode": "source",
-                "source": true
-<<<<<<< HEAD
-              },
-              "icon": "lucide-file",
-              "title": "puppeteer"
-            }
-          },
-          {
-            "id": "d202ecd75e3abb3b",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -70,9 +19,6 @@
               },
               "icon": "lucide-file",
               "title": "Glob Patterns (글로브 패턴)"
-=======
-              }
->>>>>>> bd5ac996a54f377fe382b8a0a070449e238aced5
             }
           },
           {
@@ -81,14 +27,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "옵시디언 마크다운 문법.md",
+                "file": "옵시디언/옵시디언 마크다운 문법.md",
                 "mode": "preview",
                 "source": true
-              }
+              },
+              "icon": "lucide-file",
+              "title": "옵시디언 마크다운 문법"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -108,7 +55,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "파일 탐색기"
             }
           },
           {
@@ -123,7 +72,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "검색"
             }
           },
           {
@@ -131,7 +82,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -154,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Node/playwright/locator.md",
+                "file": "Node/playwright/route.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -162,7 +115,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": false
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "route의 백링크"
             }
           },
           {
@@ -171,10 +126,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Node/playwright/locator.md",
+                "file": "Node/playwright/route.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "route의 나가는 링크"
             }
           },
           {
@@ -185,7 +142,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -194,8 +153,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Node/playwright/locator.md"
-              }
+                "file": "Node/playwright/route.md"
+              },
+              "icon": "lucide-list",
+              "title": "route 개요"
             }
           },
           {
@@ -203,7 +164,9 @@
             "type": "leaf",
             "state": {
               "type": "advanced-tables-toolbar",
-              "state": {}
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
             }
           },
           {
@@ -211,7 +174,9 @@
             "type": "leaf",
             "state": {
               "type": "example-view",
-              "state": {}
+              "state": {},
+              "icon": "lucide-file",
+              "title": "플러그인이 더 이상 활성화되지 않음"
             }
           }
         ],
@@ -236,33 +201,31 @@
   },
   "active": "8b050bd632d8e0cc",
   "lastOpenFiles": [
-<<<<<<< HEAD
-    "CSS/tailwind/tailwind.md",
+    "옵시디언/옵시디언 마크다운 문법.md",
     "용어/Glob Patterns (글로브 패턴).md",
-    "Node/playwright/locator.md",
-    "CSS/tailwind",
+    "포트폴리오.md",
+    "서연.md",
+    "샘플 포스트.md",
+    "baekjoon_logo.png",
+    "옵시디언/Obsidian 문법.md",
+    "옵시디언 노트 리소스 폴더/이미지/에러 메세지.png",
+    "Node/puppeteer/puppeteer.md",
+    "옵시디언/데이터뷰 작성 규칙.md",
+    "Node/puppeteer/route.md",
     "Node/playwright/route.md",
     "Node/playwright/playwright.md",
-    "Node/puppeteer/route.md",
+    "Node/playwright/locator.md",
+    "CSS/tailwind/tailwind.md",
+    "CSS/tailwind",
     "Node/playwright",
     "무제 파일.md",
-    "Node/puppeteer/puppeteer.md",
     "JS/module.md",
     "JS/import",
     "Electron/IPC.md",
-=======
-    "Node/playwright/route.md",
-    "Node/playwright/locator.md",
-    "Node/playwright/playwright.md",
->>>>>>> bd5ac996a54f377fe382b8a0a070449e238aced5
     "Electron/프로젝트 시작하기.md",
-    "Node/puppeteer/route.md",
-    "Node/puppeteer/puppeteer.md",
     "Node/puppeteer",
-    "Node/playwright",
     "Node",
-    "JS/module.md",
-    "Electron/IPC.md",
+    "Python/CodingTest/백준 4158 (CD).md",
     "ChatGPT/OpenAI/GPT API Docs.md",
     "Electron",
     "React/프로젝트 시작하기.md",
@@ -275,32 +238,15 @@
     "알고리즘/자료구조/stack/LIFO.md",
     "React",
     "알고리즘/자료구조/queue/FIFO.md",
-    "Python/PySide6/QtWidgets/QStatusBar.md",
-    "Python/PySide6/QtWidgets/QApplication.md",
-    "Python/PySide6/QtWidgets/QMainWindow.md",
-    "Python/PySide6/PySide6 시작하기.md",
-    "Python/PySide6/QtWidgets.md",
     "Python/PySide6/QtGui",
-    "Python/PySide6/QtGui/QPainter.md",
-<<<<<<< HEAD
-=======
-    "Python/PySide6/QtWidgets",
-    "Python/PySide6/리소스 파일 다루기.md",
-    "무제 파일.md",
-    "Python/CodingTest/백준 4158 (CD).md",
-    "Python/PySide6",
-    "Python/Selenium/Start Selenium.md",
->>>>>>> bd5ac996a54f377fe382b8a0a070449e238aced5
     "Flutter/image/Pasted image 20240707144138.png",
     "Flutter/image/Pasted image 20240707144021.png",
-    "baekjoon_logo.png",
     "프로그래밍 이론/공통/디자인 패턴/image/제목 없음-2.png",
     "Python/Flask/image/Pasted image 20240602004255.png",
     "Python/Flask/image/Pasted image 20240602004022.png",
     "Python/Flask/image/Pasted image 20240602003911.png",
     "Python/Flask/image/Pasted image 20240602002635.png",
     "Python/Flask/image/Pasted image 20240602002614.png",
-    "Python/Flask/image/Pasted image 20240602001957.png",
     "무제 파일.canvas"
   ]
 }
