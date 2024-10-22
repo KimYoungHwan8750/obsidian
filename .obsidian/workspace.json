@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Node/playwright/route.md",
+                "file": "용어/Glob Patterns (글로브 패턴).md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "route"
+              "title": "Glob Patterns (글로브 패턴)"
             }
           },
           {
@@ -258,8 +258,12 @@
   },
   "active": "d202ecd75e3abb3b",
   "lastOpenFiles": [
-    "Node/playwright/playwright.md",
+    "CSS/tailwind/tailwind.md",
+    "용어/Glob Patterns (글로브 패턴).md",
+    "Node/playwright/locator.md",
+    "CSS/tailwind",
     "Node/playwright/route.md",
+    "Node/playwright/playwright.md",
     "Node/puppeteer/route.md",
     "Node/playwright",
     "무제 파일.md",
@@ -290,10 +294,6 @@
     "Python/PySide6/QtWidgets.md",
     "Python/PySide6/QtGui",
     "Python/PySide6/QtGui/QPainter.md",
-    "Python/PySide6/QtWidgets",
-    "Python/PySide6/리소스 파일 다루기.md",
-    "Python/Selenium/Start Selenium.md",
-    "Python/Selenium/크롤링.md",
     "Flutter/image/Pasted image 20240707144138.png",
     "Flutter/image/Pasted image 20240707144021.png",
     "baekjoon_logo.png",
