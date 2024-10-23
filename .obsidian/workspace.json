@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "옵시디언/옵시디언 마크다운 문법.md",
-                "mode": "preview",
+                "file": "Next/Route/Dynamic Route.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "옵시디언 마크다운 문법"
+              "title": "Dynamic Route"
             }
           }
         ],
@@ -92,8 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "ef24d012572e04a0",
@@ -203,11 +202,12 @@
   },
   "active": "81da9896c59b6d21",
   "lastOpenFiles": [
-    "Git/한글 깨짐.md",
-    "옵시디언/옵시디언 마크다운 문법.md",
     "Next/Next.Js.md",
+    "Next/Route/Dynamic Route.md",
+    "Next/Route",
+    "옵시디언/옵시디언 마크다운 문법.md",
+    "Git/한글 깨짐.md",
     "서연.md",
-    "Next/무제 폴더",
     "Next",
     "Nest",
     "용어/Glob Patterns (글로브 패턴).md",
@@ -240,7 +240,6 @@
     "React/React를 SSR에 사용하기.md",
     "Typescript/무제 파일.md",
     "Typescript",
-    "JAVA/Spring/React와 Spring Boot.md",
     "Flutter/image/Pasted image 20240707144138.png",
     "Flutter/image/Pasted image 20240707144021.png",
     "프로그래밍 이론/공통/디자인 패턴/image/제목 없음-2.png",
