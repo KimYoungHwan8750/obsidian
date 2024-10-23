@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "용어/Glob Patterns (글로브 패턴).md",
+                "file": "Git/한글 깨짐.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Glob Patterns (글로브 패턴)"
+              "title": "한글 깨짐"
             }
           },
           {
@@ -35,7 +35,8 @@
               "title": "옵시디언 마크다운 문법"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -91,7 +92,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "ef24d012572e04a0",
@@ -199,12 +201,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "8b050bd632d8e0cc",
+  "active": "81da9896c59b6d21",
   "lastOpenFiles": [
+    "Git/한글 깨짐.md",
     "옵시디언/옵시디언 마크다운 문법.md",
+    "Next/Next.Js.md",
+    "서연.md",
+    "Next/무제 폴더",
+    "Next",
+    "Nest",
     "용어/Glob Patterns (글로브 패턴).md",
     "포트폴리오.md",
-    "서연.md",
     "샘플 포스트.md",
     "baekjoon_logo.png",
     "옵시디언/Obsidian 문법.md",
@@ -233,12 +240,7 @@
     "React/React를 SSR에 사용하기.md",
     "Typescript/무제 파일.md",
     "Typescript",
-    "JS/Typescript",
     "JAVA/Spring/React와 Spring Boot.md",
-    "알고리즘/자료구조/stack/LIFO.md",
-    "React",
-    "알고리즘/자료구조/queue/FIFO.md",
-    "Python/PySide6/QtGui",
     "Flutter/image/Pasted image 20240707144138.png",
     "Flutter/image/Pasted image 20240707144021.png",
     "프로그래밍 이론/공통/디자인 패턴/image/제목 없음-2.png",
