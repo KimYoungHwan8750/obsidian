@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Next/Route/ISR (Incremental Static Regeneration.md",
+                "file": "React/프로젝트 시작하기.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "ISR (Incremental Static Regeneration"
+              "title": "프로젝트 시작하기"
             }
           }
         ],
@@ -202,9 +202,12 @@
   },
   "active": "81da9896c59b6d21",
   "lastOpenFiles": [
+    "React/React와 Spring Boot.md",
+    "React/React를 SSR에 사용하기.md",
+    "React/프로젝트 시작하기.md",
     "Next/Route/Dynamic Route.md",
-    "Next/Route/ISR (Incremental Static Regeneration.md",
     "Next/Next.Js.md",
+    "Next/Route/ISR (Incremental Static Regeneration.md",
     "Next/Route",
     "옵시디언/옵시디언 마크다운 문법.md",
     "Git/한글 깨짐.md",
@@ -236,9 +239,6 @@
     "Python/CodingTest/백준 4158 (CD).md",
     "ChatGPT/OpenAI/GPT API Docs.md",
     "Electron",
-    "React/프로젝트 시작하기.md",
-    "React/React와 Spring Boot.md",
-    "React/React를 SSR에 사용하기.md",
     "Typescript",
     "Flutter/image/Pasted image 20240707144138.png",
     "Flutter/image/Pasted image 20240707144021.png",
