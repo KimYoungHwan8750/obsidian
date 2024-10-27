@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "React/Hooks/useContext.md",
+                "file": "React Native/프로젝트 생성.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "useContext"
+              "title": "프로젝트 생성"
             }
           }
         ]
@@ -188,9 +188,14 @@
   },
   "active": "a5f0db6215004814",
   "lastOpenFiles": [
-    "React/Hooks/useCallback.md",
-    "React/Hooks/useContext.md",
+    "React Native/Firebase/Firestore.md",
+    "React Native/프로젝트 생성.md",
+    "Next/Route/Dynamic Route.md",
+    "Next/Next.Js.md",
+    "Next/Route/ISR (Incremental Static Regeneration.md",
     "TodoList.md",
+    "React/Hooks/useContext.md",
+    "React/Hooks/useCallback.md",
     "React/Hooks/useEffect.md",
     "React/Hooks/useReducer.md",
     "React/Hooks/useRef.md",
@@ -205,17 +210,12 @@
     "개인노트/이미지 비트 연산.md",
     "개인노트/옵시디언 플러그인.md",
     "무제 파일.md",
-    "React Native/프로젝트 생성.md",
     "TodoList/TodoList.md",
     "React Native/Navigator/Navigator.md",
     "개인노트/한번 읽어볼 것들/클래스와 인터페이스의 차이.md",
     "개인노트/한번 읽어볼 것들/유용한 블로그.md",
     "개인노트/한번 읽어볼 것들/람다식.md",
     "개인노트/프로젝트 하면서 느낀 점/채팅방 만들기.md",
-    "개인노트/프로젝트 하면서 느낀 점/파일생성.md",
-    "개인노트/2023-11-14.md",
-    "개인노트/2023-11-12.md",
-    "개인노트/2023-11-01.md",
     "TodoList/daily",
     "TodoList",
     "Next/Route",
