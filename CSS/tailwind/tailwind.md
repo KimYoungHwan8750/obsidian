@@ -9,7 +9,7 @@ class 이름으로 style을 적용하는 프레임워크다.
 /* tailwind.config.js */
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{html,js}"],
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {},
   },
@@ -17,4 +17,4 @@ module.exports = {
 }
 ```
 
-content에 
+content에서 glob패턴을 사용해  해당 파일의 class에 적힌 테일윈드 문법을 실제 css로 치환해준다.

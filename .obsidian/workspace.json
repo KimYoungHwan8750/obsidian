@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "React/Hooks/useEffect.md",
+                "file": "CSS/CSS 접근 방식.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "useEffect"
+              "title": "CSS 접근 방식"
             }
           }
         ]
@@ -77,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 369.5,
-    "collapsed": true
+    "width": 369.5
   },
   "right": {
     "id": "ef24d012572e04a0",
@@ -189,6 +188,11 @@
   },
   "active": "58c7320b2d9db4f4",
   "lastOpenFiles": [
+    "CSS/한글깨짐 현상.md",
+    "CSS/tailwind/tailwind.md",
+    "CSS/tailwind/vite(react+ts)프로젝트에서 적용.md",
+    "React/Hooks/useId.md",
+    "React/Hooks/useEffect.md",
     "TodoList.md",
     "React/Hooks/useState.md",
     "React/Hooks/useRef.md",
@@ -200,7 +204,6 @@
     "Next/Route/ISR (Incremental Static Regeneration.md",
     "React/Hooks/useContext.md",
     "React/Hooks/useCallback.md",
-    "React/Hooks/useEffect.md",
     "React/Hooks/useReducer.md",
     "React/Hooks/useMemo.md",
     "React/프로젝트 시작하기.md",
@@ -213,10 +216,6 @@
     "무제 파일.md",
     "TodoList/TodoList.md",
     "React Native/Navigator/Navigator.md",
-    "개인노트/한번 읽어볼 것들/클래스와 인터페이스의 차이.md",
-    "개인노트/한번 읽어볼 것들/유용한 블로그.md",
-    "개인노트/한번 읽어볼 것들/람다식.md",
-    "개인노트/프로젝트 하면서 느낀 점/채팅방 만들기.md",
     "TodoList/daily",
     "TodoList",
     "Next/Route",
