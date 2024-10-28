@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "e278ef399b4073a1",
+        "id": "9570b430e343448a",
         "type": "tabs",
         "children": [
           {
-            "id": "a5f0db6215004814",
+            "id": "58c7320b2d9db4f4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "React Native/프로젝트 생성.md",
+                "file": "React/Hooks/useEffect.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "프로젝트 생성"
+              "title": "useEffect"
             }
           }
         ]
@@ -77,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 369.5,
+    "collapsed": true
   },
   "right": {
     "id": "ef24d012572e04a0",
@@ -186,24 +187,24 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "a5f0db6215004814",
+  "active": "58c7320b2d9db4f4",
   "lastOpenFiles": [
-    "React Native/Firebase/Firestore.md",
+    "TodoList.md",
+    "React/Hooks/useState.md",
+    "React/Hooks/useRef.md",
+    "옵시디언 마크다운 문법.md",
     "React Native/프로젝트 생성.md",
+    "React Native/Firebase/Firestore.md",
     "Next/Route/Dynamic Route.md",
     "Next/Next.Js.md",
     "Next/Route/ISR (Incremental Static Regeneration.md",
-    "TodoList.md",
     "React/Hooks/useContext.md",
     "React/Hooks/useCallback.md",
     "React/Hooks/useEffect.md",
     "React/Hooks/useReducer.md",
-    "React/Hooks/useRef.md",
     "React/Hooks/useMemo.md",
-    "React/Hooks/useState.md",
     "React/프로젝트 시작하기.md",
     "React/Hooks",
-    "옵시디언 마크다운 문법.md",
     "baekjoon_logo.png",
     "포트폴리오.md",
     "개발 도구/SCSS/SASS 설치.md",

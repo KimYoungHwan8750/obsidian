@@ -1,7 +1,7 @@
 >[!summary] React
 >### React Hook 공부하기
 >- [x] [useState](React/Hooks/useState.md)
->- [ ] useRef
+>- [ ] [useRef](React/Hooks/useRef.md)
 >- [ ] useCallback
 >- [ ] useContext
 >- [ ] useEffect
@@ -20,6 +20,20 @@
 >- [ ] Link
 >### 메세지 국제화
 >- [ ] i18n 라이브러리?
+
+>[!summary] React Native
+>- [ ] 컴포넌트 외우기
+>	- [ ] 1.Text
+>	- [ ] 2.Modal
+>	- [ ] 3.Image
+>	- [ ] 4.Button
+>	- [ ] 5.FlatList
+>	- [ ] 6.Pressable
+>	- [ ] 7.ScrollView
+>	- [ ] 8.Switch
+>	- [ ] 9.TextInput
+
+
 
 >[!summary] Next
 >- [ ] 앱 라우팅이란?
