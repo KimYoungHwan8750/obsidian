@@ -1,13 +1,14 @@
 >[!summary] React
 >### React Hook 공부하기
 >- [x] [useState](React/Hooks/useState.md)
->- [ ] [useRef](React/Hooks/useRef.md)
+>- [x] [useRef](React/Hooks/useRef.md)
 >- [ ] useCallback
 >- [ ] useContext
 >- [ ] useEffect
 >- [ ] useMemo
 >- [ ] useReducer
 >### React Router 공부하기
+>- [x] [History API](JS/historyAPI.md)
 >- [ ] Browser Router
 >- [ ] Memory Router
 >- [ ] Hash Router
