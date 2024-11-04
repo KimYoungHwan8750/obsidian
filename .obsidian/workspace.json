@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "React/Hooks/useMemo.md",
+                "file": "React/Hooks/useCallback.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "useMemo"
+              "title": "useCallback"
             }
           },
           {
@@ -109,7 +109,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 369.5
+    "width": 369.5,
+    "collapsed": true
   },
   "right": {
     "id": "ef24d012572e04a0",
@@ -220,9 +221,12 @@
   },
   "active": "58c7320b2d9db4f4",
   "lastOpenFiles": [
-    "React/Hooks/useLocation.md",
-    "React/Hooks/useMemo.md",
     "TodoList.md",
+    "React/Hooks/useEffect.md",
+    "React/Hooks/useCallback.md",
+    "React Native/프로젝트 생성.md",
+    "React/Hooks/useMemo.md",
+    "React/Hooks/useLocation.md",
     "side-project/koglish/기획.md",
     "React Native/React Native 로드맵.md",
     "React Native/Navigator/Navigator.md",
@@ -234,12 +238,10 @@
     "React Native/Library/애니메이션.md",
     "side-project/koglish",
     "side-project",
-    "React Native/프로젝트 생성.md",
     "React/Hooks/useState.md",
     "React/Hooks/useRef.md",
     "React/Hooks/useReducer.md",
     "React/Hooks/useContext.md",
-    "React/Hooks/useCallback.md",
     "React Native/Library/마스크 뷰.md",
     "React/Hooks/useHistory.md",
     "JS/historyAPI.md",
@@ -248,7 +250,6 @@
     "옵시디언 마크다운 문법.md",
     "포트폴리오.md",
     "React/ReactRouterDom/Route.md",
-    "React/프로젝트 시작하기.md",
     "Node/utility-library",
     "React/ReactRouterDom",
     "React/Hooks",
