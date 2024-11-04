@@ -2,10 +2,10 @@
 >### React Hook 공부하기
 >- [x] [useState](React/Hooks/useState.md)
 >- [x] [useRef](React/Hooks/useRef.md)
->- [ ] useCallback
+>- [ ] useCallback (중요)
 >- [ ] useContext
->- [ ] useEffect
->- [ ] useMemo
+>- [x] useEffect
+>- [x] useMemo
 >- [ ] useReducer
 >### React Router 공부하기
 >- [x] [History API](JS/historyAPI.md)
