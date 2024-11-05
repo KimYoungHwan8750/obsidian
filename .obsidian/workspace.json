@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "side-project/koglish/기획.md",
+                "file": "Redux/Redux.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "기획"
+              "title": "Redux"
+            }
+          },
+          {
+            "id": "2110bba7d90d7526",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Redux/createSlice.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "createSlice"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -186,9 +201,13 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "58c7320b2d9db4f4",
+  "active": "2110bba7d90d7526",
   "lastOpenFiles": [
+    "Redux/Redux.md",
+    "Redux/createSlice.md",
+    "Redux/combine.md",
     "TodoList.md",
+    "Redux",
     "side-project/koglish/기획.md",
     "React Native/React Native 로드맵.md",
     "React Native/Navigator/Navigator.md",
@@ -214,9 +233,6 @@
     "서연.md",
     "baekjoon_logo.png",
     "옵시디언 마크다운 문법.md",
-    "포트폴리오.md",
-    "React/ReactRouterDom/Route.md",
-    "React/프로젝트 시작하기.md",
     "Node/utility-library",
     "React/ReactRouterDom",
     "React/Hooks",
@@ -224,7 +240,6 @@
     "TodoList",
     "Next/Route",
     "Next",
-    "Git",
     "Flutter/image/Pasted image 20240707144138.png",
     "Flutter/image/Pasted image 20240707144021.png",
     "프로그래밍 이론/공통/디자인 패턴/image/제목 없음-2.png",

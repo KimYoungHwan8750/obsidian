@@ -42,3 +42,8 @@
 >[!summary] Tailwindcss
 >- [ ] Theme 설정하기
 >- [ ] @layer, @base, @apply 문법?
+
+>[!summary] Redux
+>- [ ] Store
+>- [ ] Action
+>- [ ] Reducer
