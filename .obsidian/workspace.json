@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Redux/Redux.md",
+                "file": "Redux/useSelector.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Redux"
+              "title": "useSelector"
             }
           },
           {
@@ -27,16 +27,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Redux/createSlice.md",
+                "file": "Redux/Store.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "createSlice"
+              "title": "Store"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -201,11 +200,15 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "2110bba7d90d7526",
+  "active": "58c7320b2d9db4f4",
   "lastOpenFiles": [
-    "Redux/Redux.md",
     "Redux/createSlice.md",
+    "Redux/Reducer.md",
+    "Redux/useSelector.md",
+    "Redux/Store.md",
+    "Redux/dispatch.md",
     "Redux/combine.md",
+    "Redux/Redux.md",
     "TodoList.md",
     "Redux",
     "side-project/koglish/기획.md",
@@ -228,11 +231,7 @@
     "React/Hooks/useCallback.md",
     "React Native/Library/마스크 뷰.md",
     "React/Hooks/useLocation.md",
-    "React/Hooks/useHistory.md",
-    "JS/historyAPI.md",
-    "서연.md",
     "baekjoon_logo.png",
-    "옵시디언 마크다운 문법.md",
     "Node/utility-library",
     "React/ReactRouterDom",
     "React/Hooks",
