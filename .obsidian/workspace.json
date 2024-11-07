@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TodoList.md",
+                "file": "React Native/프로젝트 생성.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "TodoList"
+              "title": "프로젝트 생성"
             }
           },
           {
@@ -217,12 +217,17 @@
   },
   "active": "3aad4d07d0362052",
   "lastOpenFiles": [
+    "React Native/React Native 로드맵.md",
+    "리소스 사이트/앱개발 무료 툴.md",
+    "리소스 사이트/개발자.md",
+    "side-project/koglish/기획.md",
+    "개인노트/앱개발",
+    "TodoList.md",
     "React Transition Group/CSSTransition.md",
     "React Transition Group/Transition.md",
     "React Transition Group/SwitchTransition.md",
     "React Transition Group/React Transition Group.md",
     "React Transition Group/TransitionGroup.md",
-    "TodoList.md",
     "Redux/createSlice.md",
     "React Transition Group",
     "Redux/useSelector.md",
@@ -230,10 +235,8 @@
     "Redux/Store.md",
     "Redux/Redux.md",
     "Redux/Reducer.md",
-    "side-project/koglish/기획.md",
     "Redux/combine.md",
     "Redux",
-    "React Native/React Native 로드맵.md",
     "React Native/Navigator/Navigator.md",
     "React Native/Component/Button.md",
     "React Native/Firebase/설치.md",
@@ -245,15 +248,12 @@
     "side-project",
     "React Native/프로젝트 생성.md",
     "React/Hooks/useState.md",
-    "React/Hooks/useRef.md",
-    "React/Hooks/useReducer.md",
     "baekjoon_logo.png",
     "Node/utility-library",
     "React/ReactRouterDom",
     "React/Hooks",
     "TodoList/daily",
     "TodoList",
-    "Next/Route",
     "Flutter/image/Pasted image 20240707144138.png",
     "Flutter/image/Pasted image 20240707144021.png",
     "프로그래밍 이론/공통/디자인 패턴/image/제목 없음-2.png",
