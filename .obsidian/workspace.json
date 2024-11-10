@@ -36,6 +36,20 @@
             }
           },
           {
+            "id": "994d08f333ecaf18",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Android/Jetpack Compose/State/State.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "State"
+            }
+          },
+          {
             "id": "2110bba7d90d7526",
             "type": "leaf",
             "state": {
@@ -50,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -215,45 +229,45 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "3aad4d07d0362052",
+  "active": "ee7b5608def987d3",
   "lastOpenFiles": [
-    "React Native/프로젝트 생성.md",
+    "Android/Jetpack Compose/Navigation",
+    "Android/메시지 국제화.md",
+    "Android/Jetpack Compose/Animation/AnimationSpec.md",
+    "Android/무제 폴더",
+    "Android/Jetpack Compose/Animation/animateTAsState.md",
+    "Android/Jetpack Compose/Animation/AnimatedVisibility.md",
+    "Android/Jetpack Compose/Component/Text/TextStyle.md",
+    "Android/Jetpack Compose/Animation",
+    "Android/무제 파일.md",
+    "Android/Jetpack Compose/Component/Text/TextField.md",
+    "Android/Jetpack Compose/Component/Text/Text.md",
+    "Android/Jetpack Compose/Component/Text/Common.md",
+    "Android/Jetpack Compose/Component/Text/BasicTextField.md",
+    "Android/Jetpack Compose/Component/Text",
+    "Android/Jetpack Compose/State/State.md",
+    "Android/Jetpack Compose/Jetpack Compose.md",
+    "Android/Jetpack Compose/State",
+    "Android/Jetpack Compose/Component/Box.md",
+    "Android/Jetpack Compose/Component/Column.md",
+    "Android/Jetpack Compose/Component/Surface.md",
+    "Android/Jetpack Compose/Component/무제 파일.md",
+    "Android/메세지 국제화/무제 파일.md",
+    "Android/메세지 국제화",
+    "Android/Jetpack Compose/Component",
+    "Kotlin/Class.md",
+    "Android/Jetpack Compose",
+    "Android",
     "Kotlin/변수 선언.md",
+    "Kotlin/Lambda.md",
+    "Kotlin/by.md",
+    "Kotlin/문자열 포매팅.md",
+    "무제 파일.md",
+    "React Native/프로젝트 생성.md",
     "무제 폴더",
     "React Native/React Native 로드맵.md",
-    "리소스 사이트/앱개발 무료 툴.md",
-    "리소스 사이트/개발자.md",
-    "side-project/koglish/기획.md",
     "개인노트/앱개발",
-    "TodoList.md",
-    "React Transition Group/CSSTransition.md",
-    "React Transition Group/Transition.md",
-    "React Transition Group/SwitchTransition.md",
-    "React Transition Group/React Transition Group.md",
-    "React Transition Group/TransitionGroup.md",
-    "Redux/createSlice.md",
-    "React Transition Group",
-    "Redux/useSelector.md",
-    "Redux/dispatch.md",
-    "Redux/Store.md",
-    "Redux/Redux.md",
-    "Redux/Reducer.md",
-    "Redux/combine.md",
-    "Redux",
-    "React Native/Navigator/Navigator.md",
-    "React Native/Component/Button.md",
-    "React Native/Firebase/설치.md",
-    "React Native/Firebase/Firestore.md",
-    "React Native/Firebase/gradle 설정.md",
-    "React Native/Library/제스쳐 구현.md",
-    "React Native/Library/애니메이션.md",
-    "side-project/koglish",
-    "side-project",
     "baekjoon_logo.png",
-    "Node/utility-library",
-    "React/ReactRouterDom",
-    "React/Hooks",
-    "TodoList/daily",
     "Flutter/image/Pasted image 20240707144138.png",
     "Flutter/image/Pasted image 20240707144021.png",
     "프로그래밍 이론/공통/디자인 패턴/image/제목 없음-2.png",
