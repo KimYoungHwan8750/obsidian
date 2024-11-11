@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Android/Jetpack Compose/State/State.md",
+                "file": "Android/ViewModel.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "State"
+              "title": "ViewModel"
             }
           },
           {
@@ -120,7 +120,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 369.5
+    "width": 369.5,
+    "collapsed": true
   },
   "right": {
     "id": "ef24d012572e04a0",
@@ -229,23 +230,24 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "ee7b5608def987d3",
+  "active": "994d08f333ecaf18",
   "lastOpenFiles": [
+    "Android/ViewModel/무제 파일.md",
+    "Android/ViewModel.md",
+    "Android/Jetpack Compose/State/State.md",
+    "Android/ViewModel",
     "Android/Jetpack Compose/Navigation",
     "Android/메시지 국제화.md",
     "Android/Jetpack Compose/Animation/AnimationSpec.md",
-    "Android/무제 폴더",
     "Android/Jetpack Compose/Animation/animateTAsState.md",
     "Android/Jetpack Compose/Animation/AnimatedVisibility.md",
     "Android/Jetpack Compose/Component/Text/TextStyle.md",
     "Android/Jetpack Compose/Animation",
-    "Android/무제 파일.md",
     "Android/Jetpack Compose/Component/Text/TextField.md",
     "Android/Jetpack Compose/Component/Text/Text.md",
     "Android/Jetpack Compose/Component/Text/Common.md",
     "Android/Jetpack Compose/Component/Text/BasicTextField.md",
     "Android/Jetpack Compose/Component/Text",
-    "Android/Jetpack Compose/State/State.md",
     "Android/Jetpack Compose/Jetpack Compose.md",
     "Android/Jetpack Compose/State",
     "Android/Jetpack Compose/Component/Box.md",
@@ -266,7 +268,6 @@
     "React Native/프로젝트 생성.md",
     "무제 폴더",
     "React Native/React Native 로드맵.md",
-    "개인노트/앱개발",
     "baekjoon_logo.png",
     "Flutter/image/Pasted image 20240707144138.png",
     "Flutter/image/Pasted image 20240707144021.png",
