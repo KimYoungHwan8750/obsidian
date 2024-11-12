@@ -28,6 +28,12 @@ class CountViewModel: ViewModel(){
 }
 ```
 
+\_count는 뷰모델 내부에서만 수정 가능하고, count를 통해 외부에 노출시킨다.
+함수명에서 알 수 있듯이 MutableStateFlow는 수정 가능한 상태 흐름이고, cout는 StateFlow(아마도 immutable이 생략된듯하다)이다.
+
+\_count로부터 asStateFlow 함수로 count에 할당해주어서 readonly 개념으로 쓰이는 것 같다.
+개념이 React 진영의 redux의 스토어와 리듀서랑 비슷한 것 같다.
+
 
 ```kotlin
 @Composable

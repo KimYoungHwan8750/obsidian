@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Android/ViewModel.md",
+                "file": "JS/웹소켓/웹소켓.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "ViewModel"
+              "title": "웹소켓"
             }
           },
           {
@@ -120,8 +120,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 369.5,
-    "collapsed": true
+    "width": 369.5
   },
   "right": {
     "id": "ef24d012572e04a0",
@@ -232,8 +231,12 @@
   },
   "active": "994d08f333ecaf18",
   "lastOpenFiles": [
-    "Android/ViewModel/무제 파일.md",
+    "JAVA/Spring/웹소켓/웹소켓 구축.md",
+    "JAVA/Spring/웹소켓/SockJS.md",
+    "JAVA/Spring/웹소켓/Dependencies.md",
+    "JS/웹소켓/웹소켓.md",
     "Android/ViewModel.md",
+    "Android/ViewModel/무제 파일.md",
     "Android/Jetpack Compose/State/State.md",
     "Android/ViewModel",
     "Android/Jetpack Compose/Navigation",
@@ -263,11 +266,7 @@
     "Kotlin/변수 선언.md",
     "Kotlin/Lambda.md",
     "Kotlin/by.md",
-    "Kotlin/문자열 포매팅.md",
-    "무제 파일.md",
-    "React Native/프로젝트 생성.md",
     "무제 폴더",
-    "React Native/React Native 로드맵.md",
     "baekjoon_logo.png",
     "Flutter/image/Pasted image 20240707144138.png",
     "Flutter/image/Pasted image 20240707144021.png",
