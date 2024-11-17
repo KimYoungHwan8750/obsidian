@@ -57,7 +57,7 @@ class MainActivity : ComponentActivity() {
 
 참고로 User가 object로 선언된 이유는, kotlin에서 object 키워드는 싱글턴 class를 생성하는데 의존성을 Provide하는 클래스인 User 클래스가 여러개 생성될 필요 없이 하나만 존재하면 되기 때문이다.
 
-내부적으로 count라는 변수를 선언하고 increment, decrement를 했을 때 변경된 값을 모두가 공유해야하는데 인스턴스를 생성할 때마다 count 변수가 초기화되면 의미가 없게 된다.
+내부적으로 count라는 변수를 선언하고 increment, decrement를 했을 때 변경된 값을 모두가 공유해야하는데 인스턴스를 생성할 때마다 count 변수가 초기화되면  의미가 없게 된다.
 
 추가적으로, 해당 객체 타입이 컨테이너에서 유일한 경우에 대한 예제 코드도 설명한다.
 
@@ -140,4 +140,102 @@ class MainActivity : AppCompatActivity() { ... }
 
 `@InstallIn` 어노테이션은 클래스의 스코프를 지정해준다.
 
+
+| Hilt component            | Injector for                       | Created at             | Destroyed at            | Scope                   |
+| ------------------------- | ---------------------------------- | ---------------------- | ----------------------- | ----------------------- |
+| SingletonComponent        | Application                        | Application#onCreate() | Application#onDestroy() | @Singleton              |
+| ActivityRetainedComponent | 해당 없음                          | Activity#onCreate()    | Activity#onDestroy()    | @ActivityRetainedScoped |
+| ViewModelComponent        | ViewModel                          | ViewModel created      | ViewModel destroyed     | @ViewModelScoped        |
+| ActivityComponent         | Activity                           | Activity#onCreate()    | Activity#onDestroy()    | @ActivityScoped         |
+| FragmentComponent         | Fragment                           | Fragment#onAttach()    | Fragment#onDestroy()    | @FragmentScoped         |
+| ViewComponent             | View                               | View#super()           | View destroyed          | @ViewScoped             |
+| ViewWithFragmentComponent | @WithFragmentBindings 가 붙은 View | View#super()           | View destroyed          | @ViewScoped             |
+| ServiceComponent          | Service                            | Service#onCreate()     | Service#onDestroy()     | @ServiceScoped          |
+
+
+### @Provides
+
+`@Provides`는 모듈 안에서 쓰이며 객체 생성 방법을 정의한다.
+
+```kotlin
+@Module
+@InstallIn(SingletonComponent::class)
+class User @Inject constructor(){
+    @Provides
+    fun provideName(): String{
+        return "홍길동"
+    }
+}
+```
+
+해당 코드는 어플리케이션 스코프에 String 객체 생성 방법을 정의한다.
+
+### @Singleton
+
+class와 function에서 사용할 수 있으며, 인스턴스가 단 하나만 존재함을 보장한다.
+
+```kotlin
+@Module
+@InstallIn(SingletonComponent::class)
+class User @Inject constructor(){
+    @Provides
+	@Singleton // 단 하나의 인스턴스 보장
+    fun provideName(): String{
+        return "홍길동"
+    }
+}
+```
+
+### @Qualifier
+
+의존성 컨테이너에 같은 타입 객체가 있을 경우 이를 구분하기 위해 별칭을 지어주는 역할
+`@Retention` 어노테이션과 함께 쓰인다.
+
+```kotlin
+@Qualifier
+@Retention(AnnotationRetention.BINARY)
+annotation class Hong
+
+@Qualifier
+@Retention(AnnotationRetention.BINARY)
+annotation class Chung
+
+@Module
+@InstallIn(SingletonComponent::class)
+class User @Inject constructor(){
+    @Provides
+    @Hong
+    fun provideName(): String{
+        return "홍길동"
+    }
+
+    @Provides
+    @Chung
+    fun provideOtherName(): String{
+        return "청길동"
+    }
+}
+```
+
+```kotlin
+@AndroidEntryPoint
+class MainActivity : ComponentActivity() {
+    @Inject
+    @Chung
+    lateinit var name: String // 청길동
+    @Inject
+    @Hong
+    lateinit var name2: String // 홍길동
+}
+```
+
+### @Retention
+
+어노테이션의 생명 주기를 관리한다.
+
+AnnotationRetention.SOURCE // 컴파일 후 제거
+AnnotationRetention.BINARY // 컴파일 후 코드에 남음
+AnnotationRetention.RUNTIME // 컴파일 후 런타임에도 접근 가능(리플렉션을 이용하고 싶을 때)
+
+대부분의 상황에서 BINARY가 쓰인다. 런타임 중에도 접근해야하는 경우 RUNTIME으로 설정하는데, 일반적인 상황에서 사용할 일이 없으므로 BINARY를 사용하다가 필요할 때 학습하면 될 듯하다.
 
