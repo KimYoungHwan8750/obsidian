@@ -55,8 +55,13 @@ fun Main(viewModel: CountViewModel = viewModel()){
 }
 ```
 
+Model - View - ViewModel 구조에서 ViewModel은 Model의 데이터를 가지고와서 View에 제공해주는 레이어라고 했다. 위 예제는 매우 간단한 카운터이므로 이러한 구조가 부자연스럽게 느껴질수도 있다.
+
+Room을 사용해서 Model(DB)에 있는 값을 UI(View)로 전달해주는 역할의 ViewModel 예제를 보자.
+[Room](Android/Room/Room.md)
 ## state를 가져오는 함수
 
 `collectAsStateWithLifecycle`와 `collectAsState`가 있다.
 
 collectAsState는 백그라운드에서도 동작해야하는 경우(뮤직 플레이어) 사용되나 대부분의 경우 `collectAsStateWithLifecycle`가 사용된다.
+
