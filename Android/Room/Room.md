@@ -8,6 +8,8 @@ Room이란 안드로이드용 데이터베이스다.
 2. 해당 데이터베이스를 제공해주는 모듈(Hilt 사용)
 3. 테이블을 생성할 수 있는 Entity (ORM이라 생성한 Entity가 테이블에 매칭된다.)
 4. 테이블에 접근할 수 있는 Dao 정의
+5. ViewModel로 UI와 데이터 매칭
+6. View에서 ViewModel을 통한 UI 표시시
 
 ### @Entity
 `data class`로 선언되며, 테이블과 매칭되는 클래스이다.
@@ -127,5 +129,107 @@ delete의 경우 PrimaryKey만 일치한다면 나머지 값은 아마도 의미
 
 ---
 
-### ViewModel
+### @ViewModel
+DB와 UI의 중간 다리 역할을 한다.
+```kotlin
+data class User(
+    val pid: String = "",
+    val firstName: String = "",
+    val lastName: String = "",
+)
 
+@HiltViewModel
+class UserViewModel @Inject constructor(private val db: AppDatabase): ViewModel() {
+    var user = mutableStateOf(User())
+        private set
+    var users = mutableStateOf(emptyList<UserEntity>())
+
+    fun onEvent(event: UserEvent){
+        when(event) {
+            is OnPidChange -> {
+                user.value = user.value.copy(pid = event.pid)
+            }
+            is OnFirstNameChange -> {
+                user.value = user.value.copy(firstName = event.firstName)
+            }
+            is OnLastNameChange -> {
+                user.value = user.value.copy(lastName = event.lastName)
+            }
+            is OnSave -> {
+                viewModelScope.launch {
+                    db.userDAO().insert(
+                        UserEntity(
+                            uid = user.value.pid,
+                            firstName = user.value.firstName,
+                            lastName = user.value.lastName
+                        )
+                    )
+                }
+                loadStates()
+            }
+        }
+    }
+
+    fun loadStates() {
+        viewModelScope.launch {
+            users.value = db.userDAO().getAllUsers()
+        }
+    }
+}
+```
+
+#### Composable에서 ViewModel 사용
+```kotlin
+@AndroidEntryPoint
+class MainActivity : ComponentActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContent {
+            UserListView(viewModel = viewModel())
+			// hiltViewModel<UserViewModel>을 사용할 수 있으면 사용. (이 예제에선 디펜던시 설치를 안 해서 못했음)
+        }
+    }
+}
+
+@Composable
+fun UserListView(viewModel: UserViewModel){
+    val state = viewModel.user.value
+    val states = viewModel.users.value
+    LaunchedEffect(Unit) {
+        viewModel.loadStates()  // 화면이 시작될 때 데이터 로드
+    }
+    Column {
+        TextField(value = state.pid, onValueChange = {viewModel.onEvent(OnPidChange(it))}, label = {Text(text = "PID")})
+        TextField(value = state.firstName, onValueChange = {viewModel.onEvent(
+            OnFirstNameChange(it)
+        )}, label = {Text(text = "First Name")})
+        TextField(value = state.lastName, onValueChange = {viewModel.onEvent(
+            OnLastNameChange(it)
+        )}, label = {Text(text = "Last Name")})
+        Button(onClick = {viewModel.onEvent(OnSave)}) {
+            Text("저장")
+        }
+        Button(onClick = {viewModel.loadStates()}) {
+            Text("불러오기")
+        }
+        LazyColumn {
+            items(states) { state ->
+                Text("${state.firstName} ${state.lastName}")
+            }
+        }
+    }
+}
+```
+
+### DB 이벤트 제어
+sealed class를 이용해 Dto에 대한 이벤트를 지정해주면 코드의 안정성이 증가한다.
+
+```kotlin
+sealed class UserEvent  
+data class OnPidChange(val pid: String): UserEvent()  
+data class OnFirstNameChange(val firstName: String): UserEvent()  
+data class OnLastNameChange(val lastName: String): UserEvent()  
+data object OnSave: UserEvent()
+```
+
+자세한 사항은 [Kotlin / sealed class](Kotlin/Class.md#sealed)를 참조하자
