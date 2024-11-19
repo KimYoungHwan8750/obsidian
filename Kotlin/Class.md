@@ -46,7 +46,7 @@ class A(){
 ## class의 여러 형태
 kotlin은 자주 사용되는 패턴이나 기능들에 대해서 언어 차원에서 지원해주는 경우가 많다. data class나 object의 경우가 그러한데, 한 번 알아보도록 하자.
 
-### data class
+### data
 데이터를 보관하는 목적의 클래스로 사용된다.
 c/c++의 structure(구조체)와 비슷한 개념이다
 
@@ -61,8 +61,37 @@ c/c++의 structure(구조체)와 비슷한 개념이다
 ### object
 인스턴스를 하나만 반환하는 것이 보장된다.
 싱글턴을 언어 차원에서 간편하게 구현해준다고 보면 된다.
+상태를 지니거나 equals를 오버라이드하는 경우 object class를 사용해선 안 된다.
 
 또한 `object`는 `class` 내부에서 `opnion object`로 사용되어 자바의 static과 같은 동작을 구현하는데 사용할 수도 있다.
+
+### sealed
+Event를 정의하거나 반드시 모든 경우에 대한 분기처리를 요구하기 때문에 코드 안정성을 증대시킨다. 말로 들어선 이해가 쉽지 않으므로 예제 코드를 보면서 이해해보자.
+
+```kotlin
+sealed class Event
+data class OnMouseEvent(val x: String): Event()
+data class OnHoverEvent(val y: Int): Event()
+data object OnCaptureEvent: Event()
+```
+
+```kotlin
+fun handleEvent(e: Event){
+	when (e) {
+		is OnMouseEvent -> {
+			println(e.x)
+		}
+		is OnHoverEvent -> {
+			println(e.y)
+		}
+		is OnCaptureEvent -> {
+			println("capture event")
+		}
+	}
+}
+```
+
+위 when 절에서 Event를 상속한 세 이벤트 중 하나라도 분기처리가 되어있지 않다면 컴파일 에러가 발생한다.
 
 ## 클래스 형변환
 
