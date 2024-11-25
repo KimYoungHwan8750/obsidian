@@ -4,67 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "9570b430e343448a",
+        "id": "9fa22fc778012b4d",
         "type": "tabs",
         "children": [
           {
-            "id": "58c7320b2d9db4f4",
+            "id": "a6c9d0721451548f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Redux/useSelector.md",
-                "mode": "source",
+                "file": "Vite/Vite.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "useSelector"
-            }
-          },
-          {
-            "id": "3aad4d07d0362052",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Kotlin/변수 선언.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "변수 선언"
-            }
-          },
-          {
-            "id": "994d08f333ecaf18",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "JS/웹소켓/웹소켓.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "웹소켓"
-            }
-          },
-          {
-            "id": "2110bba7d90d7526",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Redux/Store.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Store"
+              "title": "Vite"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -95,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "제어문",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -213,7 +170,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 201.5
+    "width": 201.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -229,44 +187,46 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "994d08f333ecaf18",
+  "active": "a6c9d0721451548f",
   "lastOpenFiles": [
-    "JAVA/Spring/웹소켓/웹소켓 구축.md",
-    "JAVA/Spring/웹소켓/SockJS.md",
-    "JAVA/Spring/웹소켓/Dependencies.md",
-    "JS/웹소켓/웹소켓.md",
-    "Android/ViewModel.md",
-    "Android/ViewModel/무제 파일.md",
-    "Android/Jetpack Compose/State/State.md",
-    "Android/ViewModel",
-    "Android/Jetpack Compose/Navigation",
-    "Android/메시지 국제화.md",
-    "Android/Jetpack Compose/Animation/AnimationSpec.md",
-    "Android/Jetpack Compose/Animation/animateTAsState.md",
-    "Android/Jetpack Compose/Animation/AnimatedVisibility.md",
-    "Android/Jetpack Compose/Component/Text/TextStyle.md",
-    "Android/Jetpack Compose/Animation",
-    "Android/Jetpack Compose/Component/Text/TextField.md",
-    "Android/Jetpack Compose/Component/Text/Text.md",
-    "Android/Jetpack Compose/Component/Text/Common.md",
-    "Android/Jetpack Compose/Component/Text/BasicTextField.md",
-    "Android/Jetpack Compose/Component/Text",
-    "Android/Jetpack Compose/Jetpack Compose.md",
-    "Android/Jetpack Compose/State",
-    "Android/Jetpack Compose/Component/Box.md",
-    "Android/Jetpack Compose/Component/Column.md",
-    "Android/Jetpack Compose/Component/Surface.md",
-    "Android/Jetpack Compose/Component/무제 파일.md",
-    "Android/메세지 국제화/무제 파일.md",
-    "Android/메세지 국제화",
-    "Android/Jetpack Compose/Component",
-    "Kotlin/Class.md",
-    "Android/Jetpack Compose",
-    "Android",
-    "Kotlin/변수 선언.md",
-    "Kotlin/Lambda.md",
-    "Kotlin/by.md",
-    "무제 폴더",
+    "Typescript/Type.md",
+    "Arduino/SPI 통신.md",
+    "Arduino/esp8266 공부.md",
+    "Arduino/SD Card Module/싸이피아 C71 SD카드 모듈 SD 메모리 젠더 TF 아답터.md",
+    "Arduino/MicroSD Card Module/SZH-EKBZ-005.md",
+    "Docker/Docker.md",
+    "프로그래밍 이론/메모리 영역.md",
+    "프로그래밍 이론/Endian.md",
+    "Electron/IPC.md",
+    "Electron/프로젝트 시작하기.md",
+    "Network/공부할 것.md",
+    "side-project/월드컵 만들기 프로그램.md",
+    "Network",
+    "새 텍스트 문서.txt",
+    "프로그래밍 이론/image/Pasted image 20241124031608.png",
+    "프로그래밍 이론/image",
+    "리소스 사이트/플레이스홀더 이미지.md",
+    "리소스 사이트/image/Pasted image 20241124012106.png",
+    "리소스 사이트/image",
+    "프로그래밍 이론/Test.md",
+    "Cpp/문자열.md",
+    "Cpp/포인터/함수 포인터.md",
+    "Cpp/자료형.md",
+    "Cpp/포인터",
+    "Cpp/전처리기/define.md",
+    "Redux/combineReducer.md",
+    "Redux/useSelector.md",
+    "Redux/Store.md",
+    "Redux/Redux.md",
+    "Redux/Reducer.md",
+    "Redux/dispatch.md",
+    "React/Hooks/useCallback.md",
+    "Redux/createSlice.md",
+    "Android/Room",
+    "Android/Hilt",
+    "React/Test",
+    "Vite/Test",
+    "Vite",
     "baekjoon_logo.png",
     "Flutter/image/Pasted image 20240707144138.png",
     "Flutter/image/Pasted image 20240707144021.png",
@@ -275,8 +235,6 @@
     "Python/Flask/image/Pasted image 20240602004022.png",
     "Python/Flask/image/Pasted image 20240602003911.png",
     "Python/Flask/image/Pasted image 20240602002635.png",
-    "Python/Flask/image/Pasted image 20240602002614.png",
-    "Python/Flask/image/Pasted image 20240602001957.png",
     "무제 파일.canvas"
   ]
 }
