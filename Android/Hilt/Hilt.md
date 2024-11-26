@@ -12,6 +12,29 @@ Hilt는 현재 다음 Android 클래스를 지원한다.
 - `Service`
 - `BroadcastReceiver`
 
+## 프로젝트 설정
+
+프로젝트(Root)의 `build.gradle`
+
+```kotlin
+plugins {
+	// 다른 설정들이 있을 수 있음. 아래 내용 추가
+	id("com.google.dagger.hilt.android") version "2.51.1" apply false
+}
+```
+
+App의 `build.gradle`
+
+```kotlin
+plugins {
+	// 다른 설정들이 있을 수 있음. 아래 내용 추가
+    id("kotlin-kapt")  
+    id("com.google.dagger.hilt.android")  
+}
+```
+
+만약 Root와 App의 build.gradle 차이가 헷갈린다면 [프로젝트 설정](Android/Jetpack%20Compose/Jetpack%20Compose.md#프로젝트%20설정) 참조.
+
 ## 간단한 예제
 
 Hilt를 공부하며 이틀 정도는 사용 방식이 생소하고 이해가 잘 안 갔다.
