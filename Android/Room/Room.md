@@ -1,6 +1,35 @@
 # Room
 Room이란 안드로이드용 데이터베이스다.
 
+## 프로젝트 설정
+Room 공식 문서를 보면 KSP 사용을 권장한다. Kapt보다 더 낫다곤 하는데, 일단은 묻지도 따지지도 말고 써보도록 하자.
+
+프로젝트 수준 `build.gradle`
+
+```kotlin
+plugins {
+	id("org.jetbrains.kotlin.kapt") // 내용 삭제
+	id("com.google.devtools.ksp") version "1.9.0-1.0.13" apply false // 내용 추가
+}
+```
+
+`1.9.0`은 내가 사용중인 코틀린 버전이고 `1.0.13`은 KSP 버전이다.
+각 코틀린 버전에 맞는 KSP 버전을 [KSP 깃허브](https://github.com/google/ksp)의 Release에서 확인하자. 내가 사용중인 코틀린 버전은 `gradle`과 같은 폴더 수준에 있는 `libs.version.toml`에 기재되어 있다.
+
+앱 수준 `build.gradle`엔 아래 내용을 기재하고 동시에 kapt 관련 내용을 지워주자
+```kotlin
+plugins {
+	id("kotlin-kapt") // 해당 내용 삭제 - kapt 관련 내용 모조리 삭제한다.
+    id("com.google.devtools.ksp")
+}
+
+// 관련 내용들 삭제
+kapt {
+    correctErrorTypes = true
+    useBuildCache = true
+}
+```
+
 ## 사용법
 우선 데이터베이스를 프로젝트에 도입하기 위한 기본 구조는 다음과 같다.
 
@@ -76,6 +105,7 @@ object AppModule {
 }
 ```
 
+`getDatabase` 함수에서 사용된 `@ApplicationContext`는 hilt가 자동으로 올바른 컨텍스트를 주입해준다. 특정 Activity 컨텍스트를 주입받을수도 있지만 대부분 데이터베이스는 앱과 생명주기를 함께하기 때문에 이러한 설정은 다음에 필요할 때 알아봐도 좋을 것 같다.
 
 ### @Dao
 데이터베이스에 액세스할 때 사용된다.
