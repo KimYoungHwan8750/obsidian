@@ -49,6 +49,10 @@ Spring의 @Component, @Bean 등 다양한 어노테이션으로 이루어지는 
 // App.kt
 @HiltAndroidApp
 class ExampleApplication : Application() {
+    override fun onCreate() {
+        super.onCreate()
+        // 앱 초기화 코드
+    }
 }
 
 // User.kt
@@ -143,6 +147,68 @@ Application을 상속받는 클래스에 지정해주면 된다.
 즉 의존성들이 모이는 컨테이너라고 보면 된다.
 
 반드시 선언해주어야 Hilt의 기능을 이용할 수 있다.
+
+Application은 MainActivity의 부모다.
+
+```xml
+<application
+	android:allowBackup="true"
+	android:dataExtractionRules="@xml/data_extraction_rules"
+	android:fullBackupContent="@xml/backup_rules"
+	android:icon="@mipmap/ic_launcher"
+	android:label="@string/app_name"
+	android:roundIcon="@mipmap/ic_launcher_round"
+	android:supportsRtl="true"
+	android:theme="@style/Theme.RoomExample"
+	tools:targetApi="31">
+	<activity
+		android:name=".MainActivity"
+		android:exported="true"
+		android:label="@string/app_name"
+		android:theme="@style/Theme.RoomExample">
+		<intent-filter>
+			<action android:name="android.intent.action.MAIN" />
+
+			<category android:name="android.intent.category.LAUNCHER" />
+		</intent-filter>
+	</activity>
+</application>
+```
+
+manifest 파일을 보면 위와 같은 구조를 가지는 것을 알 수 있다.
+application 내에 activity가 있다.
+따라서 hilt application을 선언했다면 manifest 파일도 다음과 같이 수정해야한다.
+
+```xml
+
+<application
+	android:allowBackup="true"
+	android:dataExtractionRules="@xml/data_extraction_rules"
+	android:fullBackupContent="@xml/backup_rules"
+	android:icon="@mipmap/ic_launcher"
+	android:name=".앱이름" 
+	android:label="@string/app_name"
+	android:roundIcon="@mipmap/ic_launcher_round"
+	android:supportsRtl="true"
+	android:theme="@style/Theme.RoomExample"
+	tools:targetApi="31">
+	<activity
+		android:name=".MainActivity"
+		android:exported="true"
+		android:label="@string/app_name"
+		android:theme="@style/Theme.RoomExample">
+		<intent-filter>
+			<action android:name="android.intent.action.MAIN" />
+
+			<category android:name="android.intent.category.LAUNCHER" />
+		</intent-filter>
+	</activity>
+</application>
+```
+
+앱 이름은 HiltApplication 주석을 단 클래스의 이름을 적어주면 된다.
+파일 경로에 `.`이 들어가는 것은 상대경로를 나타낸다. 앱의 패키지 `com.example.앱패키지`의 경로이다.
+만약 `com.example.myapp.data`에 있다면 `.data.ExamApplication`같은 형태가 될 것이다.
 
 ### @AndroidEntryPoint
 
