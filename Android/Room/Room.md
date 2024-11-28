@@ -63,7 +63,8 @@ data class User(
 ---
 
 ### @Database
-데이터베이스를 정의한다.
+데이터베이스를 정의한다. 웹 개발자라면 익숙한 repository나 service 레이어와 비슷한 것 같다. 정의된 Dao를 통해 쿼리를 날려 데이터베이스에 액세스할 수 있다.
+
 entities 파라미터, version 파라미터가 필수로 요구된다.
 autoMigration 파라미터 등 이외 파라미터도 시간 난다면 훑어보는 걸 추천.
 
