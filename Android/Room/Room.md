@@ -253,7 +253,7 @@ fun UserListView(viewModel: UserViewModel){
 ```
 
 ### DB 이벤트 제어
-sealed class를 이용해 Dto에 대한 이벤트를 지정해주면 코드의 안정성이 증가한다.
+sealed class를 이용해 ViewModel에서 다룰 이벤트를 지정해주면 코드의 안정성이 증가한다.
 
 ```kotlin
 sealed class UserEvent  
@@ -264,3 +264,12 @@ data object OnSave: UserEvent()
 ```
 
 자세한 사항은 [Kotlin / sealed class](Kotlin/Class.md#sealed)를 참조하자
+
+
+----
+
+참고용
+
+Room은 Dao, Entity, Database로 이루어진다.
+Entity는 테이블과 매핑되며, Dao는 해당 테이블에 쿼리를 날려 상호작용을 한다.
+Database는 프로젝트에서 사용할 모든 테이블과 Dao를 집약해서 제공하는 역할을 한다.
