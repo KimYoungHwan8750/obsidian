@@ -1,1 +1,0 @@
-![[JS/함수/Object/for in|for in]]
