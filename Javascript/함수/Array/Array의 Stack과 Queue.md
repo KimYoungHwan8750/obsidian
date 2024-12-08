@@ -12,7 +12,7 @@ array.pop(); // 반환 값: 꺼낸 값 그 자체 (6)
 let array = [1,2,3,4,5];
 array.push(6); // array = [1,2,3,4,5,6]
 array.shift(); // 1, array = [2,3,4,5,6]
-array.unshift('일') // 5 배열의 크기 반
+array.unshift('일') // 5 배열의 크기 반환
 ```
 
 ### Stack
@@ -27,4 +27,4 @@ array.unshift('일') // 5 배열의 크기 반
 * shift : 맨 앞에 값을 꺼내온다.
 	* 반환 값은 꺼낸 값 그 자체
 * unshift : 맨 앞에 값을 넣는다.
-	* 반환 값은 꺼내고 난 후 배열의 크기
+	* 반환 값은 넣고 난 후 배열의 크기
