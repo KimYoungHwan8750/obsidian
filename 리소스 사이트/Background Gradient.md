@@ -1,1 +1,0 @@
-[백그라운드 매직](https://www.gradientmagic.com/)
