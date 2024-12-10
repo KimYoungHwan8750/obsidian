@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "리소스 사이트/저작권 없는 사진.md",
+                "file": "리소스 사이트/개발 리소스 모음.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "저작권 없는 사진"
+              "title": "개발 리소스 모음"
             }
           }
         ]
@@ -187,15 +187,15 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "ee7b5608def987d3",
+  "active": "bd87317a2e6f8705",
   "lastOpenFiles": [
-    "리소스 사이트/Background Gradient.md",
+    "리소스 사이트/개발 컨퍼런스 사이트.md",
     "리소스 사이트/저작권 없는 사진.md",
+    "리소스 사이트/Background Gradient.md",
     "리소스 사이트/개발 리소스 모음.md",
     "리소스 사이트/Sprite Image.md",
     "리소스 사이트/플레이스홀더 이미지.md",
     "리소스 사이트/Cloud ERD.md",
-    "리소스 사이트/개발 컨퍼런스 사이트.md",
     "리소스 사이트/javadoc.md",
     "리소스 사이트/DateTime 표현식.md",
     "리소스 사이트/안드로이드 개발 리소스.md",
