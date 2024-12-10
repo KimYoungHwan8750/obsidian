@@ -66,6 +66,7 @@ export function useAppContext() {
 
 `<AppContext.Provider value={'hi'}>`를 통해 `AppContext`를 공유 받은 하위 요소들만이 `AppContext`의 컨텍스트에 접근할 수 있고, `hi`를 반환받을 수 있다.
 
+
 이제 카운터 프로그램을 구현해보자.
 
 ```tsx
@@ -90,3 +91,5 @@ return (
 ```
 
 버튼을 누를 때마다 `appContext`에서 제공해주는 `setCount(nodeRef.current.valueAsNumber)`를 통해 `appContext`의 `count`를 원하는 숫자로 설정하고 있다. 이를 통해 기존의 `props drilling`을 극복하고 컴포넌트간의 상호작용이 가능하다.
+
+https://imgur.com/a/dlHB1vV
