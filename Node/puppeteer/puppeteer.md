@@ -40,9 +40,7 @@ await page.waitForSelector('.클래스이름', {timeout: 3000})
 const page = await pt.newPage();
 const locator = await page.locator('.클래스이름').setTimeout(3000).waitHandle();
 ```
-
 locator는 아래와 같이 메서드 체이닝이 가능해 좀 더 권장되는 것 같다. 사용하기 더 편하고 문법이 트렌디하다. (개인적인 감상)
-
 ```js
 page.locator('.test6')
     .setTimeout(6000)
