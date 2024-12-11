@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "개발 리소스 모음"
             }
+          },
+          {
+            "id": "9f03f64b8fe640d6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "옵시디언 테스트.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "옵시디언 테스트"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -187,11 +202,12 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "bd87317a2e6f8705",
+  "active": "9f03f64b8fe640d6",
   "lastOpenFiles": [
-    "Obsidian/티스토리와 연동.md",
-    "리소스 사이트/개발 리소스 모음.md",
     "Obsidian/옵시디언 마크다운 문법.md",
+    "옵시디언 테스트.md",
+    "리소스 사이트/개발 리소스 모음.md",
+    "Obsidian/티스토리와 연동.md",
     "블로그 포스팅/취업 회고.md",
     "side-project/티스토리.md",
     "side-project/월드컵 만들기 프로그램.md",
@@ -216,7 +232,6 @@
     "리소스 사이트/자바스크립트 알고리즘, 자료구조(중요).md",
     "리소스 사이트/자바 알고리즘.md",
     "리소스 사이트/안드로이드 에셋 관리.md",
-    "리소스 사이트/색조합.md",
     "Obsidian",
     "테스트용/image/Pasted image 20241209210023.png",
     "테스트용/image",
