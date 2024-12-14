@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Redux/Redux.md",
-                "mode": "source",
+                "file": "영어 공부/5형식.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Redux"
+              "title": "5형식"
             }
           }
         ]
@@ -77,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "ef24d012572e04a0",
@@ -170,7 +171,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 201.5
+    "width": 201.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -187,17 +189,23 @@
   },
   "active": "bd87317a2e6f8705",
   "lastOpenFiles": [
-    "Redux/Store.md",
+    "Obsidian/티스토리와 연동.md",
+    "영어 공부/5형식.md",
+    "영어 공부/일지/말해보카.md",
+    "영어 공부/일지/2024년 12월 14일.md",
+    "영어 공부/일지/2024년 12월 13일.md",
+    "영어 공부/일지",
     "Obsidian/옵시디언 마크다운 문법.md",
+    "영어 공부",
+    "Redux/Redux.md",
+    "Redux/Store.md",
     "Obsidian/templates/convert-header.md",
     "Obsidian/templates/test.md",
     "Untitled.md",
     "Untitled.js",
     "Obsidian/templates/convert-header.js",
     "Obsidian/templates/새 텍스트 문서.txt",
-    "Obsidian/티스토리와 연동.md",
     "Obsidian/templates",
-    "Redux/Redux.md",
     "옵시디언 테스트.md",
     "리소스 사이트/개발 리소스 모음.md",
     "블로그 포스팅/취업 회고.md",
@@ -213,12 +221,8 @@
     "리소스 사이트/DateTime 표현식.md",
     "리소스 사이트/안드로이드 개발 리소스.md",
     "리소스 사이트/CodePen.md",
-    "리소스 사이트/Minify 코드 경량화.md",
-    "리소스 사이트/hex 색상.md",
     "리소스 사이트/image/Pasted image 20241210220142.png",
     "리소스 사이트/image/Pasted image 20241124012106.png",
-    "리소스 사이트/플로우 차트 그리는 사이트.md",
-    "리소스 사이트/웹훅 테스트.md",
     "Obsidian",
     "테스트용/image/Pasted image 20241209210023.png",
     "테스트용/image",
@@ -231,8 +235,6 @@
     "테스트용/image/Pasted image 20241209204859.png",
     "테스트용",
     "Javascript/함수/고차함수",
-    "React/Hooks/image/Vite + React + TS - Chrome 2024-12-04 23-31-28.mp4",
-    "React/Hooks/image",
     "무제 파일.canvas"
   ]
 }
