@@ -26,3 +26,28 @@ export default function Home(){
 	)
 }
 ```
+
+redux toolkit에선 createSlice를 사용하면 action과 reducer를 만들어주는데, 어떤 메세지가 담기는지 다음의 예제를 실행시켜보면 확인할 수 있다.
+
+```ts
+const counterSlice = createSlice({
+  name: 'counter',
+  initialState,
+  reducers: {
+    incrementCount: (state) => state+1,
+    decrementCount: (state) => state-1
+  }
+})
+```
+
+만들어지는 메세지는 name/reducer 형태를 가지게 되는데 위 slice는 `counter/incrementCount`와 `counter/decrementCount` action을 자동으로 생성해준다. 이를 export해서 dispatch 함수 내에서 실행하게 되는 것이다.
+
+```ts
+const dispatch = useDispatch()
+return (
+	<button onClick={() => dispatch(incrementCount())>증가</button>
+	<button onClick={() => dispatch({type: 'counter/incrementCount'})}>증가</button>
+)
+```
+
+위 두 버튼은 결과적으로 같은 동작을 한다.
