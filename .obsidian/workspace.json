@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "영어 공부/영어 신문/English Diary/2025-01-09.md",
+                "file": "영어 공부/영어 신문/English Diary/2025-01-10.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2025-01-09"
+              "title": "2025-01-10"
             }
           }
         ]
@@ -77,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "ef24d012572e04a0",
@@ -189,8 +188,11 @@
   },
   "active": "bd87317a2e6f8705",
   "lastOpenFiles": [
-    "영어 공부/영어 신문/English Diary/2025-01-08.md",
+    "영어 공부/조동사 정리.md",
+    "영어 공부/영어 신문/English Diary/2025-01-10.md",
+    "영어 공부/전치사 정리.md",
     "영어 공부/영어 신문/English Diary/2025-01-09.md",
+    "영어 공부/영어 신문/English Diary/2025-01-08.md",
     "영어 공부/영어 신문/English Diary/2025-01-07.md",
     "영어 공부/영어 신문/Ne times/2025-01-07.md",
     "영어 공부/영어 신문/English Diary",
@@ -202,8 +204,6 @@
     "영어 공부/영어 신문/Ne times/2024-12-24.md",
     "영어 공부/지각동사 & 사역동사.md",
     "영어 공부/영어 신문",
-    "영어 공부/조동사 정리.md",
-    "영어 공부/전치사 정리.md",
     "영어 공부/5형식.md",
     "영어 공부/모르는 거 인덱스.md",
     "영어 공부/품사.md",
@@ -219,7 +219,6 @@
     "영어 공부",
     "Obsidian/templates/convert-header.md",
     "Obsidian/templates/test.md",
-    "Untitled.md",
     "Untitled.js",
     "Obsidian/templates/convert-header.js",
     "Obsidian/templates/새 텍스트 문서.txt",
