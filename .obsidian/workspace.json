@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "영어 공부/영어 신문/English Diary/2025-01-13.md",
+                "file": "영어 공부/영어 신문/English Diary/2025-01-15.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2025-01-13"
+              "title": "2025-01-15"
             }
           }
         ]
@@ -52,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "디자인",
+                "query": "자동사",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -188,12 +188,14 @@
   },
   "active": "bd87317a2e6f8705",
   "lastOpenFiles": [
-    "영어 공부/영어 신문/English Diary/2025-01-14.md",
+    "영어 공부/12시제.md",
+    "영어 공부/영어 신문/English Diary/2025-01-15.md",
+    "영어 공부/5형식.md",
     "영어 공부/영어 신문/English Diary/2025-01-13.md",
+    "영어 공부/영어 신문/English Diary/2025-01-14.md",
     "영어 공부/영어 신문/English Diary/2025-01-12.md",
     "영어 공부/영어 신문/English Diary/2025-01-11.md",
     "영어 공부/영어 신문/English Diary/2025-01-10 점심.md",
-    "영어 공부/12시제.md",
     "영어 공부/영어 신문/English Diary/2025-01-10.md",
     "영어 공부/조동사 정리.md",
     "영어 공부/전치사 정리.md",
@@ -210,13 +212,11 @@
     "영어 공부/영어 신문/Ne times/2024-12-24.md",
     "영어 공부/지각동사 & 사역동사.md",
     "영어 공부/영어 신문",
-    "영어 공부/5형식.md",
     "영어 공부/모르는 거 인덱스.md",
     "영어 공부/품사.md",
     "Redux/Redux.md",
     "Redux/Reducer.md",
     "Redux/dispatch.md",
-    "Redux/Store.md",
     "영어 공부/일지",
     "영어 공부",
     "Untitled.js",
