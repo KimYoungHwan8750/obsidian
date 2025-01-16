@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "영어 공부/영어 신문/English Diary/2025-01-15.md",
+                "file": "영어 공부/영어 신문/English Diary/2025-01-14.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2025-01-15"
+              "title": "2025-01-14"
             }
           }
         ]
@@ -188,11 +188,12 @@
   },
   "active": "bd87317a2e6f8705",
   "lastOpenFiles": [
-    "영어 공부/12시제.md",
-    "영어 공부/영어 신문/English Diary/2025-01-15.md",
-    "영어 공부/5형식.md",
     "영어 공부/영어 신문/English Diary/2025-01-13.md",
     "영어 공부/영어 신문/English Diary/2025-01-14.md",
+    "영어 공부/영어 신문/English Diary/2025-01-16.md",
+    "영어 공부/영어 신문/English Diary/2025-01-15.md",
+    "영어 공부/12시제.md",
+    "영어 공부/5형식.md",
     "영어 공부/영어 신문/English Diary/2025-01-12.md",
     "영어 공부/영어 신문/English Diary/2025-01-11.md",
     "영어 공부/영어 신문/English Diary/2025-01-10 점심.md",
@@ -216,7 +217,6 @@
     "영어 공부/품사.md",
     "Redux/Redux.md",
     "Redux/Reducer.md",
-    "Redux/dispatch.md",
     "영어 공부/일지",
     "영어 공부",
     "Untitled.js",
