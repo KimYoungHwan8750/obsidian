@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "영어 공부/영어 신문/English Diary/2025-01-18.md",
+                "file": "영어 공부/영어 신문/English Diary/2025-01-19.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2025-01-18"
+              "title": "2025-01-19"
             }
           }
         ]
@@ -77,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "ef24d012572e04a0",
@@ -188,8 +189,8 @@
   },
   "active": "bd87317a2e6f8705",
   "lastOpenFiles": [
-    "영어 공부/영어 신문/English Diary/2025-01-16.md",
     "영어 공부/영어 신문/English Diary/2025-01-18.md",
+    "영어 공부/영어 신문/English Diary/2025-01-16.md",
     "영어 공부/영어 신문/English Diary/2025-01-19.md",
     "영어 공부/영어 신문/English Diary/2025-01-12.md",
     "영어 공부/영어 신문/English Diary/2025-01-11.md",
