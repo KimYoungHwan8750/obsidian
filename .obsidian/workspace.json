@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "영어 공부/영어 신문/English Diary/2025-01-22.md",
+                "file": "Next/RestAPI.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2025-01-22"
+              "title": "RestAPI"
             }
           }
         ]
@@ -52,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "자동사",
+                "query": "fetch",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -189,8 +189,24 @@
   },
   "active": "bd87317a2e6f8705",
   "lastOpenFiles": [
-    "영어 공부/영어 신문/English Diary/2025-01-19.md",
+    "데이터 송수신/★ 데이터 타입/★ JSON.md",
+    "JAVA/Spring/어노테이션/MVC/@RequestParam.md",
+    "Next/RestAPI.md",
+    "Next/Route/ISR (Incremental Static Regeneration.md",
+    "Next/Route/Dynamic Route.md",
+    "Next/Next.Js.md",
+    "Typescript/Index Signature.md",
+    "Typescript/Typescript.md",
+    "Typescript/Type.md",
+    "Node/playwright/route.md",
+    "Node/playwright/playwright.md",
+    "Node/playwright/locator.md",
+    "Node/utility-library/cross-env.md",
+    "Node/무제 파일.md",
+    "Node/puppeteer/route.md",
+    "Node/puppeteer/puppeteer.md",
     "영어 공부/영어 신문/English Diary/2025-01-22.md",
+    "영어 공부/영어 신문/English Diary/2025-01-19.md",
     "영어 공부/영어 신문/English Diary/2025-01-18.md",
     "영어 공부/영어 신문/English Diary/2025-01-16.md",
     "영어 공부/영어 신문/English Diary/2025-01-12.md",
@@ -199,24 +215,8 @@
     "영어 공부/영어 신문/English Diary/2025-01-15.md",
     "영어 공부/영어 신문/English Diary/2025-01-14.md",
     "Python/Django/Django.md",
-    "Next/Route/Dynamic Route.md",
-    "Next/Next.Js.md",
-    "Next/Route/ISR (Incremental Static Regeneration.md",
-    "영어 공부/영어 신문/English Diary/2025-01-13.md",
-    "영어 공부/12시제.md",
-    "영어 공부/5형식.md",
-    "영어 공부/영어 신문/English Diary/2025-01-10.md",
-    "영어 공부/조동사 정리.md",
-    "영어 공부/전치사 정리.md",
-    "영어 공부/영어 신문/English Diary/2025-01-09.md",
-    "영어 공부/영어 신문/English Diary/2025-01-08.md",
-    "영어 공부/영어 신문/English Diary/2025-01-07.md",
-    "영어 공부/영어 신문/Ne times/2025-01-07.md",
     "영어 공부/영어 신문/English Diary",
     "영어 공부/영어 신문/Ne times",
-    "영어 공부/영어 신문/Ne times/2025-01-06.md",
-    "영어 공부/영어 신문/Ne times/2024-12-26.md",
-    "영어 공부/일지/말해보카.md",
     "영어 공부/영어 신문",
     "영어 공부/일지",
     "영어 공부",
