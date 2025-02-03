@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "영어 공부/영어 신문/English Diary/2025-01-24.md",
+                "file": "side-project/coding-gather/기획.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2025-01-24"
+              "title": "기획"
             }
           }
         ]
@@ -40,7 +40,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "파일 탐색기"
@@ -162,7 +163,7 @@
               "type": "example-view",
               "state": {},
               "icon": "lucide-file",
-              "title": "플러그인이 더 이상 활성화되지 않음"
+              "title": "플러그인이 더 이상 활성화돼있지 않음"
             }
           }
         ],
@@ -175,20 +176,22 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:퀵 스위처 열기": false,
+      "switcher:빠른 전환기 열기": false,
+      "daily-notes:오늘의 일일 노트 열기": false,
+      "random-note:무작위 노트 열기": false,
+      "publish:변경사항 게재": false,
       "graph:그래프 뷰 열기": false,
       "canvas:새 캔버스 만들기": false,
-      "daily-notes:오늘의 데일리 노트 열기": false,
       "templates:템플릿 삽입": false,
       "command-palette:명령어 팔레트 열기": false,
-      "random-note:랜덤 노트 열기": false,
-      "publish:변경사항 출판": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "bd87317a2e6f8705",
+  "active": "ee7b5608def987d3",
   "lastOpenFiles": [
     "Next/RestAPI.md",
+    "side-project/coding-gather/기획.md",
+    "side-project/coding-gather",
     "영어 공부/영어 신문/English Diary/2025-01-24.md",
     "데이터 송수신/★ 데이터 타입/★ JSON.md",
     "JAVA/Spring/어노테이션/MVC/@RequestParam.md",
@@ -213,7 +216,6 @@
     "영어 공부/영어 신문/English Diary/2025-01-11.md",
     "영어 공부/영어 신문/English Diary/2025-01-10 점심.md",
     "영어 공부/영어 신문/English Diary/2025-01-15.md",
-    "영어 공부/영어 신문/English Diary/2025-01-14.md",
     "영어 공부/영어 신문/English Diary",
     "영어 공부/영어 신문/Ne times",
     "영어 공부/영어 신문",
@@ -225,7 +227,6 @@
     "Obsidian/templates",
     "리소스 사이트/image/Pasted image 20241210220142.png",
     "리소스 사이트/image/Pasted image 20241124012106.png",
-    "Obsidian",
     "테스트용/image/Pasted image 20241209210023.png",
     "테스트용/image/Pasted image 20241209204932.png",
     "테스트용/image/Pasted image 20241209204902 2.png",
