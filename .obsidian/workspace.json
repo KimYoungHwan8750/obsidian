@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "side-project/coding-gather/기획.md",
+                "file": "Firebase/NodeJs/Node JS에서 Firebase 연결하기.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "기획"
+              "title": "Node JS에서 Firebase 연결하기"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "fetch",
+                "query": "firebase",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -187,10 +187,24 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "ee7b5608def987d3",
+  "active": "bd87317a2e6f8705",
   "lastOpenFiles": [
-    "Next/RestAPI.md",
+    "Firebase/Firebase.md",
+    "Firebase/NodeJs/Node JS에서 Firebase 연결하기.md",
+    "Firebase/Flutter/Flutter에 Firebase 연결하기.md",
+    "Flutter/Button.md",
+    "Firebase/NodeJs",
+    "Firebase/ReactNative/Firestore.md",
+    "Firebase/Flutter",
+    "Firebase/ReactNative/설치.md",
+    "Firebase/ReactNative",
+    "React/Hooks/useContext.md",
+    "CSS/tailwind/나만의 테마 만들기.md",
+    "CSS/tailwind/vite(react+ts)프로젝트에서 적용.md",
+    "CSS/tailwind/tailwind.md",
+    "프로젝트 보일러 플레이트.md",
     "side-project/coding-gather/기획.md",
+    "Next/RestAPI.md",
     "side-project/coding-gather",
     "영어 공부/영어 신문/English Diary/2025-01-24.md",
     "데이터 송수신/★ 데이터 타입/★ JSON.md",
@@ -205,26 +219,12 @@
     "Node/playwright/playwright.md",
     "Node/playwright/locator.md",
     "Node/utility-library/cross-env.md",
-    "Node/무제 파일.md",
-    "Node/puppeteer/route.md",
-    "Node/puppeteer/puppeteer.md",
-    "영어 공부/영어 신문/English Diary/2025-01-22.md",
-    "영어 공부/영어 신문/English Diary/2025-01-19.md",
-    "영어 공부/영어 신문/English Diary/2025-01-18.md",
-    "영어 공부/영어 신문/English Diary/2025-01-16.md",
-    "영어 공부/영어 신문/English Diary/2025-01-12.md",
-    "영어 공부/영어 신문/English Diary/2025-01-11.md",
-    "영어 공부/영어 신문/English Diary/2025-01-10 점심.md",
-    "영어 공부/영어 신문/English Diary/2025-01-15.md",
     "영어 공부/영어 신문/English Diary",
     "영어 공부/영어 신문/Ne times",
     "영어 공부/영어 신문",
     "영어 공부/일지",
     "영어 공부",
     "Untitled.js",
-    "Obsidian/templates/convert-header.js",
-    "Obsidian/templates/새 텍스트 문서.txt",
-    "Obsidian/templates",
     "리소스 사이트/image/Pasted image 20241210220142.png",
     "리소스 사이트/image/Pasted image 20241124012106.png",
     "테스트용/image/Pasted image 20241209210023.png",
