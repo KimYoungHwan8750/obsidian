@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Flutter/Kakao Login.md",
-                "mode": "source",
+                "file": "NestJS/기본 구조.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Kakao Login"
+              "title": "기본 구조"
             }
           },
           {
@@ -217,8 +217,11 @@
   },
   "active": "bd87317a2e6f8705",
   "lastOpenFiles": [
-    "Flutter/라이브러리/flutter_dotenv.md",
+    "NestJS/NestJS.md",
+    "NestJS/기본 구조.md",
     "Flutter/Kakao Login.md",
+    "NestJS",
+    "Flutter/라이브러리/flutter_dotenv.md",
     "프로젝트 기술 스택.md",
     "옵시디언 테스트.md",
     "포트폴리오.md",
@@ -253,9 +256,6 @@
     "Firebase/Firebase.md",
     "Firebase/Flutter/Flutter에 Firebase 연결하기.md",
     "Firebase/NodeJs",
-    "Firebase/ReactNative/Firestore.md",
-    "Firebase/Flutter",
-    "Firebase/ReactNative/설치.md",
     "리소스 사이트/image/Pasted image 20241210220142.png",
     "리소스 사이트/image/Pasted image 20241124012106.png",
     "테스트용/image/Pasted image 20241209210023.png",
