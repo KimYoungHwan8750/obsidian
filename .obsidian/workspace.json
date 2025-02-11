@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JWT.md",
+                "file": "Flutter/Kakao Login.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "JWT"
+              "title": "Kakao Login"
             }
           },
           {
@@ -81,7 +81,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "JWT",
+                "query": "dotenv",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -217,16 +217,19 @@
   },
   "active": "bd87317a2e6f8705",
   "lastOpenFiles": [
-    "포트폴리오.md",
     "Flutter/라이브러리/flutter_dotenv.md",
-    "인코딩/인코딩 유형.md",
+    "Flutter/Kakao Login.md",
+    "프로젝트 기술 스택.md",
+    "옵시디언 테스트.md",
+    "포트폴리오.md",
+    "Obsidian/옵시디언 마크다운 문법.md",
+    "프로젝트 보일러 플레이트.md",
     "JWT.md",
+    "인코딩/인코딩 유형.md",
     "인코딩",
     "암호화/jwt.md",
     "Flutter/ensureInitialized.md",
     "Flutter/라이브러리",
-    "프로젝트 기술 스택.md",
-    "프로젝트 보일러 플레이트.md",
     "Flutter/Widget/SizedBox.md",
     "Flutter/Widget/Text.md",
     "Flutter/Widget/List.md",
@@ -253,9 +256,6 @@
     "Firebase/ReactNative/Firestore.md",
     "Firebase/Flutter",
     "Firebase/ReactNative/설치.md",
-    "React/Hooks/useContext.md",
-    "CSS/tailwind/나만의 테마 만들기.md",
-    "CSS/tailwind/vite(react+ts)프로젝트에서 적용.md",
     "리소스 사이트/image/Pasted image 20241210220142.png",
     "리소스 사이트/image/Pasted image 20241124012106.png",
     "테스트용/image/Pasted image 20241209210023.png",
