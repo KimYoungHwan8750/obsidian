@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NestJS/기본 구조.md",
-                "mode": "preview",
+                "file": "프로젝트 기술 스택.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "기본 구조"
+              "title": "프로젝트 기술 스택"
             }
           },
           {
@@ -217,8 +217,10 @@
   },
   "active": "bd87317a2e6f8705",
   "lastOpenFiles": [
-    "NestJS/NestJS.md",
+    "NestJS/MVC.md",
+    "Docker/Docker.md",
     "NestJS/기본 구조.md",
+    "NestJS/NestJS.md",
     "Flutter/Kakao Login.md",
     "NestJS",
     "Flutter/라이브러리/flutter_dotenv.md",
@@ -253,8 +255,6 @@
     "AWS/S3",
     "side-project/아이디어.md",
     "Firebase/NodeJs/Node JS에서 Firebase 연결하기.md",
-    "Firebase/Firebase.md",
-    "Firebase/Flutter/Flutter에 Firebase 연결하기.md",
     "Firebase/NodeJs",
     "리소스 사이트/image/Pasted image 20241210220142.png",
     "리소스 사이트/image/Pasted image 20241124012106.png",
