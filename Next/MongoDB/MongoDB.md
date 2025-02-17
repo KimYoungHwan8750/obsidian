@@ -66,6 +66,12 @@ export class MyModule {}
 
 이 작업은 컨트롤러와 모델, 서비스를 연결해주는 모듈을 생성한다. 이로써 독립된 세 레이어가 모여서 User를 다루는 완성된 기능을 하는 하나의 모듈이 되었다.
 
+더해서 설명하자면, name에는 보통 스키마로 변환되기전 클래스, 즉 위의 User 클래스의 프로퍼티인 name을 쓴다. `User.name`. 만약 위의 모듈처럼 "example"이라는 이름을 지어줬다면 Service의 `@InjectModel()` Decorator의 매개변수로 `"example"`을 전달해주어야한다.
+
+그리고 이렇게 생성된 스키마는 DB 커넥션을 연결할 때 사용한 데이터베이스의 하위에 네이밍 컨벤션을 따라 스키마가 생성된다.
+
+즉 데이터베이스 이름이 test이고 User.name이라면 `test/users`가 생성되는 것이다. 위에서 `"example"`이라고 직접 입력한 경우에도 마찬가지로 `test/examples`가 된다.
+
 ### Service
 ```ts
 import { Injectable } from '@nestjs/common';
