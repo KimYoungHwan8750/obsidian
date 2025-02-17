@@ -81,7 +81,7 @@ import { User } from './your/path';
 @Injectable()
 export class MyService {
   constructor(@InjectModel("example") private user: Model<User>) {}
-  getHello(){
+  saveUser(){
     const user = new this.user({ name: 'Hong GilDong', age: 27 });
     return user.save();
   }

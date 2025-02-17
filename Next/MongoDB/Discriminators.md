@@ -47,7 +47,7 @@ export const ChildSchema = SchemaFactory.createForClass(Child);
 @Injectable()
 export class AppService {
   constructor(@InjectModel(Child.name) private child: Model<Child>) {}
-  getHello(){
+  saveChild(){
     const child = new this.child({ name: 'Hong Gildong', age: 27, phone: '010-1234-5678'});
     return child.save();
   }
