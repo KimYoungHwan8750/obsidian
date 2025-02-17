@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Next/MongoDB.md",
+                "file": "Next/MongoDB/Discriminators.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "MongoDB"
+              "title": "Discriminators"
             }
           },
           {
@@ -232,8 +232,10 @@
   },
   "active": "adab5ba0cd73f6e4",
   "lastOpenFiles": [
+    "Next/MongoDB/MongoDB.md",
+    "Next/MongoDB/Discriminators.md",
+    "Next/MongoDB",
     "Next/env.md",
-    "Next/MongoDB.md",
     "MongoDB/MongoDB.md",
     "Python/Flask/Flask.md",
     "MongoDB",
@@ -260,8 +262,6 @@
     "암호화/jwt.md",
     "Flutter/ensureInitialized.md",
     "Flutter/라이브러리",
-    "Flutter/Widget/SizedBox.md",
-    "Flutter/Widget/Text.md",
     "Flutter/Widget/image/제목 없음1 1.png",
     "Flutter/Widget/image/제목 없음1.png",
     "Flutter/Widget/image",
@@ -270,7 +270,6 @@
     "AWS/RDS",
     "AWS/Lambda",
     "AWS/CloudFront",
-    "AWS/S3",
     "리소스 사이트/image/Pasted image 20241210220142.png",
     "리소스 사이트/image/Pasted image 20241124012106.png",
     "테스트용/image/Pasted image 20241209210023.png",
