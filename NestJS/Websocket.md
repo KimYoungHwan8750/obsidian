@@ -100,7 +100,7 @@ server 또는 client 객체를 통해서 응답이 가능한데, 다양한 유�
 5. 스트림을 생성하여 비동기 데이터를 응답하고 싶을 때 `from`
 
 
-### Return
+#### Return
 ```ts
 @SubscribeMessage("test")
 test(client: Socket, data: string){
@@ -116,7 +116,7 @@ test(client: Socket, data: string){
 
 이 경우엔 웹소켓 메세지를 보낸 클라이언트에게 같은 (채널 이름 같은)메타정보를 보낸다. 즉 이 경우 `"test"` 타입 메세지에 `payload`로 `Hello World!`가 담긴 웹소켓 메세지를 전송한다. 웹소켓과 클라이언트간 1:1 통신을 할 때 사용하면 코드가 매우 간결하고 직관적으로 보인다.
 
-### client.emit
+#### client.emit
 ```ts
 @SubscribeMessage("test")
 test(client: Socket, data: string){
@@ -127,7 +127,7 @@ test(client: Socket, data: string){
 
 이 경우는 유저A로부터 `test` 타입의 메세지를 받았지만 해당 유저에게 응답을 할 땐 `notTest` 메세지로 보내고 싶은 경우다. 예를 들면 유저A로부터 `chat` 타입 메세지를 받았고, 어떤 로직 결과 채팅방이 닫히게 된다. 이를 처리하기 위해 `notice` 메세지를 보낼 수 있다. `notice`는 설명을 위해 임의로 생각한 메세지 타입으로, 채팅과 알림이라는 다른 기능은 당연히 독립적인 기능으로 디자인하는 것이 적절한 아키텍처일 것이다. 이렇게 같은 유저에 대해 다른 타입의 메세지를 보내고 싶을 때 유용하게 사용할 수 있다. return문과 함께 쓰면 `"test"`로도 메세지가 가고, `"notTest"`로도 메세지가 발송된다.
 
-### client.broadcast.emit
+#### client.broadcast.emit
 ```ts
 @SubscribeMessage("test")
 test(client: Socket, data: string){
@@ -137,7 +137,7 @@ test(client: Socket, data: string){
 
 이 경우는 웹소켓 메세지를 보낸 당사자를 제외한 클라이언트들에게 메세지를 보낼 수 있다. 가령 텍스트 에디터를 만들어 거기에 작성되는 내용을 다른 사람들과 공유하고 싶을 때, 메세지를 보낸 본인에게도 회신해서 텍스트를 렌더링하게 되면 버퍼링 걸리는 것 같은 느낌이 들 것이다.
 
-### server.emit
+#### server.emit
 ```ts
 @WebSocketServer()
 server: Server
@@ -145,7 +145,7 @@ server: Server
 
 웹소켓 게이트웨이 클래스의 멤버 변수로 server가 있었다. 이것은 말 그대로 서버를 의미하며 `server.emit`을 사용해 웹소켓에 접속 중인 모든 클라이언트들에게 메세지를 전달할 수 있다.
 
-### from
+#### from
 ```ts
 @SubscribeMessage("test")
 findAll(@MessageBody() data: any): Observable<WsResponse<number>> {
@@ -154,3 +154,56 @@ findAll(@MessageBody() data: any): Observable<WsResponse<number>> {
 ```
 
 이는 비동기적인 웹소켓 메세지를 보낼 수 있다. from 메서드에 `number[]` 타입을 인자로 전달해 pipe를 형성할 수 있다. map은 from에 전달된 아이템을 순회하면서 각 아이템을 참조하는 변수를 callback에 전달해주는데, 이때 `event`와 `data` 속성을 가진 객체를 반환하게 해주면 비동기 메세지를 처리할 수 있다.
+
+### Lifecycle
+간단하다. `OnGatewayInit` 인터페이스에선 `afterInit()`, `OnGatewayConnection` 인터페이스에선 `handleConnection()`, `OnGatewayDisconnect` 인터페이스는 `handleDisconnect()`를 구현하면 된다.
+
+```ts
+@WebSocketGateway(80, { namespace: 'inputText', transports: ['websocket'] })
+// 해당 인터페이스 구현
+export class WebsocketGateway implements OnGatewayConnection{
+	@SubscribeMessage('changeLanguage')
+	test(_: Socket, data: number): void {
+		console.log(data)
+	}
+	// 해당 메서드 구현
+	handleConnection(client: any, ...args: any[]) {
+	    console.log('client connected');
+	}
+}
+```
+
+### 모듈 Import
+이렇게 만든 `websocket.gateway.ts` 파일을 모듈화한다.
+```ts
+@Module({
+  providers: [WebsocketGateway],
+})
+export class WebsocketModule {}
+```
+
+사용하고자 하는 곳에서 import해서 사용하면 된다. 의존성 주입을 위해선 `exports` 프로퍼티에 export할 모듈을 명시해야하는 것으로 알고 있겠지만, 이것은 웹소켓 게이트웨이로, 앱이 실행되면서 초기화하는 전역 설정이기 때문에 export와는 상관없다.
+
+```ts
+@Module({
+  imports: [WebsocketModule],
+  controllers: [AppController],
+  providers: [AppService],
+})
+export class AppModule {}
+```
+
+해당 모듈이 어디에서든 import만 된다면 웹소켓 설정은 프로젝트에서 유지된다.
+
+### Client 측 설정
+`npm install socket.io-client`로 설치 진행.
+
+`const socket = io("http://localhost/ws", {port: 80});`로 socket을 사용 가능하다. `socket.emit`등 기본 사용법은 서버와 유사하며 `socket.on`으로 메세지를 구독할 수 있다. 공식문서를 읽어보는 것이 베스트.
+
+저 `io()`에 들어갈 path에 대해 여러가지 실험을 진행했는데, 우선 서버측에선(NestJS 기준) `@WebSocketGateway(80, { namespace: "ws", cors: "localhost:5173"})`으로 게이트웨이를 설정했다. 따라서 `localhost:80/ws`로 웹소켓을 연결해야한다.
+
+1. `io("ws")`는 `http://ws`로 연결을 시도했다.
+2. `io("/ws")`는 `http://localhost:5173`으로 연결을 시도. 문자열과 상관없었다.
+3. `io("http://localhost:80/ws")`는 정상적으로 연결
+4. `io("http://localhost/ws", {port: 80})`도 정상적으로 연결
+5. `io("localhost/ws", {port: 80})`도 정상적으로 연결
