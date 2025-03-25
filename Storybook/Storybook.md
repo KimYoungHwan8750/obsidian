@@ -1,0 +1,107 @@
+## Storybook
+Storybook이란 React 컴포넌트를 문서화하기 위한 UI 개발 도구이다. 자동 문서화뿐만 아니라 컴포넌트를 렌더링하는 일종의 테스트 공간을 제공해주기도 하며, 무엇보다 초보자들에겐 Storybook에서 내가 만든 컴포넌트를 렌더링하기 위해 Storybook에서 요구하는 틀에 맞추어 컴포넌트를 제작하다보면 재사용성이 우수한 컴포넌트를 짜는 습관을 들일 수 있다.
+
+### 시작하기
+storybook의 컴포넌트들은 stories 디렉토리에 `파일명.stories.확장자`와 같이 작성된다. 예를 들면 버튼에 대한 스토리는 `Button.stories.ts`와 같이 작성될 수 있다.
+
+여러 설명보다 코드를 보는 것이 직관적인 이해에 도움이 되므로 바로 코드를 보며 익혀보자.
+
+```tsx
+// MyComponent.tsx
+type MyComponentProps = {
+  text: string
+};
+const MyComponent = (props: MyComponentProps) => {
+  return (
+    <button>
+      {props.text}
+    </button>
+  )
+}
+
+export { MyComponent };
+```
+
+이 컴포넌트는 `props`으로 `text`를 전달받아서 렌더링하는 단순한 버튼 컴포넌트다.
+
+```ts
+// MyComponent.stories.ts
+import { Meta, StoryObj } from "@storybook/react";
+import { MyComponent } from "./MyComponent";
+const meta: Meta<typeof MyComponent> = {
+  component: MyComponent,
+}
+
+export default meta;
+
+type Story = StoryObj<typeof MyComponent>;
+
+export const FirstStory: Story = {
+  args: {
+    text: "Hello World"
+  },
+}
+```
+
+Storybook을 사용하려면 Meta와 Story에 대해 이해해야하는데, Meta는 컴포넌트에 대한 전역 설정(스토리북에 등록될 그룹핑, 이름, 렌더링할 컴포넌트 등)이며, Story는 해당 컴포넌트가 가질 수 있는 여러 스토리(인스턴스)를 의미한다. 당장에 이해가 안 되더라도 아래에서 차근차근 설명하므로 걱정하지 말자.
+
+먼저, Meta는 컴포넌트에 대한 전역 설정이라고 했다. 그럼 무엇을 설정할 수 있는지 살펴보자.
+
+---
+
+`title`
+
+title 속성은 일종의 경로를 설정한다. Seperator로 `/`를 사용하며 마지막 `/` 이후 문자열은 컴포넌트의 이름이 된다. 위 코드에서 일부를 수정한 후 스토리북에서 확인해보자.
+
+```ts
+const meta: Meta<typeof MyComponent> = {
+  component: MyComponent,
+  title: "MyCustomComponent/MyComponent",
+}
+```
+
+![](https://i.imgur.com/dp7TkH5.png)
+
+보이는가? MYCUSTOMCOMPONENT 그룹의 MyComponent가 생성되었고 해당 컴포넌트의 First Story를 확인 가능하다.
+
+---
+
+`tags`
+
+`"autodocs"`으로 설정하면 아래 화면과 같이 해당 컴포넌트에 대한 문서를 자동으로 만들어준다.
+
+```tsx
+const meta: Meta<typeof MyComponent> = {
+  component: MyComponent,
+  title: "MyCustomComponent/MyComponent",
+  tags: ["autodocs"]
+}
+```
+
+![](https://i.imgur.com/JOS9O1N.png)
+
+---
+
+`decorators`
+
+말 그대로 데코레이터 패턴이다. 요소에 추가적인 조작을 수행하고 싶을 때 사요한다.
+
+```tsx
+const meta: Meta<typeof MyComponent> = {
+  component: MyComponent,
+  title: "MyCustomComponent/MyComponent",
+  tags: ["autodocs"],
+  decorators: [
+    (Story) => (
+      <div>
+        추가작업
+        <Story/>
+      </div>
+    )
+  ],
+}
+```
+
+내가 만든 컴포넌트가 데코레이터에서 Story라는 변수에 담긴다. 위 코드를 보면 Story를 렌더링하는 새로운 JSX Element를 반환하고 있다.
+
+![](https://i.imgur.com/D6GKs1k.png)
