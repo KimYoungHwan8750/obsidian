@@ -105,3 +105,102 @@ const meta: Meta<typeof MyComponent> = {
 내가 만든 컴포넌트가 데코레이터에서 Story라는 변수에 담긴다. 위 코드를 보면 Story를 렌더링하는 새로운 JSX Element를 반환하고 있다.
 
 ![](https://i.imgur.com/D6GKs1k.png)
+
+---
+
+`parameters`
+
+정렬, 배경색등을 지정할 수 있다.
+
+```tsx
+const meta: Meta<typeof MyComponent> = {
+  component: MyComponent,
+  title: "MyCustomComponent/MyComponent",
+  tags: ["autodocs"],
+  decorators: [
+    (Story) => (
+      <div>
+        추가작업
+        <Story/>
+      </div>
+    )
+  ],
+  parameters: {
+    layout: "centered",
+    backgrounds: {
+      default: "dark"
+    }
+  }
+}
+```
+
+![](https://i.imgur.com/aKwSgrG.png)
+
+---
+
+`args`
+
+컴포넌트에 전달할 인자값을 설정할 수 있다.
+
+```tsx
+export const FirstStory: Story = {
+  args: {
+    text: "Hello World"
+  },
+}
+```
+
+이렇게 설정하면 `MyComponent`를 렌더링하면서 `text` 속성에 `"Hello World"`를 전달해준다.
+
+---
+
+`render`
+
+```tsx
+export const FirstStory: Story = {
+  args: {
+    text: "Hello World!"
+  },
+  render: (args) => <MyComponent text={args.text} />,
+}
+```
+
+리액트 디자인 패턴을 조금 공부하다보면 알게 되는 `render props` 패턴을 사용할 수 있게 도와주는 기능이다.
+
+---
+
+`argsType`
+
+파라미터의 타입을 명시적으로 지정해준다. 기본값은 타입 추론에 의해 제공되므로 `text: string`에 대한 문서가 생성될 때 `text`의 값을 변경하는 `input` 태그의 `type`가 `text`로 생성된다. 이때 명시적으로 타입을 `boolean`로 바꿔보자.
+
+```tsx
+export const FirstStory: Story = {
+  args: {
+    text: "Hello World!"
+  },
+  argTypes: {
+    text: {
+      description: "여긴 설명",
+      type: "boolean"
+    }
+  },
+  render: (args) => <MyComponent text={args.text} />,
+}
+```
+
+![](https://i.imgur.com/DcUFBPo.png)
+
+`MyComponent`의 `text` 속성이 `string` 타입인데도 불구하고 컨트롤 패널이 true/false를 스위치하는 것으로 바뀌었다.
+
+---
+
+위에 언급한 속성에서 `title`을 제외한 속성들은 Meta, Story에서 모두 사용 가능하다.
+
+Meta는 여러개의 Story를 가지게 되므로 Meta에 설정한 속성들은 Meta 하위의 모든 Story에 적용된다.
+
+Meta든 Story든 이름을 지정하지 않으면 기본값이 적용되는데, Story 같은 경우 내보낸 스토리 이름이 그대로 적용된다. 만약 다르게 하고 싶다면 `name` 속성을 사용하면 된다.
+
+
+
+이렇게 간단한 설정 방법을 알아보았다.
+
