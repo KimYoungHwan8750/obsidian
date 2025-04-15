@@ -67,7 +67,7 @@ Installed executable flutterfire.
 Activated flutterfire_cli 1.0.1.
 ```
 
-이제 프로젝트에 연결하기 위해 `flutterfire configure` 명령어를 실행한다.
+이제 프로젝트에 연결하기 위해 `flutterfire configure` 명령어를 실행한다. (git bash 사용 중 에러가 뜬다면 power shell 사용)
 
 ```
 i Found 3 Firebase projects.
