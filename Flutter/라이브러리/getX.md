@@ -41,3 +41,10 @@ class MyHomePage extends StatelessWidget {
   }
 }
 ```
+
+|특징|동작|Navigator API와 1:1 대응|스택 영향|
+|---|---|---|---|
+|**`Get.to(page)`**|새 `MaterialPageRoute`를 만들어 **현재 라우트 위**에 올림|`Navigator.push(context, …)`|**push**|
+|`Get.off(page)`|새 라우트를 올리고 **직전 1 개** 제거|`pushReplacement`|push ＋ pop 1|
+|`Get.offAll(page)`|새 라우트만 남기고 **전체 스택 삭제**|`pushAndRemoveUntil((route)=>false)`|clear ＋ push|
+|`Get.back()`|맨 위 라우트 1 개 **pop**|`Navigator.pop(context)`|pop|
