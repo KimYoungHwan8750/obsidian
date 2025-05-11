@@ -39,6 +39,7 @@ Hash Key를 Kakao Developers에 등록해야하는데 방법이 두 가지가 �
 
 * 디버그 키(Windows)
 `keytool -exportcert -alias androiddebugkey -keystore %USERPROFILE%\.android\debug.keystore -storepass android -keypass android | openssl sha1 -binary | openssl base64`
+
 * 디버그 키(Mac)
 `keytool -exportcert -alias androiddebugkey -keystore ~/.android/debug.keystore -storepass android -keypass android | openssl sha1 -binary | openssl base64`
 
