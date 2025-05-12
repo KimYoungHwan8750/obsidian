@@ -22,6 +22,63 @@ class MyCanvas extends JPanel {
 | `drawString(String str, int x, int y)`                       | 문자열 출력            |
 | `drawImage(Image img, int x, int y, ImageObserver observer)` | 이미지 출력            |
 
+## 🖱️마우스 이벤트 리스너를 활용해서 그림 그리는 예제
+
+```java
+public class DragDrawCanvas extends JPanel {
+
+    private final List<Point> points = new ArrayList<>();
+
+    public DragDrawCanvas() {
+        setBackground(Color.WHITE);
+        setPreferredSize(new Dimension(600, 400));
+
+        // 마우스 눌렀을 때 좌표 저장
+        addMouseListener(new MouseAdapter() {
+            @Override
+            public void mousePressed(MouseEvent e) {
+                points.add(e.getPoint());
+                repaint();
+            }
+        });
+
+        // 마우스 드래그할 때마다 좌표 계속 저장
+        addMouseMotionListener(new MouseMotionAdapter() {
+            @Override
+            public void mouseDragged(MouseEvent e) {
+                points.add(e.getPoint());
+                repaint();
+            }
+        });
+    }
+
+    @Override
+    protected void paintComponent(Graphics g) {
+        super.paintComponent(g);
+
+        g.setColor(Color.BLACK);
+
+        // 저장된 포인트들을 순서대로 선으로 연결
+        for (int i = 1; i < points.size(); i++) {
+            Point p1 = points.get(i - 1);
+            Point p2 = points.get(i);
+            g.drawLine(p1.x, p1.y, p2.x, p2.y);
+        }
+    }
+
+    public static void main(String[] args) {
+        JFrame frame = new JFrame("드래그해서 선 그리기");
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+        DragDrawCanvas canvas = new DragDrawCanvas();
+        frame.add(canvas);
+
+        frame.pack();
+        frame.setLocationRelativeTo(null); // 화면 가운데 정렬
+        frame.setVisible(true);
+    }
+}
+```
 
 # 🚀 추가 기능: Graphics2D (더 고급)
 
