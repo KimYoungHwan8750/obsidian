@@ -40,6 +40,7 @@ class NativeBridge {
 > 개발자의 디테일하면서도 재미있는 작명 센스가 엿보이는 대목.
 
 
+
 ```java
 import io.flutter.embedding.engine.FlutterEngine
 import io.flutter.plugin.common.MethodChannel
