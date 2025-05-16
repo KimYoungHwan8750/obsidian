@@ -35,3 +35,5 @@ class PomodoroBinding extends Bindings {
 final PomodoroController pomodoroController = Get.find();
 ```
 
+컨트롤러는 
+
