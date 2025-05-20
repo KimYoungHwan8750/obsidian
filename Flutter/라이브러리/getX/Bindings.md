@@ -35,5 +35,4 @@ class PomodoroBinding extends Bindings {
 final PomodoroController pomodoroController = Get.find();
 ```
 
-컨트롤러는 
-
+bindings을 통해 주입된 컨트롤러는 위젯의 언마운트와 함께 메모리에서 해제된다.
