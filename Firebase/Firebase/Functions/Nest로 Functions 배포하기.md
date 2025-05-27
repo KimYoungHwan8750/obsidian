@@ -11,3 +11,28 @@ functions를 사용하려면 프로젝트 요금제가 Blaze(종량제)로 업�
 3. 의존성 복사:functions/package.json의 모든 의존성을 복사하되, TypeScript는 메인 package.json에 이미 있으므로 제외합니다.
 4. 함수 폴더 삭제:functions 폴더를 삭제합니다.
 5. 새 파일 생성:프로젝트의 루트에 index.ts라는 새 파일을 생성하고, 그 안에 아래의 내용을 추가합니다.
+
+
+해당 내용의 코드는 function 인스턴스를 호출할 때마다 생성하므로
+
+```ts
+import { NestFactory } from '@nestjs/core';
+import { ExpressAdapter } from '@nestjs/platform-express';
+import * as express from 'express';
+import * as functions from 'firebase-functions';
+import { AppModule } from './src/app.module';
+const expressServer = express();
+const bootstrap = async (expressInstance): Promise<express.Express> => {
+  const app = await NestFactory.create(AppModule, new ExpressAdapter(expressInstance));
+  await app.init();
+  return expressServer;
+};
+
+const server = bootstrap(expressServer);
+export const api = functions.https.onRequest(async (request, response) => {
+  const app = await server;
+  app(request, response);
+});
+```
+
+이렇게 바꿔서 사용하자

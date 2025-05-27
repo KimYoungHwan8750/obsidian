@@ -56,3 +56,12 @@ OpenSSL을 설치한 뒤, 쉘에서 위와 같이 명령어를 입력하는 것.
 
 해당 화면이다. 패키지명, 마켓 URL,  키 해시를 입력해야하는데 키 해시에 콘솔에 출력된 `KakaoSdk.origin`의 값을 입력하면 되고, 패키지는 `AndroidManifest.xml` 파일안에 있는 `package=` 속성을 참고하면 된다고 문서에 나와있지만, 나는 해당 속성이 없어서 `build.gradle`에 있는 `applicationId` 속성을 참고했다. 이 조차도 없으면 namespace에 있는 내용도 `applicationId`와 같아 사용해도 될 지는 의문이지만 혹여나 하는 마음에 함께 기록해둔다.
 
+파이어베이스에서 OIDC를 구현하려면 인증자에 `https://kauth.kakao.com`를 추가해야한다.
+
+![](https://i.imgur.com/BL5tbSz.png)
+
+클라이언트 ID에는 카카오 개발자 홈페이지에서 네이티브 앱키를 입력한다.
+
+![](https://i.imgur.com/OJDvGWs.png)
+
+클라이언트 보안 비밀번호는 위 스크린샷과 같이 생성 가능하다.
