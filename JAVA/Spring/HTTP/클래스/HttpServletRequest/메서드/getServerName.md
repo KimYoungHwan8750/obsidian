@@ -8,7 +8,4 @@ public String test(HttpServletRequest request){
 
 대상 URL
 
-`http://127.0.0.1:8080/contextpath/servlcetpath/index.jsp?seq=1&type=NOTICE`
-
-얻어오는 정보
-`127.0.0.1`
+`http://127.0.0.1:8080/contextpath/servl  etpath/index.jsp?seq=1&type=NOTICE`
