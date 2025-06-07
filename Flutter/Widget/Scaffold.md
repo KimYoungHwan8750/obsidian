@@ -9,3 +9,23 @@
 
 ![](https://i.imgur.com/q89oQfy.png)
 
+## AppBar
+
+```dart
+      appBar: AppBar(
+        title: Center(
+          child: const Text(
+            "Choice One",
+            style: TextStyle(
+              color: Colors.white,
+            ),
+          ),
+        ),
+        iconTheme: IconThemeData(
+          color: Colors.white, // 뒤로가기 버튼 색상
+      ),
+        backgroundColor: Color(0xFF191919),
+      ),
+```
+
+iconTheme를 바꾸면 뒤로가기 버튼의 색상이 바뀐다.
