@@ -10,7 +10,7 @@ presentation과 interface는 같은 개념이며 infrastructure와 data 역시 �
 * VO의 조건: 불변성, 동등성(메모리 주소가 달라도 내부값이 같으면 같다고 할 수 있는 구현), 자가 유효성 검사
 * 도메인 로직. (담배는 19세 이상만 구매할 수 있다, 가격은 -가 될 수 없다 등의 내가 변할 수 있는 상태, 가질 수 있는 상태를 정의)
 
-#### Service
+#### UseCase
 * 순수한 도메인 로직 (Entity는 자기 자신의 상태만 알면 된다면 Service는 객체간의 관계에 대한 도메인 로직), 예를 들면 출금이 가능한가?라는 서비스 로직을 만들어 entity의 잔액이 0원 이상인지, 계좌 번호가 존재하는지 등의 복합적인 로직을 갖추게 된다. 또한 인터페이스로 정의하며 구현체는 application 레이어에서 UseCase를 통해 구현된다.
 
 #### Repository
@@ -18,27 +18,13 @@ presentation과 interface는 같은 개념이며 infrastructure와 data 역시 �
 
 ### Application
 
-UseCase, 비즈니스 로직
-
-그렇다면 도메인 로직과 다른 점?
-
-도메인 로직은 소프트웨어가 다루는 문제 영역 그 자체. (담배는 19세 이상만 구매할 수 있다, 가격은 -가 될 수 없다)
-
-이러한 도메인 로직을 조합하여 하나의 시나리오(담배는 19세 이상만 구매하며 가격은 4500원이다)가 완성된다.
-
-UseCase는 Input Port, Output Port를 가진다.
-
-Input Port는 외부에서 UseCase를 호출하기 위한 진입점이고 Output Port는 UseCase가 외부 시스템을 호출하기 위한 용도.
+UseCase의 구현체, 즉 input port인 Service가 이곳에 위치한다.
 
 ### interface
+Domain 계층이 외부와 데이터를 주고 받을 수 있는 통로(interface) 역할을 한다.
 
-controller,
-presenter,
-viewmodel
+controller, viewmodel, UseCase의 output port(presenter) 등이 위치한다.
 
 ### infrastructure
 
-db,
-api,
-framework
-repository(구현체)
+db, api, framework, UseCase의 output port(repository impl) 등이 위치한다.
