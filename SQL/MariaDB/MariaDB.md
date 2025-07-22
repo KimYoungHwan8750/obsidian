@@ -24,6 +24,8 @@ MariaDB에 정상적으로 연결되었다. 이제 데이터베이스를 생성�
 
 `create database test;`
 
+삭제는 `drop database test;` 명령어를 사용한다.
+
 test라는 이름의 데이터베이스를 만들었다.
 
 `create user 'test-user'@'127.0.0.1 identified by'test-password';`
