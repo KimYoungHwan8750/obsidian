@@ -1,4 +1,7 @@
 ## MariaDB 사용법
+
+주소 체계는 `mysql://root:password@ip:port/dbname`
+
 MariaDB와 MySQL은 대체로 같은 데이터베이스로 취급하므로 이 문서는 MySQL에 해당하는 문서이기도 하다. 심지어 mariadb는 CLI에 mysql을 입력해도 접속된다.
 
 CLI에서 `mariadb -u 사용자명 -p 데이터베이스명`를 입력한다.
