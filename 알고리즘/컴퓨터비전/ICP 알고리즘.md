@@ -3,7 +3,7 @@
 1. Source Point Cloud(이하 Source로 표기), Target Point Cloud(이하 Target으로 표기)의 평균값을 구함. Unity의 Vector3 자료형은 각 Vector간 연산을 쉽게 도와주는 메서드들이 내장되어 있음.
 2. Source와 Target의 각 Point에 1번 과정에서 구한 평균값을 빼줌으로써 평균값이 0이 되도록 만듦. 이러한 처리를 거친 값들을 이후 CenteredSource, CenteredTarget으로 칭한다.
 3. 각 Source 점들마다 최단거리의 Target 점들을 correspondence로 설정. 이때 가장 근접한 Target 점을 구할 때 Nearest Neighborhood 알고리즘을 사용하면 되는데 대표적으로는 K-D Tree가 있음. 다만 Nearest Neighborhood Search에 자주 등장하는 개념인 것 치고는 자료 조사가 수월하지 않았고, 파이썬으로 작성된 코드를 티스토리 https://kimyo-s.tistory.com/54 에서 찾아볼 수 있었음. 다만 파이썬 생태계의 다른 라이브러리를 추가적으로 필요로 하는 것 같아 이번 테스트에선 유니티 사용자가 만든 라이브러리 https://github.com/viliwonka/KDTree 를 사용할 예정.
-4. 이렇게 Source, 그리고 Correspondence한 관계에 있는 Target. 이 두 가지 정보를 이용해 공분산 행렬을 구하면 된다는데, 공분산 행렬이 뭔지 궁금해서 알아보니 두 데이터간의 연관성을 유추할 수 있는 행렬이라는 설명을 볼 수 있었음. 공분산이 0이면 일체 관련성이 없음을 나타낸다고 하고, 공분산 행렬을 구하는 방법은 아래와 같은 3x3 행렬을 만드는 것임.
+4. 이렇게 Source, 그리고 Corresponcdene한 관계에 있는 Target. 이 두 가지 정보를 이용해 공분산 행렬을 구하면 된다는데, 공분산 행렬이 뭔지 궁금해서 알아보니 두 데이터간의 연관성을 유추할 수 있는 행렬이라는 설명을 볼 수 있었음. 공분산이 0이면 일체 관련성이 없음을 나타낸다고 하고, 공분산 행렬을 구하는 방법은 아래와 같은 3x3 행렬을 만드는 것임.
 
 s는 source point cloud, t는 target point cloud의 point임.
 
