@@ -200,6 +200,8 @@ Meta는 여러개의 Story를 가지게 되므로 Meta에 설정한 속성들은
 
 Meta든 Story든 이름을 지정하지 않으면 기본값이 적용되는데, Story 같은 경우 내보낸 스토리 이름이 그대로 적용된다. 만약 다르게 하고 싶다면 `name` 속성을 사용하면 된다.
 
+### Tailwindcss 적용법
+Tailwindcss가 zero-config가 되면서 tailwind config 파일이 사라졌다. 따라서 .storybook 폴더의 preview.ts 파일에서 import "@/app/globals.css"를 임포트해주면 된다. (자동완성 안 될수도 있으나 경로를 제대로 임포트하면 정상 작동하는 것을 확인함)
 
 
 이렇게 간단한 설정 방법을 알아보았다.

@@ -1,8 +1,6 @@
 ## Dockerfile
 도커 파일이란 이미지를 빌드하기 위한 스크립트 파일이다. 모든 도커파일은 FROM으로부터 시작되어야한다.
 
-
-
 `FROM`
 어떤 이미지를 베이스로 만들 것인지를 정의한다.
 FROM node:22-alpine은 내 이미지 목록에 node:22-alpine이 있으면 실행하고 없으면 docker pull node:22-alpine을 수행한 뒤 빌드가 진행된다.
