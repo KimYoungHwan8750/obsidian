@@ -21,7 +21,7 @@ CMD ${LS}
 
 `RUN`
 
-이미지를 빌드하기 이전에 실행되는 명령어다.
+이미지가 빌드되는 동안 실행되는 명령어다.
 
 ```dockerfile
 FROM node:22-alpine
@@ -29,7 +29,6 @@ RUN npm install prisma
 ```
 
 위 경우는 node 이미지를 베이스로 해서 prisma를 설치한 이미지를 만드는 과정이다. 여러 명령어를 실행하려면 아래와 같은 방법들이 있다.
-
 
 ---
 
@@ -189,3 +188,9 @@ WORKDIR 이후에 참조되는 도커의 경로는 WORKDIR에 의해 변경되�
 `STOPSIGNAL`
 `HEALTHCHECK`
 `SHELL`
+
+### RUN, CMD, ENTRY POINT 핵심 차이점
+
+RUN은 이미지 빌드시에 실행되어 이미지에 결과물이 반영된다.
+ENTRY POINT는 컨테이너 실행시 실행되며 이미지에 영향을 끼치지 않는다.
+CMD는 컨테이너 실행시 실행되며 이미지에는 영향을 끼치지 않는다. ENTRY POINT와 다르게 유저가 매개변수를 입력하면 덮어씌워져서 유의해야한다.
