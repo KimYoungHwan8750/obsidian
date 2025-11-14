@@ -181,12 +181,18 @@ export const FirstStory: Story = {
   argTypes: {
     text: {
       description: "여긴 설명",
-      type: "boolean"
+      type: "boolean",
+	  table: {
+		  type: { summary: "ReactNode" },
+		  defaultValue: { summary: "default" }
+	  }
+	   
     }
   },
   render: (args) => <MyComponent text={args.text} />,
 }
 ```
+
 
 ![](https://i.imgur.com/DcUFBPo.png)
 
