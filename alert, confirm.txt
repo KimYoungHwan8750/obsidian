@@ -1,0 +1,20 @@
+* Alert 사용 방법
+import { useAlert } from "../주소/shared/components/AlertProvider";
+const alert = useAlert();
+useEffect(() => {
+    alert({
+        title: "제목",
+        text: "텍스트"
+    })
+}, [])
+
+* Confirm 사용 방법
+import { useConfirm } from "../주소/shared/components/AlertProvider";
+const confirm = useConfirm();
+async function openConfirm() {
+    const result = await confirm({ title: "제목", text: "텍스트" }); // 확인 누를시 true 반환, 취소 누를시 false 반환
+    const msg = result ? "확인 선택됨✅" : "취소 선택됨✖️";
+}
+useEffect(() => {
+    openConfirm();
+}, [])
