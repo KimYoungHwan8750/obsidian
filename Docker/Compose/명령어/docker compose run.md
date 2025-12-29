@@ -1,0 +1,1 @@
+`docker compose run SERVICE_NAME COMMAND`: 일회성 COMMAND 수행을 위해 SERVICE_NAME 컨테이너를 실행
