@@ -20,6 +20,7 @@ conda create -n qwen_env python=3.10 -y
 conda activate qwen_env
 ```
 
-`conda create -n .venv`: .venv라는 가상환경 생성
-`conda activate .venv`: .venv 가상환경 사용
-`conda create -n .venv python=3.10 -y` 파이썬 3.10으로 가상환경 생성
+`conda create -n ENV_NAME`: .venv라는 가상환경 생성
+`conda activate ENV_NAME`: .venv 가상환경 사용
+`conda create -n ENV_NAME python=3.10 -y` 파이썬 3.10으로 가상환경 생성
+`conda remove env -n ENV_NAME`: ENV_NAME 가상환경 삭제
