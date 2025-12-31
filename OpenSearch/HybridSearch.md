@@ -1,5 +1,4 @@
-쿼리 알고리즘을 복합적으로 실행할 때 사용하며 knn, term, rank_feature, match, rank_feature, filter 
-
+쿼리 알고리즘을 복합적으로 실행할 때 사용하며 knn, term, rank_feature, match, rank_feature, filter 등이 있다.
 ```json
 {
   "query": {
