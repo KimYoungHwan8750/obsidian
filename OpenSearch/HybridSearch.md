@@ -28,3 +28,49 @@
 ```
 
 기본 형태는 위와 같다.
+
+```json
+PUT /rag_v1
+{
+  "settings": {
+    "index": {
+      "number_of_shards": 1,
+      "number_of_replicas": 0,    // 싱글 노드니까 0으로 설정해서 'Green' 유지
+      "knn": true                // KNN 검색 기능을 활성화
+    },
+    "analysis": {
+      "analyzer": {
+        "my_nori_analyzer": {    // 우리가 만든 한국어 분석기 이름
+          "type": "custom",
+          "tokenizer": "nori_tokenizer",
+          "decompound_mode": "mixed", // '김치찌개'를 '김치', '찌개'로도 검색 가능하게 분리
+          "discard_punctuation": "true"
+        }
+      }
+    }
+  },
+  "mappings": {
+    "properties": {
+      "content": {               // 1. 원본 텍스트 (BM25 + Nori 담당)
+        "type": "text",
+        "analyzer": "my_nori_analyzer"
+      },
+      "content_dense": {         // 2. BGE-M3 Dense 벡터 (의미 담당)
+        "type": "knn_vector",
+        "dimension": 1024,       // BGE-M3의 차원수
+        "method": {
+          "name": "hnsw",
+          "space_type": "cosinesimil", // 코사인 유사도 사용
+          "engine": "nmslib"
+        }
+      },
+      "content_sparse": {        // 3. BGE-M3 Sparse (토큰 ID 담당)
+        "type": "rank_features"  // Sparse 가중치를 저장하는 특수 타입
+      },
+      "metadata": {              // 4. 출처, 페이지 번호 등 부가 정보
+        "type": "keyword"
+      }
+    }
+  }
+}
+```
