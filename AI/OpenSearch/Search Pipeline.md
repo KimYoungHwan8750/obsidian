@@ -34,3 +34,4 @@ PUT /_search/pipeline/<rrf-pipeline>
 
 ## 파이프라인 구성
 [공식 ](https://docs.opensearch.org/latest/search-plugins/search-pipelines/normalization-processor/)
+
