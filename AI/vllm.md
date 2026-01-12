@@ -26,3 +26,5 @@ vllm serve \
     --port 8000
 
 ```
+
+`vllm serve /home/kyh/models/hub/models--QuantTrio--Qwen3-VL-30B-A3B-Instruct-AWQ/snapshots/a5ea10732e2c9330957864ece3ec66d806a4b00d --served-model-name My_Model --swap-space 4 --max-num-seqs 8 --max-model-len 32768 --gpu-memory-utilization 0.6 --tensor-parallel-size 1 --trust-remote-code --disable-log-request --host 0.0.0.0 --port 8000`
