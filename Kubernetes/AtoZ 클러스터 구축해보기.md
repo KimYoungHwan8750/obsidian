@@ -153,6 +153,7 @@ error: error validating "deployment.yaml": error validating data: failed to down
 
 강제로 s6z6g를 내려본다. 아래 로그를 보자.
 
+
 ```shell
 kubectl get pods -l app=nest-server -w
 NAME                                      READY   STATUS    RESTARTS   AGE
