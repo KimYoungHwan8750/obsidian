@@ -1,0 +1,4 @@
+- 구성요소
+	- server
+		- location
+	- upstream (load balancing)

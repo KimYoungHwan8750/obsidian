@@ -1,5 +1,40 @@
-/etc/nginx/conf.d/default.conf의 기본 내용이다.
+/etc/nginx/nginx.conf의 기본 내용이다.
+```nginx
+user  nginx;
+worker_processes  auto;
+
+error_log  /var/log/nginx/error.log notice;
+pid        /run/nginx.pid;
+
+
+events {
+    worker_connections  1024;
+}
+
+
+http {
+    include       /etc/nginx/mime.types;
+    default_type  application/octet-stream;
+
+    log_format  main  '$remote_addr - $remote_user [$time_local] "$request" '
+                      '$status $body_bytes_sent "$http_referer" '
+                      '"$http_user_agent" "$http_x_forwarded_for"';
+
+    access_log  /var/log/nginx/access.log  main;
+
+    sendfile        on;
+    #tcp_nopush     on;
+
+    keepalive_timeout  65;
+
+    #gzip  on;
+
+    include /etc/nginx/conf.d/*.conf;
+}
 ```
+
+/etc/nginx/conf.d/default.conf의 기본 내용이다.
+```nginx
 server {
     listen       80;
     listen  [::]:80;
@@ -48,3 +83,6 @@ server {
 location 블록에 root가 들어가있는데 보통 server 블록에 둔다.
 그래야 /usr/share/nginx/html을 일일히 쓸 필요 없이 모든 요청에 대해 해당 폴더를 참조하게 된다.
 
+참고로 컨테이너에서 실행할 때는
+`nginx -g daemon off;`로 실행해야한다.
+`nginx`로 실행하게 되면 해당 프로세스가 백그라운드로 빠지며 컨테이너 입장에서 실행 중인 프로세스가 없는 것으로 판단해 컨테이너가 종료된다.
