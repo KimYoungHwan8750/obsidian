@@ -59,6 +59,18 @@ CMD ["main.py"]
 따라서 `ENTRYPOINT ["python"]`과 `CMD ["python"]`은 얼핏보면 같은 동작을 하지만, 유저가 인자를 전달하는 순간 python은 실행되지 않기 때문에 컨테이너 실행과 동시에 반드시 실행되어야할 명령어라면 `ENTRYPOINT`에 전달하는 것이 좋다.
 
 ---
+`as`
+스테이지에 별칭을 지정할 때 쓴다.
+해당 컨테이너 실행의 결과물만이 필요할 때 사용한다.
+
+```dockerfile
+FROM nginx:latest as builder
+---
+
+```
+
+
+---
 
 `LABEL`
 메타데이터를 정의 가능하다.

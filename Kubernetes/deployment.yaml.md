@@ -30,4 +30,45 @@ labels:
 	env: dev # dev, prod, stg
 ```
 
+---
+
+## spec
+### replicas
+실행할 pod의 갯수를 정한다.
+`replicas: 3`
+
+### selector
+#### matchLabels
+관리할 label을 지정한다.
+```yaml
+spec:
+	selector:
+		matchLabels:
+			app: my-app
+```
+app이란 이름의 라벨 값이 my-app인 pod를 관리한다.
+
+### template
+#### metadata
+##### labels
+라벨을 지정한다.
+```yaml
+labels:
+	- app: my-app
+```
+
+#### spec
+##### container
+###### name
+###### image
+사용할 도커 이미지를 설정한다.
+`image: nginx:1.21`
+
+###### ports
+```yaml
+ports:
+- containerPort: 80
+  
+```
+
 
