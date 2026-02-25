@@ -13,3 +13,7 @@ claude mcp add local-db -- cmd /c npx @bytebase/dbhub@latest --transport stdio -
 ```
 claude mcp add local-db -- npx @bytebase/dbhub@latest --transport stdio --dsn "mariadb://아이디:비밀번호@아이피:포트/DB이름?sslmode=disable"
 ```
+
+```WSL
+claude mcp add db1 -- npx -y @bytebase/dbhub@latest --config=D:\\project\\react_project\\dpms-usr-fe-web\\dbhub.toml
+```
